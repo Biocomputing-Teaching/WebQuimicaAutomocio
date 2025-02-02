@@ -10,7 +10,7 @@ permalink: /index
 
 ![log](figures/FCTE.png)
 
-**Assignatura:** Química  
+**Assignatura:** [Química](https://www.uvic.cat/assignatura/5261)  
 **Tipologia:** Formació Bàsica (FB)  
 **Curs:** 1  
 **Crèdits:** 6,0  
@@ -149,3 +149,10 @@ L'assignatura es basa en sessions teoricopràctiques amb una forta avaluació co
 
 ### Complementària
 - La bibliografia complementària serà proporcionada pel professor a través del Campus Virtual.
+
+
+<p><strong>Darrera actualització:</strong> <span id="updateDate"></span></p>
+
+<script>
+  document.getElementById("updateDate").innerText = new Date().toLocaleDateString();
+</script>

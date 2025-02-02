@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introducció a l'assignatura de Química
-permalink: /Curs/Quimica
+permalink: /index
 ---
 
 # Titulació

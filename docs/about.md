@@ -3,6 +3,6 @@ layout: default
 title: About
 permalink: /Sobre
 ---
-# About page
+# Sobre
 
-This page tells you a little bit about me.
+si vols saber quelcom més sobre mi, pots accedir a la [web del CBBL](https://mon.uvic.cat/cbbl/jvf/).

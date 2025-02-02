@@ -18,7 +18,7 @@ permalink: /index
 
 **Grup:** G51, presencial, matí  
 **Llengua d'impartició:** Català  
-**Professorat:** Jordi Villà Freixa
+**Professorat:** [Jordi Villà Freixa](/Sobre)
 
 ## Objectius de Desenvolupament Sostenible (ODS)
 

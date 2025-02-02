@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+permalink: /Sobre
 ---
 # About page
 

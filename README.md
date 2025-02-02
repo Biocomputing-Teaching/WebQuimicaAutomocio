@@ -1,2 +1,3 @@
-# Models-Matematics
-Material de formació en models matemàtics, amb un enfoc en Biologia i Biotecnologia
+# Química per a l'Enginyeria de l'automoció
+
+Material de formació en Química per al grau d'Enginyeria de l'Automoció. 

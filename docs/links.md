@@ -21,6 +21,10 @@ permalink: /links
 ## Tema 2. Combustió
 
 * [Com es generen els NOx?](https://blog.centralderecambios.com/sabias-que-automocion/emisiones-del-automovil/)
+* [L'escàndol Volkswagen](https://www.bbc.com/news/business-34324772), i com va [reaccionar la companyia](https://www.caranddriver.com/news/a15339250/everything-you-need-to-know-about-the-vw-diesel-emissions-scandal/).
+* [Estàndars d'emissions](https://theicct.org/sites/default/files/publications/Future%20_HDV_standards_opportunity_20191125.pdf).
+* [Comparativa d'emissions EU vs EUA](https://www.europarl.europa.eu/cmsdata/112300/2016.12.05-Comparative%20study%20of%20US%20and%20EU%20Vehicle%20emissions%20legislation_Martin_Nesbit_IEEP.pdf).
+* [Visió crítica sobre Euro 7](https://www.aecc.eu/status-of-euro-7/).
 
 <p><strong>Darrera actualització:</strong> <span id="updateDate"></span></p>
 

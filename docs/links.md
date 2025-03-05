@@ -25,6 +25,7 @@ permalink: /links
 * [Estàndars d'emissions](https://theicct.org/sites/default/files/publications/Future%20_HDV_standards_opportunity_20191125.pdf).
 * [Comparativa d'emissions EU vs EUA](https://www.europarl.europa.eu/cmsdata/112300/2016.12.05-Comparative%20study%20of%20US%20and%20EU%20Vehicle%20emissions%20legislation_Martin_Nesbit_IEEP.pdf).
 * [Visió crítica sobre Euro 7](https://www.aecc.eu/status-of-euro-7/).
+* [Vídeo on testegen canviar benzina per etanol gairebé pur (Moonshine)](https://youtu.be/_PG1Wt53w7k?si=hBRp02Omno9I8XB_)
 
 <p><strong>Darrera actualització:</strong> <span id="updateDate"></span></p>
 

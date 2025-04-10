@@ -138,6 +138,8 @@ Representen el 100 % de la nota final (NF):
 
 L'assignatura es basa en sessions teoricopràctiques amb una forta avaluació contínua. Els estudiants han de realitzar treball previ, resoldre qüestionaris, exercicis i elaborar informes i presentacions.
 
+[Exercicis resolts](pdf/Exercise.pdf)
+
 ## Bibliografia
 
 ### Bàsica

@@ -66,13 +66,13 @@ Els objectius principals d'aquesta assignatura són:
 
 ## Continguts
 
-### Tema 1: Els gasos i el seu comportament
+### [Tema 1: Els gasos i el seu comportament](pdf/GEAGasos.pdf)
 - Teoria cinètica molecular
 - Pneumàtics i pressió
 - Pistons i amortidors
 - Airbags
 
-### Tema 2: La combustió
+### [Tema 2: La combustió](pdf/GEACombustio.pdf)
 - Reaccions químiques
 - Motors de benzina i dièsel
 - Enllaços i energia
@@ -80,7 +80,7 @@ Els objectius principals d'aquesta assignatura són:
 - Turbo
 - Biodièsel
 
-### Tema 3: Piles i bateries
+### [Tema 3: Piles i bateries](pdf/GEAPiles.pdf)
 - Reaccions d'oxidació i reducció
 - Reaccions àcid-base
 - Bateries
@@ -89,25 +89,25 @@ Els objectius principals d'aquesta assignatura són:
 - Corrosió
 - Cromats
 
-### Tema 4: Forces intermoleculars
+### [Tema 4: Forces intermoleculars](pdf/GEAForcesInt.pdf)
 - Tipus de forces intermoleculars
 - Solubilitat
 - Detergents i lubricants
 
-### Tema 5: Control de la temperatura
+### [Tema 5: Control de la temperatura](pdf/GEATemperatura.pdf)
 - Anticongelants
 - El radiador
 - Refrigerants i química atmosfèrica
 - Frens
 
-### Tema 6: Química de materials
+### [Tema 6: Química de materials](pdf/GEAMaterials.pdf)
 - Plàstics i polímers
 - Compòsits
 - Gomes
 - Aliatges
 - Cel·les de combustible
 
-### Tema 7: Llum i química
+### [Tema 7: Llum i química](pdf/GEALlum.pdf)
 - La llum i l'àtom
 - Pigments i color
 - Degradació

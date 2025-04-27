@@ -11,6 +11,7 @@ permalink: /links
 * [Diccionari termcat automobilisme](https://www.termcat.cat/ca/diccionaris-en-linia/162)
 * [La química en l'automoció](https://www.quimicaysociedad.org/wp-content/uploads/2018/05/archivo18.pdf)
 * Explorant les estructures moleculars i les propietats de les substpàncies químiques a [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
+* [UnitConverter](https://www.unitconverters.net/)
 
 ## Tema 1. Els gasos i el seu comportament
 
@@ -36,6 +37,8 @@ permalink: /links
 * [Entrada a l'Encyclopedia Britannica](https://www.britannica.com/science/chemical-bonding/Ionic-and-covalent-compounds)
 * [Introducció a les forces moleculars a la UW-Madison](https://wisc.pb.unizin.org/minimisgenchem/chapter/an-introduction-to-intermolecular-forces-m10q1/)
 * [Viscositat i tensió superficial](https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_A_Molecular_Approach_(Tro)/11%3A_Liquids_Solids_and_Intermolecular_Forces/11.04%3A_Intermolecular_Forces_in_Action-_Surface_Tension_Viscosity_and_Capillary_Action)
+
+## Tema 5. Controlant la temperatura
 
 <p><strong>Darrera actualització:</strong> <span id="updateDate"></span></p>
 

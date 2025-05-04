@@ -40,8 +40,15 @@ permalink: /links
 
 ## Tema 5. Controlant la temperatura
 
+## Tema 6. Química de materials
+
+* [Introducció a la química dels polímers](https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/polymers.htm)
+
 <p><strong>Darrera actualització:</strong> <span id="updateDate"></span></p>
 
 <script>
   document.getElementById("updateDate").innerText = new Date().toLocaleDateString();
 </script>
+
+
+

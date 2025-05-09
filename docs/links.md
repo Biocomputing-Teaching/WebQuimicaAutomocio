@@ -43,6 +43,7 @@ permalink: /links
 ## Tema 6. Química de materials
 
 * [Introducció a la química dels polímers](https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/polymers.htm)
+* [Materials](https://tecnologiaisostenibilitat.cus.upc.edu/continguts/materials.html) (Càtedra UNESCO de Sostenibilitat, Universitat Politècnica de Catalunya)
 
 <p><strong>Darrera actualització:</strong> <span id="updateDate"></span></p>
 

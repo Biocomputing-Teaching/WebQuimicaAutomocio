@@ -44,6 +44,8 @@ permalink: /links
 
 * [Introducció a la química dels polímers](https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/polymers.htm)
 * [Materials](https://tecnologiaisostenibilitat.cus.upc.edu/continguts/materials.html) (Càtedra UNESCO de Sostenibilitat, Universitat Politècnica de Catalunya)
+* [Fuel cell cars](https://cen.acs.org/articles/95/i38/Fuel-cell-cars-finally-drive.html)
+* [Polymer Electrolite Fuel Cell Science and Technology](https://iopscience.iop.org/article/10.1149/1945-7111/acada3) (revisió avançada)
 
 <p><strong>Darrera actualització:</strong> <span id="updateDate"></span></p>
 

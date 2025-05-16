@@ -47,6 +47,10 @@ permalink: /links
 * [Fuel cell cars](https://cen.acs.org/articles/95/i38/Fuel-cell-cars-finally-drive.html)
 * [Polymer Electrolite Fuel Cell Science and Technology](https://iopscience.iop.org/article/10.1149/1945-7111/acada3) (revisió avançada)
 
+## Tema 7. La llum i l'àtom
+
+* [La història de la pintura en els cotxes](https://www.iconroad.es/historia/pintura-coches/)
+
 <p><strong>Darrera actualització:</strong> <span id="updateDate"></span></p>
 
 <script>

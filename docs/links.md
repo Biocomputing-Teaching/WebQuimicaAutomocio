@@ -49,6 +49,7 @@ permalink: /links
 
 ## Tema 7. La llum i l'àtom
 
+* [Orbitals atòmics](https://www.youtube.com/watch?v=Nr40fnfHccQ&t=230s)
 * [La història de la pintura en els cotxes](https://www.iconroad.es/historia/pintura-coches/)
 
 <p><strong>Darrera actualització:</strong> <span id="updateDate"></span></p>

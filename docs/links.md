@@ -31,12 +31,15 @@ permalink: /links
 
 ## Tema 3. Piles i bateries
 
+* Càtode, ànode, positiu, negatiu... [Una explicació](https://www.biologic.net/topics/anode-cathode-positive-and-negative-battery-basics/)
+
 ## Tema 4. Enllaç químic i forces intermoleculars
 
 * [Introducció a l'enllaç i les forces intermoleculars](https://scienceready.com.au/pages/intramolecular-bonds-and-intermolecular-forces?srsltid=AfmBOooh2jf2djskVVXF4GL8zqpNbknWpigeiQuuiFp_jZo0UG-AyGtU)
 * [Entrada a l'Encyclopedia Britannica](https://www.britannica.com/science/chemical-bonding/Ionic-and-covalent-compounds)
 * [Introducció a les forces moleculars a la UW-Madison](https://wisc.pb.unizin.org/minimisgenchem/chapter/an-introduction-to-intermolecular-forces-m10q1/)
 * [Viscositat i tensió superficial](https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_A_Molecular_Approach_(Tro)/11%3A_Liquids_Solids_and_Intermolecular_Forces/11.04%3A_Intermolecular_Forces_in_Action-_Surface_Tension_Viscosity_and_Capillary_Action)
+* Estructures químiques [conjugades](https://www.chem.ualberta.ca/~vederas/2005-2006_Chem_263/outlines/notes/Jan_16.pdf) i [aromaticitat](https://chem.libretexts.org/Courses/Providence_College/Organic_Chemistry_II/14%3A_Aromaticity/14.01%3A_Conjugation_vs._Aromaticity)
 
 ## Tema 5. Controlant la temperatura
 

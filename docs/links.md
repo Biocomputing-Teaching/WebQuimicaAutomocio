@@ -41,17 +41,16 @@ permalink: /links
 * [Viscositat i tensió superficial](https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_A_Molecular_Approach_(Tro)/11%3A_Liquids_Solids_and_Intermolecular_Forces/11.04%3A_Intermolecular_Forces_in_Action-_Surface_Tension_Viscosity_and_Capillary_Action)
 * Estructures químiques [conjugades](https://www.chem.ualberta.ca/~vederas/2005-2006_Chem_263/outlines/notes/Jan_16.pdf) i [aromaticitat](https://chem.libretexts.org/Courses/Providence_College/Organic_Chemistry_II/14%3A_Aromaticity/14.01%3A_Conjugation_vs._Aromaticity)
 
-## Tema 5. Controlant la temperatura
-
-## Tema 6. Química de materials
+## Tema 5. Química de materials
 
 * [Introducció a la química dels polímers](https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/polymers.htm)
 * [Materials](https://tecnologiaisostenibilitat.cus.upc.edu/continguts/materials.html) (Càtedra UNESCO de Sostenibilitat, Universitat Politècnica de Catalunya)
 * [Fuel cell cars](https://cen.acs.org/articles/95/i38/Fuel-cell-cars-finally-drive.html)
 * [Polymer Electrolite Fuel Cell Science and Technology](https://iopscience.iop.org/article/10.1149/1945-7111/acada3) (revisió avançada)
 
-## Tema 7. La llum i l'àtom
+## Tema 8. La llum i l'àtom
 
+* [Estabilitat dels nuclis en funció de la seva composició de protons i neutrons](https://www.youtube.com/watch?v=vLsLjmTT_XI)
 * [Orbitals atòmics](https://www.youtube.com/watch?v=Nr40fnfHccQ&t=230s)
 * [La història de la pintura en els cotxes](https://www.iconroad.es/historia/pintura-coches/)
 

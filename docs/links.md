@@ -10,7 +10,7 @@ permalink: /links
 
 * [Diccionari termcat automobilisme](https://www.termcat.cat/ca/diccionaris-en-linia/162)
 * [La química en l'automoció](https://www.quimicaysociedad.org/wp-content/uploads/2018/05/archivo18.pdf)
-* Explorant les estructures moleculars i les propietats de les substpàncies químiques a [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
+* Explorant les estructures moleculars i les propietats de les substàncies químiques a [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
 * [UnitConverter](https://www.unitconverters.net/)
 
 ## Tema 1. Els gasos i el seu comportament

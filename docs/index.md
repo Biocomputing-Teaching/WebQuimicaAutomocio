@@ -4,7 +4,7 @@ title: Introducció a l'assignatura de Química
 permalink: /index
 ---
 
-# Titulació
+# Orientacions de l'assignatura
 
 **Enginyeria de l'Automoció**
 

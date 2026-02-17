@@ -4,7 +4,7 @@ title: Enllaços d'interès
 permalink: /links
 ---
 
-# Ennlaços d'interès
+# Enllaços d'interès
 
 ## Tema 0. Informació general
 

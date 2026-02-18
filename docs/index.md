@@ -93,21 +93,19 @@ Els objectius principals d'aquesta assignatura són:
 - Tipus de forces intermoleculars
 - Solubilitat
 - Detergents i lubricants
-
-### [Tema 5: Control de la temperatura](pdf/GEATemperatura.pdf)
 - Anticongelants
 - El radiador
 - Refrigerants i química atmosfèrica
 - Frens
 
-### [Tema 6: Química de materials](pdf/GEAMaterials.pdf)
+### [Tema 5: Química de materials](pdf/GEAMaterials.pdf)
 - Plàstics i polímers
 - Compòsits
 - Gomes
 - Aliatges
 - Cel·les de combustible
 
-### [Tema 7: Llum i química](pdf/GEALlum.pdf)
+### [Tema 6: Llum i química](pdf/GEALlum.pdf)
 - La llum i l'àtom
 - Pigments i color
 - Degradació
@@ -130,13 +128,13 @@ Representen el 100 % de la nota final (NF):
   - Activitats individuals i en grup. Nota no recuperable.
 
 ### Criteris específics d'assignatura
-- La nota mínima de cada examen parcial ha de ser de 3,5.
+- La nota mínima de cada examen parcial ha de ser de 4,5.
 - La no presentació d'activitats avaluables implica una qualificació de 0.
 - L'ús de dispositius mòbils en proves recuperables implica una qualificació de 0.
 
 ## Metodologia
 
-L'assignatura es basa en sessions teoricopràctiques amb una forta avaluació contínua. Els estudiants han de realitzar treball previ, resoldre qüestionaris, exercicis i elaborar informes i presentacions.
+L'assignatura es basa en sessions teoricopràctiques amb una forta avaluació contínua. Els estudiants han de realitzar treball previ, resoldre qüestionaris, exercicis i elaborar informes de pràctiques.
 
 [Exercicis resolts](pdf/Exercise.pdf)
 
@@ -158,3 +156,5 @@ L'assignatura es basa en sessions teoricopràctiques amb una forta avaluació co
 <script>
   document.getElementById("updateDate").innerText = new Date().toLocaleDateString();
 </script>
+
+<p><small>© 2025–present Jordi Villà</small></p>

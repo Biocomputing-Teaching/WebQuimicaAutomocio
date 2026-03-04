@@ -17,5 +17,3 @@ _site/
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
 .DS_Store
-# Generated PDFs
-docs/pdf/

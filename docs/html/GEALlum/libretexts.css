@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  background: #f6f8fb;
+  color: #1f2937;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.62;
+}
+.lt-header {
+  background: #0d5a9e;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-bottom: 3px solid #084071;
+}
+.lt-header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.lt-header .lt-breadcrumb {
+  opacity: 0.92;
+  font-size: 0.95rem;
+}
+.lt-header .lt-title {
+  margin-top: 0.25rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.bodywithoutsidetoc {
+  max-width: 1200px;
+  margin: 1.2rem auto;
+  padding: 0 1rem 2rem 1rem;
+}
+.bodycontainer {
+  background: #fff;
+  border: 1px solid #d9e1ec;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(15, 23, 42, 0.06);
+  padding: 1rem 1.4rem 1.6rem 1.4rem;
+}
+h3, h4, h5 {
+  color: #0f3f73;
+}
+h4, h5 {
+  border-left: 4px solid #2b74b8;
+  padding-left: 0.55rem;
+}
+nav.toc {
+  background: #f4f8fd;
+  border: 1px solid #d3dfef;
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  margin: 0.8rem 0 1.2rem 0;
+}
+nav.toc p {
+  margin: 0.22rem 0;
+}
+nav.toc a {
+  color: #0d4f8b;
+  text-decoration: none;
+}
+nav.toc a:hover {
+  text-decoration: underline;
+}
+a {
+  color: #0c629d;
+}
+figure.table, table {
+  background: #fff;
+}
+table td, table th {
+  border-color: #cfd8e3 !important;
+}
+ul.itemize, ul.enumerate {
+  padding-left: 0.8rem;
+}
+.displaymath {
+  overflow-x: auto;
+  padding-bottom: 0.2rem;
+}
+.lt-footer {
+  margin-top: 1.6rem;
+  border-top: 1px solid #d9e1ec;
+  padding-top: 0.9rem;
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+.lt-footer a {
+  color: #0c629d;
+  text-decoration: none;
+}
+.lt-footer a:hover {
+  text-decoration: underline;
+}
+.lt-auto {
+  margin-top: 1rem;
+  margin-bottom: 0.6rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid #d9e1ec;
+  border-radius: 8px;
+  background: #f7fbff;
+}
+.lt-auto h4 {
+  margin: 0 0 0.35rem 0;
+  color: #0f3f73;
+}
+.ex-solution {
+  margin: 0.65rem 0 1rem 0;
+  border: 1px solid #d6deea;
+  border-radius: 8px;
+  background: #f8fbff;
+}
+.ex-solution > summary {
+  cursor: pointer;
+  padding: 0.55rem 0.8rem;
+  font-weight: 600;
+  color: #0f3f73;
+  list-style: none;
+}
+.ex-solution > summary::-webkit-details-marker {
+  display: none;
+}
+.ex-solution > summary::before {
+  content: "▶ ";
+  color: #2b74b8;
+}
+.ex-solution[open] > summary::before {
+  content: "▼ ";
+}
+.ex-solution > *:not(summary) {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}

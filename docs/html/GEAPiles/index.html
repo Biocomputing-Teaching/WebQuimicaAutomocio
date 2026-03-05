@@ -1,0 +1,6344 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="generator" content="LaTeX Lwarp package" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>web_GEAPiles</title>
+<link rel="stylesheet" type="text/css" href="lwarp.css" />
+<link rel="stylesheet" type="text/css" href="libretexts.css" />
+</head>
+<body>
+<div class="lt-header"><div class="lt-breadcrumb"><a href="../../index">Inici</a> / <a href="../../capitols">Capítols</a> / <a href="../../autoavaluacions">Autoavaluacions</a> / <a href="../../links">Enllaços</a> / <span>Piles i bateries</span></div><div class="lt-title">Piles i bateries</div></div>
+
+
+<div class="bodywithoutsidetoc">
+
+
+<main class="bodycontainer">
+
+
+<section class="textbody">
+
+<a id="web_GEAPiles-autofile-0"></a>
+
+<a id="web_GEAPiles-autopage-1"></a>
+<!--
+...... chapter Piles i bateries ......
+-->
+<h3 id="autosec-2">Capítol&nbsp;<span class="sectionnumber">3&#x2003;</span>Piles i bateries</h3>
+<a id="web_GEAPiles-autopage-2"></a>
+
+
+<p>
+<i>(darrera actualització: 5&nbsp;de març de&nbsp;2026)</i>
+</p>
+<!--
+...... chapter Index ......
+-->
+<h3 id="autosec-3">Índex</h3>
+<a id="web_GEAPiles-autopage-3"></a>
+
+
+
+<nav class="toc">
+
+<p>
+<a href="index.html#autosec-2" class="tocchapter" >
+<span class="sectionnumber">3</span>&#x2003;Piles i bateries</a>
+</p>
+
+
+<p>
+<a href="index.html#autosec-4" class="tocsection" >
+<span class="sectionnumber">3.1</span>&#x2003;Reaccions de reducció/oxidació (REDOX)</a>
+</p>
+
+
+<p>
+<a href="index.html#autosec-22" class="tocsubsection" >
+<span class="sectionnumber">3.1.1</span>&#x2003;Concepte de mitja reacció</a>
+</p>
+
+
+<p>
+<a href="index.html#autosec-44" class="tocsubsection" >
+<span class="sectionnumber">3.1.2</span>&#x2003;Balanç reaccions REDOX</a>
+</p>
+
+
+<p>
+<a href="index.html#autosec-45" class="tocsubsection" >
+<span class="sectionnumber">3.1.3</span>&#x2003;Cel.les galvàniques</a>
+</p>
+
+
+<p>
+<a href="index.html#autosec-57" class="tocsubsection" >
+<span class="sectionnumber">3.1.4</span>&#x2003;Energia lliure i espontaneïtat de les reaccions REDOX</a>
+</p>
+
+
+<p>
+<a href="index.html#autosec-94" class="tocsubsection" >
+<span class="sectionnumber">3.1.5</span>&#x2003;Energia lliure i equilibri químic</a>
+</p>
+
+
+<p>
+<a href="index.html#autosec-171" class="tocsubsection" >
+<span class="sectionnumber">3.1.6</span>&#x2003;Equació de Nernst</a>
+</p>
+
+
+<p>
+<a href="index.html#autosec-198" class="tocsection" >
+<span class="sectionnumber">3.2</span>&#x2003;Equilibri iònic en solucions aquoses</a>
+</p>
+
+
+<p>
+<a href="index.html#autosec-199" class="tocsubsection" >
+<span class="sectionnumber">3.2.1</span>&#x2003;Reaccions àcid-base</a>
+</p>
+
+
+<p>
+<a href="index.html#autosec-239" class="tocsubsection" >
+<span class="sectionnumber">3.2.2</span>&#x2003;Equilibri àcid-base</a>
+</p>
+
+
+<p>
+<a href="index.html#autosec-272" class="tocsubsection" >
+<span class="sectionnumber">3.2.3</span>&#x2003;L’escala de pH</a>
+</p>
+
+
+<p>
+<a href="index.html#autosec-349" class="tocsection" >
+<span class="sectionnumber">3.3</span>&#x2003;Principis de la bateria de plom-àcid</a>
+</p>
+
+
+<p>
+<a href="index.html#autosec-367" class="tocsection" >
+<span class="sectionnumber">3.4</span>&#x2003;Exercicis</a>
+</p>
+
+
+<p>
+<a href="index.html#autosec-670" class="tocchapter" >
+Bibliografia</a>
+</p>
+</nav>
+
+<p>
+En aquest capítol estudiarem els processos electroquímics que tenen lloc en les piles i bateries, així com els conceptes de potencial, energia lliure i equilibri químic que ens permetran entendre la seva funcionalitat[<a href="index.html#LWR-ht-cite.0@bowers_understanding_2014">1</a>].
+El tema explora en particular els processos REDOX, la sèrie electroquímica, l’energia lliure i l’espontaneïtat de les reaccions, així com l’equilibri iònic en solucions aquoses, incloent-hi les reaccions àcid-base. Podeu trobar més informació sobre aquests temes als capítols Reacciones en disolución acuosa,
+Reacciones Ácido-Base i Electroquímica de [<a href="index.html#LWR-ht-cite.0@overby_quimica_2021">4</a>].
+</p>
+<!--
+...... section Reaccions de reducció/oxidació (REDOX) ......
+-->
+<h4 id="autosec-4"><span class="sectionnumber">3.1&#x2003;</span>Reaccions de reducció/oxidació (REDOX)</h4>
+<a id="web_GEAPiles-autopage-4"></a>
+
+
+<p>
+En tot procés REDOX, un element o component químic guanya electrons d’un altre. L’espècie que perd electrons s’oxida, mentre que la que els guanya es redueix. Així, tota reacció REDOX implica oxidació i reducció simultànies.
+</p>
+
+<p>
+Els químics també classifiquen els agents REDOX segons la seva funció. Una substància que s’oxida fàcilment és un bon agent reductor, ja que afavoreix la reducció d’altres espècies. Per contra, una substància que accepta electrons fàcilment és un bon agent oxidant. Per exemple, en totes aquestes reaccions en
+les quals participa el zinc hi ha el mateix procés d’oxidació (pèrdua d’electrons) d’aquest element:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-1" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-1"
+    class="lateximagesource"
+><!--
+Zn + Cu2+   Zn2+ + Cu
+--><img
+    src="web_GEAPiles-images/image-1.svg"
+    alt="\[ \ch {Zn + Cu^{2+} &lt;=&gt; Zn^{2+} + Cu} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+
+<div class="displaymath">
+
+<a id="autoid-2" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-2"
+    class="lateximagesource"
+><!--
+       1
+Zn +     O   ZnO
+       2 2
+--><img
+    src="web_GEAPiles-images/image-2.svg"
+    alt="\[ \ch {Zn + 1/2 O2 &lt;=&gt; ZnO} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+
+<div class="displaymath">
+
+<a id="autoid-3" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-3"
+    class="lateximagesource"
+><!--
+Zn + Cl2   ZnCl2
+--><img
+    src="web_GEAPiles-images/image-3.svg"
+    alt="\[ \ch {Zn + Cl2 &lt;=&gt; ZnCl2} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+
+<div class="displaymath">
+
+<a id="autoid-4" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-4"
+    class="lateximagesource"
+><!--
+         +        2+
+Zn + 2 H(aq)   Zn(aq) + H2
+--><img
+    src="web_GEAPiles-images/image-4.svg"
+    alt="\[ \ch {Zn + 2 H^+_{(aq)} &lt;=&gt; Zn^{2+}_{(aq)} + H2} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+En totes aquestes reaccions, el <span
+     id="lateximage-web_GEAPiles-5"
+     class="lateximagesource"
+><!--
+Zn
+--><img
+    src="web_GEAPiles-images/0B8122239AE2624591418EB5D44001BE.svg"
+    alt="\ch{Zn}"
+    role="math"
+    style="width:1.46262em"
+    class="lateximage"
+></span> actua com a agent reductor, ja que amb la seva pròpia oxidació redueix l’altra substància.
+</p>
+
+<p>
+Per ordenar aquestes substàncies segons la seva facilitat de reducció, s’utilitza la sèrie electroquímica o sèrie d’activitat.
+</p>
+<div class="center">
+
+<p>
+
+<a href="../../figures/std-pots-shortlist.png" target="_blank" ><img
+    src="../../figures/std-pots-shortlist.png"
+    style="
+    width:260pt;
+    "
+    class="inlineimage"
+    alt="(image)"
+></a>
+</p>
+</div>
+
+<p>
+Quan observem la <a href="https://scq.iec.cat/wp-content/uploads/2024/10/taula-periodica_2024-BLAU.pdf" target="_blank" >taula periòdica</a>, podem apreciar que hi ha elements amb gran capacitat de donar electrons (metalls alcalins i alcalinoterris, per exemple) i anomenem
+electropositius. De la mateixa manera, anomenem electronegatius els elements que tenen gran capacitat d’acceptar electrons. Hi ha diverses propostes per assignar electronegativitat als diferents elements, com la de Pauling, Mulliken o Allred-Rochow. Podeu trobar una bona comparativa dels valors <a
+href="https://en.wikipedia.org/wiki/Electronegativities_of_the_elements_(data_page)" target="_blank" >aquí</a>.
+</p>
+
+<p>
+Definim l’<a href="https://www.compoundchem.com/2015/11/17/oxidation-states/" target="_blank" >estat d’oxidació</a> d’un àtom com la suma de càrregues positives i negatives que té. Els nombres d’oxidació permeten seguir el flux d’electrons en una reacció química. En general, el
+nombre d’oxidació d’un ió coincideix amb la seva càrrega ideal, tot i que els metalls de transició i alguns no-metalls poden tenir diferents estats d’oxidació. Quan una substància es redueix, el seu nombre d’oxidació disminueix, encara que no necessàriament esdevingui negatiu. La reducció implica guanyar
+electrons, mentre que l’oxidació implica perdre’ls, fent el nombre d’oxidació més positiu.
+</p>
+
+<p>
+En l’enllaç iònic que forma el <span
+     id="lateximage-web_GEAPiles-6"
+     class="lateximagesource"
+><!--
+NaCl
+--><img
+    src="web_GEAPiles-images/06D2A0D12BA4F64352ACF3B4881DE0B1.svg"
+    alt="\ch{NaCl}"
+    role="math"
+    style="width:2.61261em"
+    class="lateximage"
+></span>, l’estat d’oxidació del sodi és +1 i del clor -1. En una molècula, usem els següents criteris per assignar els estats d’oxidació als diferents elements:
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> L’estat d’oxidació dels elements en qualsevol forma al.lotròpica en què presentin és zero.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> L’EO de l’oxigen és -2 en tots els seus compostos, excepte en els peròxids (<span
+    id="lateximage-web_GEAPiles-7"
+    class="lateximagesource"
+><!--
+H2O2
+--><img
+    src="web_GEAPiles-images/01B0DB02255F81DA7C61F4D6AAA29C18.svg"
+    alt="\ch{H2O2}"
+    role="math"
+    style="width:2.63387em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>, <span
+    id="lateximage-web_GEAPiles-8"
+    class="lateximagesource"
+><!--
+Na2O2
+--><img
+    src="web_GEAPiles-images/B9D1571E2452FF3EB5439F60229C605A.svg"
+    alt="\ch{Na2O2}"
+    role="math"
+    style="width:3.16637em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>).
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> L’EO de l’hidrogen és +1 en tots els compostos, excepte en aquells que forma amb metalls, on és -1.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">4.</span> L’EO de la resta d’elements d’una substància s’escullen per tal que la suma de tots ells sigui zero o bé la càrrega que hagi de tenir l’ió que formen.
+</p>
+</li>
+</ul>
+<!--
+...... subsection Concepte de mitja reacció ......
+-->
+<h5 id="autosec-22"><span class="sectionnumber">3.1.1&#x2003;</span>Concepte de mitja reacció</h5>
+<a id="web_GEAPiles-autopage-22"></a>
+
+
+<p>
+Pel fet que podem identificar, en una reacció REDOX, les substancies que es redueixen i les que s’oxiden, podem també separar la reacció global en els dos processos, ja que ens serà útil per comprendre que, de la mateixa manera que fem amb els elements de la reacció, també ens caldrà igualar el nombre
+d’electrons que s’intercanvien. Això també implica que una reacció REDOX es pot dividir físicament en dos compartiments i que els electrons es poden arribar a compartir amb un conductor, com s’aprecia a la Figura <a href="index.html#fig:Galvanic_cell_with_no_cation_flow">3.1</a>.
+</p>
+
+<figure id="autoid-5" class="figure ">
+<div class="center">
+
+<p>
+
+<a href="../../figures/Galvanic_cell_with_no_cation_flow.png" target="_blank" ><img
+    src="../../figures/Galvanic_cell_with_no_cation_flow.png"
+    style="
+    -ms-transform:scale(0.5,0.5);
+    -webkit-transform:scale(0.5,0.5);
+    transform:scale(0.5,0.5);
+    "
+    class="inlineimage"
+    alt="(image)"
+></a>
+</p>
+
+
+<div class="figurecaption">
+Figura&nbsp;3.1: Una cel.la galvànica per a la reacció <span
+      id="lateximage-web_GEAPiles-9"
+      class="lateximagesource"
+><!--
+           2+               (2+)
+Zn(s) + Cu(aq)   Cu(s) + Zn(aq)
+--><img
+    src="web_GEAPiles-images/8060A4F32A0F3CB114374D62F3C243BD.svg"
+    alt="\ch{Zn_{(s)} + Cu^{2+}_{(aq)} &lt;=&gt; Cu_{(s)} + Zn^{(2+)}_{(aq)}}"
+    role="math"
+    style="width:16.62213em ; vertical-align:-0.47917em "
+    class="lateximage"
+></span>. La connexió es tanca mitjançant una membrana porosa als ions, però també es podria fer amb un pont salí (tub permeable que conté una dissolució d’alguna sal com <span
+    id="lateximage-web_GEAPiles-10"
+    class="lateximagesource"
+><!--
+KCl
+--><img
+     src="web_GEAPiles-images/D84962CE921EDA5D2A39A8A68927A0C4.svg"
+     alt="\ch{KCl}"
+     role="math"
+     style="width:1.93385em"
+     class="lateximage"
+></span> (<a href="https://commons.wikimedia.org/wiki/File:Galvanic_cell_with_no_cation_flow.png" target="_blank" >https://commons.wikimedia.org/wiki/File:Galvanic_cell_with_no_cation_flow.png</a>)
+
+</div>
+
+<a id="fig:Galvanic_cell_with_no_cation_flow"></a>
+
+</div>
+
+</figure>
+
+<p>
+En la reacció global representada a la figura hi ha dos processos simultanis, un a cada vas de reacció:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-6" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-11"
+    class="lateximagesource"
+><!--
+        (2+)
+Zn   Zn(aq)  + 2 e–
+--><img
+    src="web_GEAPiles-images/image-11.svg"
+    alt="\[ \ch {Zn &lt;=&gt; Zn^{(2+)}_{(aq)} + 2 e-} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+
+<div class="displaymath">
+
+<a id="autoid-7" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-12"
+    class="lateximagesource"
+><!--
+2 e– + Cu(aq)
+          2+
+                Cu(s)
+--><img
+    src="web_GEAPiles-images/image-12.svg"
+    alt="\[ \ch {2 e- + Cu^{2+}_{(aq)} &lt;=&gt; Cu_{(s)}} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+El pont salí fa que es mantingui el balanç de càrregues positives i negatives a cada vas.
+</p>
+
+
+<div
+    class="tcolorbox"
+    style=" border: 1px solid #3383E5; background: #EEF4FC; "
+>
+
+
+<div
+    class="tcolorboxtitle"
+    style=" border-top: 1px solid #3383E5; border-bottom: 1px solid #3383E5; background: #3383E5; color: #FFFFFF; "
+>
+
+<p>
+Electròlits
+</p>
+</div>
+
+
+<div
+    class="tcolorboxupper"
+    style=" color: #000000; "
+>
+
+<p>
+Un <a href="https://opened.cuny.edu/courseware/lesson/609/student-old/?task=6" target="_blank" >electròlit</a> és una substància que, en dissoldre’s en aigua, es descompon en ions. Això permet que el corrent elèctric es pugui moure a través de la dissolució. Els ions positius es
+mouen cap a l’electrode negatiu (en una cel.la galvànica, el càtode) i els negatius cap a l’electrode positiu (ànode). Les substàncies que no es descomponen en ions s’anomenen no-electròlits. Exemples d’electròlits són els àcids, les bases i les sals. Per representar la dissolució d’un electròlit en ions, sovint
+s’utilitza la notació de <i>dissociació iònica</i>. Per exemple, la dissolució de clorur de sodi es pot representar com:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-8" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-13"
+    class="lateximagesource"
+><!--
+             +        –
+NaCl(s)   Na(aq) + Cl(aq)
+--><img
+    src="web_GEAPiles-images/image-13.svg"
+    alt="\[ \ch {NaCl_{(s)} -&gt; Na^{+}_{(aq)} + Cl^{-}_{(aq)}} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Com que l’aigua és una molècula polar amb càrregues lleugerament positives i negatives, els ions i les molècules polars es poden dissoldre fàcilment en ella. Les càrregues associades a aquestes molècules formen interaccions amb l’aigua, envoltant la partícula amb molècules d’aigua. Aquest fenomen rep el nom
+d’<b>esfera d’hidratació</b>, com s’il.lustra a la figura, i serveix per mantenir les partícules separades o disperses en l’aigua.
+</p>
+
+<p>
+
+<a href="../../figures/NaClaq.jpg" target="_blank" ><img
+    src="../../figures/NaClaq.jpg"
+    style="
+    width:217pt;
+    "
+    class="inlineimage"
+    alt="(image)"
+></a>
+</p>
+
+<p>
+Quan afegim compostos iònics a l’aigua, els ions individuals reaccionen amb les regions polars de les molècules d’aigua i els seus enllaços iònics es trenquen en el procés de dissociació. La <b>dissociació</b> té lloc quan àtoms o grups d’àtoms es separen de les molècules i formen ions.
+</p>
+
+<p>
+Per exemple, considerem la sal de taula (<span
+     id="lateximage-web_GEAPiles-14"
+     class="lateximagesource"
+><!--
+NaCl
+--><img
+    src="web_GEAPiles-images/06D2A0D12BA4F64352ACF3B4881DE0B1.svg"
+    alt="\ch{NaCl}"
+    role="math"
+    style="width:2.61261em"
+    class="lateximage"
+></span>, o clorur de sodi): quan afegim cristalls de <span
+    id="lateximage-web_GEAPiles-15"
+    class="lateximagesource"
+><!--
+NaCl
+--><img
+    src="web_GEAPiles-images/06D2A0D12BA4F64352ACF3B4881DE0B1.svg"
+    alt="\ch{NaCl}"
+    role="math"
+    style="width:2.61261em"
+    class="lateximage"
+></span> a l’aigua, les molècules de <span
+    id="lateximage-web_GEAPiles-16"
+    class="lateximagesource"
+><!--
+NaCl
+--><img
+    src="web_GEAPiles-images/06D2A0D12BA4F64352ACF3B4881DE0B1.svg"
+    alt="\ch{NaCl}"
+    role="math"
+    style="width:2.61261em"
+    class="lateximage"
+></span> es dissocien en ions <span
+    id="lateximage-web_GEAPiles-17"
+    class="lateximagesource"
+><!--
+Na+
+--><img
+    src="web_GEAPiles-images/22E49F3EF6A0B0C01D04EA74050C8E0A.svg"
+    alt="\ch{Na+}"
+    role="math"
+    style="width:1.95636em"
+    class="lateximage"
+></span> i <span
+    id="lateximage-web_GEAPiles-18"
+    class="lateximagesource"
+><!--
+Cl–
+--><img
+     src="web_GEAPiles-images/2A05A0ED6E856CED372089C8D6919C8C.svg"
+     alt="\ch{Cl-}"
+     role="math"
+     style="width:1.64711em"
+     class="lateximage"
+></span>, i es formen esferes d’hidratació al voltant dels ions, tal com s’il.lustra a la figura. La càrrega parcialment negativa de l’oxigen de la molècula d’aigua envolta l’ió sodi positiu, mentre que la càrrega parcialment positiva de l’hidrogen de la molècula d’aigua envolta l’ió clorur negatiu. Aquesta interacció
+entre els ions i les molècules d’aigua és el que permet que els ions es mantinguin dispersos en la dissolució.
+</p>
+
+</div>
+
+</div>
+<!--
+...... subsection Balanç reaccions REDOX ......
+-->
+<h5 id="autosec-44"><span class="sectionnumber">3.1.2&#x2003;</span>Balanç reaccions REDOX</h5>
+<a id="web_GEAPiles-autopage-44"></a>
+
+
+<p>
+Separar les dues semireaccions d’una reacció REDOX ajuda a balancejar l’equació global (tenint en compte també els electrons que s’intercanvien) a més de permetre tenir mesures de la tendencia a oxidar/reduir de cada substància. Per fer el balanç, seguim quatre passos:
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> Identifiquem les espècies que es redueixen o s’oxiden.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> Escrivim les dues mitges reaccions.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> Igualem les dues semireaccions en base als elements i les càrregues.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">4.</span> Les sumem per obtenir la reacció global.
+</p>
+</li>
+</ul>
+<!--
+...... subsection Cel.les galvàniques ......
+-->
+<h5 id="autosec-45"><span class="sectionnumber">3.1.3&#x2003;</span>Cel.les galvàniques</h5>
+<a id="web_GEAPiles-autopage-45"></a>
+
+
+<p>
+Tant en la cel.la galvànica de la Figura <a href="index.html#fig:Galvanic_cell_with_no_cation_flow">3.1</a> com en la bateria d’ió Liti de la Figura <a href="index.html#fig:LiIon3">3.2</a>, aprofitem el potencial REDOX de les substàncies per tal d’acumular energia
+química i transformar-la en elèctrica. Anomenarem càtode a l’electrode on té lloc la reducció i ànode on té lloc l’oxidació.
+</p>
+
+<figure id="autoid-9" class="figure ">
+<div class="center">
+
+<p>
+
+<a href="../../figures/LiIon3.png" target="_blank" ><img
+    src="../../figures/LiIon3.png"
+    class="inlineimage"
+    alt="(image)"
+></a>
+</p>
+
+
+<div class="figurecaption">
+Figura&nbsp;3.2: Bateria d’ió Liti <a id="web_GEAPiles-autopage-46"></a>Font: [<a href="index.html#LWR-ht-cite.0@liu_understanding_2016">2</a>].
+
+</div>
+
+<a id="fig:LiIon3"></a>
+
+</div>
+
+</figure>
+
+<p>
+Podem definir el potencial estàndar d’una cel.la, <span
+    id="lateximage-web_GEAPiles-19"
+    class="lateximagesource"
+><!--
+∆ε◦
+--><img
+    src="web_GEAPiles-images/60B6FD8F70067E6E36B68C926EAC0E31.svg"
+    alt="\( \Delta \varepsilon ^{\circ } \)"
+    role="math"
+    style="width:2.22928em"
+    class="lateximage"
+></span>, com al potencial pres en unes condicions determinades, que es fixen com a 1M per a tots els materials solubles, 1 atm per als gasos i, en el cas dels sòlids, la seva forma més estable a 25<span
+    id="lateximage-web_GEAPiles-20"
+    class="lateximagesource"
+><!--
+°
+--><img
+    src="web_GEAPiles-images/12C900EB4F7D6DEF31C38A479CF879F4.svg"
+    alt="\( ^{\degree } \)"
+    role="math"
+    style="height:1.05139em"
+    class="lateximage"
+></span>. A partir del potencial podem calcular el treball elèctric fent
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-10" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-21"
+    class="lateximagesource"
+><!--
+∆ε◦ × q = welect
+--><img
+    src="web_GEAPiles-images/image-21.svg"
+    alt="\[ \Delta \varepsilon ^{\circ } \times q = w_{elect} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Si la reacció és espontànea, el potencial <span
+      id="lateximage-web_GEAPiles-22"
+      class="lateximagesource"
+><!--
+∆ε◦
+--><img
+    src="web_GEAPiles-images/60B6FD8F70067E6E36B68C926EAC0E31.svg"
+    alt="\( \Delta \varepsilon ^{\circ } \)"
+    role="math"
+    style="width:2.22928em"
+    class="lateximage"
+></span> serà positiu. Per tal de poder tabular els potencials de moltes substàncies, es va prendre la convenció d’assignar el potencial de 0 volt a la mitja reacció:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-11" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-23"
+    class="lateximagesource"
+><!--
+H2(1 atm)   2 H+(1 M) + 2 e–
+--><img
+    src="web_GEAPiles-images/image-23.svg"
+    alt="\[ \ch {H2 (1 atm) &lt;=&gt; 2 H+ (1 M) + 2 e-} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+<!--
+...... subsection Energia lliure i espontaneïtat de les reaccions REDOX ......
+-->
+<h5 id="autosec-57"><span class="sectionnumber">3.1.4&#x2003;</span>Energia lliure i espontaneïtat de les reaccions REDOX</h5>
+<a id="web_GEAPiles-autopage-57"></a>
+
+
+<p>
+Per a estudiar l’espontaneïtat d’una reació química hem de tenir en compte l’energia lliure, concepte fonamental en termodinàmica que determina l’espontaneïtat i equilibri dels processos químics i físics:
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> Energia lliure de Helmholtz (<span
+    id="lateximage-web_GEAPiles-24"
+    class="lateximagesource"
+><!--
+F
+--><img
+    src="web_GEAPiles-images/AAC92C70B91E23AD9CB31FC9C5F2D42D.svg"
+    alt="\( F \)"
+    role="math"
+    style="width:1.00754em"
+    class="lateximage"
+></span>), útil en sistemes a volum i temperatura constants. Es defineix com <span
+    id="lateximage-web_GEAPiles-25"
+    class="lateximagesource"
+><!--
+F = U − TS
+--><img
+    src="web_GEAPiles-images/2BF09F2F6BE9269244387D93E2F07BFA.svg"
+    alt="\( F = U - TS \)"
+    role="math"
+    style="width:6.93436em ; vertical-align:-0.10417em "
+    class="lateximage"
+></span>. Substituint la primera llei de la termodinàmica <span
+    id="lateximage-web_GEAPiles-26"
+    class="lateximagesource"
+><!--
+dU = δQ + δW
+--><img
+    src="web_GEAPiles-images/74CAFAA2A283A617293856D0A0CF77D9.svg"
+    alt="\( \ dU = \delta Q + \delta W\ \)"
+    role="math"
+    style="width:9.03802em ; vertical-align:-0.24306em "
+    class="lateximage"
+></span> i sabent que <span
+    id="lateximage-web_GEAPiles-27"
+    class="lateximagesource"
+><!--
+δQ = T dS
+--><img
+    src="web_GEAPiles-images/A3EFE2F08DE1139B842BCB28C212598E.svg"
+    alt="\( \delta Q = TdS \)"
+    role="math"
+    style="width:5.68108em ; vertical-align:-0.24306em "
+    class="lateximage"
+></span> en processos reversibles:
+</p>
+
+<div class="displaymath">
+<a id="autoid-12" ></a >
+<p>
+<span
+    id="lateximage-web_GEAPiles-28"
+    class="lateximagesource"
+><!--
+dF = −SdT − P dV
+--><img
+    src="web_GEAPiles-images/image-28.svg"
+    alt="\[ dF = -SdT - PdV \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Energia lliure de Gibbs (<span
+    id="lateximage-web_GEAPiles-29"
+    class="lateximagesource"
+><!--
+G
+--><img
+    src="web_GEAPiles-images/A1B6D23999D957C1F12223ADAA6E77FD.svg"
+    alt="\( G \)"
+    role="math"
+    style="width:1.01292em"
+    class="lateximage"
+></span>), rellevant en processos a pressió i temperatura constants. Es defineix com <span
+    id="lateximage-web_GEAPiles-30"
+    class="lateximagesource"
+><!--
+G = H − TS
+--><img
+    src="web_GEAPiles-images/69C36A39A095AC203A4E4EE8274A28E9.svg"
+    alt="\( G = H - TS \)"
+    role="math"
+    style="width:7.0906em ; vertical-align:-0.10417em "
+    class="lateximage"
+></span>. El seu diferencial és:
+</p>
+
+<div class="displaymath">
+<a id="autoid-13" ></a >
+<p>
+<span
+    id="lateximage-web_GEAPiles-31"
+    class="lateximagesource"
+><!--
+dG = dH − T dS − SdT
+--><img
+    src="web_GEAPiles-images/image-31.svg"
+    alt="\[ dG = dH - TdS - SdT \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+<p>
+Substituint <span
+    id="lateximage-web_GEAPiles-32"
+    class="lateximagesource"
+><!--
+dH = dU + P dV + V dP
+--><img
+    src="web_GEAPiles-images/30ADBC751E43246600A4EE83C9B7AF67.svg"
+    alt="\( dH = dU + PdV + VdP \)"
+    role="math"
+    style="width:13.45132em ; vertical-align:-0.10374em "
+    class="lateximage"
+></span> i la primera llei <span
+    id="lateximage-web_GEAPiles-33"
+    class="lateximagesource"
+><!--
+dU = T dS − P dV
+--><img
+    src="web_GEAPiles-images/3E1B973BC79FEB970E18E2C8EAB8F530.svg"
+    alt="\( dU = TdS - PdV \)"
+    role="math"
+    style="width:9.89183em ; vertical-align:-0.10417em "
+    class="lateximage"
+></span>, obtenim:
+</p>
+
+<div class="displaymath">
+<a id="autoid-14" ></a >
+<p>
+<span
+    id="lateximage-web_GEAPiles-34"
+    class="lateximagesource"
+><!--
+dG = V dP − SdT
+--><img
+    src="web_GEAPiles-images/image-34.svg"
+    alt="\[ dG = VdP - SdT \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+</li>
+</ul>
+
+<p>
+La condició d’espontaneïtat per a una reacció és:
+</p>
+
+
+<div class="displaymath">
+
+<a id="autoid-15" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-35"
+    class="lateximagesource"
+><!--
+∆G < 0   (procés espontani)
+--><img
+    src="web_GEAPiles-images/image-35.svg"
+    alt="\[ \Delta G &lt; 0 \quad \text {(procés espontani)}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+
+<div class="displaymath">
+
+<a id="autoid-16" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-36"
+    class="lateximagesource"
+><!--
+∆G = 0   (equilibri)
+--><img
+    src="web_GEAPiles-images/image-36.svg"
+    alt="\[ \Delta G = 0 \quad \text {(equilibri)}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+
+<div class="displaymath">
+
+<a id="autoid-17" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-37"
+    class="lateximagesource"
+><!--
+∆G > 0 (procés no espontani)
+--><img
+    src="web_GEAPiles-images/image-37.svg"
+    alt="\[ \Delta G &gt; 0 \quad \text {(procés no espontani)}                         \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Per tal de determinar si una reacció REDOX és espontània, podem utilitzar la taula de potencials estàndard. Si el potencial de la reacció és positiu, la reacció és espontània. Això també ens permet determinar la direcció de la reacció, ja que la reacció es donarà en el sentit de la disminució de l’energia lliure.
+L’energia lliure d’una reacció REDOX es pot calcular fent
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-18" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-38"
+    class="lateximagesource"
+><!--
+∆G = −nF ∆ε
+--><img
+    src="web_GEAPiles-images/image-38.svg"
+    alt="\[ \Delta G = -n F \Delta \varepsilon   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+on <span
+    id="lateximage-web_GEAPiles-39"
+    class="lateximagesource"
+><!--
+n
+--><img
+    src="web_GEAPiles-images/FF2A592D161BBEC979B6F70A25CB73AF.svg"
+    alt="\( n \)"
+    role="math"
+    style="width:0.78041em"
+    class="lateximage"
+></span> és el nombre d’electrons intercanviats, <span
+    id="lateximage-web_GEAPiles-40"
+    class="lateximagesource"
+><!--
+F
+--><img
+    src="web_GEAPiles-images/AAC92C70B91E23AD9CB31FC9C5F2D42D.svg"
+    alt="\( F \)"
+    role="math"
+    style="width:1.00754em"
+    class="lateximage"
+></span> és la constant de Faraday i <span
+    id="lateximage-web_GEAPiles-41"
+    class="lateximagesource"
+><!--
+∆ε
+--><img
+    src="web_GEAPiles-images/95B84BED98393954CB7016695DFEE8C4.svg"
+    alt="\( \Delta \varepsilon \)"
+    role="math"
+    style="width:1.65463em"
+    class="lateximage"
+></span> és el potencial de la reacció.
+</p>
+<!--
+...... subsection Energia lliure i equilibri químic ......
+-->
+<h5 id="autosec-94"><span class="sectionnumber">3.1.5&#x2003;</span>Energia lliure i equilibri químic</h5>
+<a id="web_GEAPiles-autopage-94"></a>
+
+
+<p>
+L’equilibri químic es produeix quan la velocitat de la reacció directa és igual a la velocitat de la reacció inversa, fent que les concentracions dels reactius i productes es mantinguin constants en el temps.
+</p>
+
+<p>
+Un exemple general d’una reacció reversible és:
+</p>
+
+
+<div class="displaymath">
+
+<a id="autoid-19" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-42"
+    class="lateximagesource"
+><!--
+aA + bB   cC + dD
+--><img
+    src="web_GEAPiles-images/image-42.svg"
+    alt="\[ \ch {aA + bB &lt;=&gt; cC + dD}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+on:
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <span
+    id="lateximage-web_GEAPiles-43"
+    class="lateximagesource"
+><!--
+A
+--><img
+    src="web_GEAPiles-images/0FC7DE083814BF85A2FF0891D8BDAD97.svg"
+    alt="\ch{A}"
+    role="math"
+    style="width:0.89886em"
+    class="lateximage"
+></span> i <span
+    id="lateximage-web_GEAPiles-44"
+    class="lateximagesource"
+><!--
+B
+--><img
+    src="web_GEAPiles-images/2599FFDC6729747EAA8F2061C3BDCC3E.svg"
+    alt="\ch{B}"
+    role="math"
+    style="width:0.7651em"
+    class="lateximage"
+></span> són reactius,
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <span
+    id="lateximage-web_GEAPiles-45"
+    class="lateximagesource"
+><!--
+C
+--><img
+    src="web_GEAPiles-images/DB7EE8C1A495A3A8FA04814772FF4BF9.svg"
+    alt="\ch{C}"
+    role="math"
+    style="width:0.83762em"
+    class="lateximage"
+></span> i <span
+    id="lateximage-web_GEAPiles-46"
+    class="lateximagesource"
+><!--
+D
+--><img
+    src="web_GEAPiles-images/3BD966FEBC34B3E124C0566A1505B3AA.svg"
+    alt="\ch{D}"
+    role="math"
+    style="width:0.90636em"
+    class="lateximage"
+></span> són productes,
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <span
+    id="lateximage-web_GEAPiles-47"
+    class="lateximagesource"
+><!--
+a, b, c, d
+--><img
+    src="web_GEAPiles-images/9F6D9C4C3B8FBE521EFB5C093384C859.svg"
+    alt="\( a, b, c, d \)"
+    role="math"
+    style="width:4.08551em ; vertical-align:-0.24306em "
+    class="lateximage"
+></span> són els coeficients estequiomètrics.
+</p>
+</li>
+</ul>
+
+<p>
+La constant d’equilibri en termes de concentracions (<span
+     id="lateximage-web_GEAPiles-48"
+     class="lateximagesource"
+><!--
+Kc
+--><img
+    src="web_GEAPiles-images/965B52B41C2095B604F5364D757E5422.svg"
+    alt="\( K_c \)"
+    role="math"
+    style="width:1.60097em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span>) es defineix com:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-20" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-49"
+    class="lateximagesource"
+><!--
+       [C]c [D]d
+Kc =
+       [A]a [B]b
+--><img
+    src="web_GEAPiles-images/image-49.svg"
+    alt="\[ K_c = \frac {[\ch {C}]^c [\ch {D}]^d}{[\ch {A}]^a [\ch {B}]^b}       \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Si la reacció implica gasos, es pot expressar en termes de pressions parcials:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-21" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-50"
+    class="lateximagesource"
+><!--
+       PCc PDd
+Kp =
+       PAa PBb
+--><img
+    src="web_GEAPiles-images/image-50.svg"
+    alt="\[ K_p = \frac {P_{\ch {C}}^c P_{\ch {D}}^d}{P_{\ch {A}}^a P_{\ch {B}}^b}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+La relació entre <span
+     id="lateximage-web_GEAPiles-51"
+     class="lateximagesource"
+><!--
+Kc
+--><img
+    src="web_GEAPiles-images/BE9BC664FD4C00B1B793DC46257B8304.svg"
+    alt="\( K_c \)"
+    role="math"
+    style="width:1.60097em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span> i <span
+    id="lateximage-web_GEAPiles-52"
+    class="lateximagesource"
+><!--
+Kp
+--><img
+    src="web_GEAPiles-images/67E550C2915D97DDAA8FF152C312E641.svg"
+    alt="\( K_p \)"
+    role="math"
+    style="width:1.66954em ; vertical-align:-0.35764em "
+    class="lateximage"
+></span> ve donada per:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-22" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-53"
+    class="lateximagesource"
+><!--
+Kp = Kc (RT )∆n
+--><img
+    src="web_GEAPiles-images/image-53.svg"
+    alt="\[ K_p = K_c (RT)^{\Delta n} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+on <span
+    id="lateximage-web_GEAPiles-54"
+    class="lateximagesource"
+><!--
+∆n = (c + d) − (a + b)
+--><img
+    src="web_GEAPiles-images/E1CE560F136D79885556E82D6DC4678F.svg"
+    alt="\( \Delta n = (c+d) - (a+b) \)"
+    role="math"
+    style="width:12.4053em ; vertical-align:-0.3125em "
+    class="lateximage"
+></span> és la variació del nombre de mols gasosos.
+</p>
+
+<figure id="autoid-23" class="table ">
+<div class="center">
+
+
+<div class="figurecaption">
+Taula&nbsp;3.1: Representació gràfica de processos en equilibri simples. Casos genèrics com <span
+    id="lateximage-web_GEAPiles-55"
+    class="lateximagesource"
+><!--
+aA + bB   cC + dD
+--><img
+    src="web_GEAPiles-images/4DB27C8C64871D81B9D73B2995B85C91.svg"
+    alt="\ch{a A + b B &lt;=&gt; c C + d D}"
+    role="math"
+    style="width:11.72263em ; vertical-align:-0.096em "
+    class="lateximage"
+></span> són més complexes de visualitzar, però la tendència que segueixen quan els posem lluny de l’equilibri també es pot entendre fàcilment valorant si <span
+    id="lateximage-web_GEAPiles-56"
+    class="lateximagesource"
+><!--
+[C]c [D]d
+[A]a [B]b
+          < Keq
+--><img
+    src="web_GEAPiles-images/A6BD756C20838200A4336A01E4E7FB1C.svg"
+    alt="\( \frac {[C]^c[D]^d}{[A]^a[B]^b}&lt;K_{eq} \)"
+    role="math"
+    style="width:7.83238em ; vertical-align:-0.66527em "
+    class="lateximage"
+></span> o <span
+    id="lateximage-web_GEAPiles-57"
+    class="lateximagesource"
+><!--
+[C]c [D]d
+[A]a [B]b
+          > Keq
+--><img
+    src="web_GEAPiles-images/B6F6C21514D24B3DB50405B77277B7D1.svg"
+    alt="\( \frac {[C]^c[D]^d}{[A]^a[B]^b}&gt;K_{eq} \)"
+    role="math"
+    style="width:7.83238em ; vertical-align:-0.66527em "
+    class="lateximage"
+></span>.
+
+</div>
+
+<a id="tab:Eqs"></a>
+<table>
+
+<tr style="display:none"><th>.</th></tr>
+
+<tr class="hline">
+<td class="tdl">Tipus de reacció (Exemple)</td>
+<td class="tdl">representació gràfica de l’equilibri</td>
+</tr>
+
+<tr class="hline">
+<td class="tdl"><span
+    id="lateximage-web_GEAPiles-58"
+    class="lateximagesource"
+><!--
+       A(s)     A(g)
+CaCO3(s)      CaO(s) + CO2(g)
+--><img
+    src="web_GEAPiles-images/DC62ED389976C5CB9C3BC799AE73FF00.svg"
+    alt="\( \begin {array}{c}\ch {A_{(s)} &lt;=&gt; A_{(g)}} \\ \ch {CaCO3_{(s)} &lt;=&gt; CaO_{(s)} + CO2_{(g)}}\end {array} \)"
+    role="math"
+    style="width:16.36436em ; vertical-align:-1.22017em "
+    class="lateximage"
+></span></td>
+<td class="tdl">
+<a href="../../figures/Eq1.png" target="_blank" ><img
+    src="../../figures/Eq1.png"
+    style="
+    -ms-transform:scale(0.3,0.3);
+    -webkit-transform:scale(0.3,0.3);
+    transform:scale(0.3,0.3);
+    "
+    class="inlineimage"
+    alt="(image)"
+></a></td>
+</tr>
+
+<tr class="hline">
+<td class="tdl"><span
+    id="lateximage-web_GEAPiles-59"
+    class="lateximagesource"
+><!--
+     A    B
+n butà   isopropà
+--><img
+    src="web_GEAPiles-images/FBD57E3C618ED173A6017A3B266C782D.svg"
+    alt="\( \begin {array}{c}\ch {A &lt;=&gt; B} \\ \ch {n-butà &lt;=&gt; isopropà}\end {array} \)"
+    role="math"
+    style="width:12.743em ; vertical-align:-1.1875em "
+    class="lateximage"
+></span></td>
+<td class="tdl">
+<a href="../../figures/Eq2.png" target="_blank" ><img
+    src="../../figures/Eq2.png"
+    style="
+    -ms-transform:scale(0.3,0.3);
+    -webkit-transform:scale(0.3,0.3);
+    transform:scale(0.3,0.3);
+    "
+    class="inlineimage"
+    alt="(image)"
+></a></td>
+</tr>
+
+<tr class="hline">
+<td class="tdl"><span
+    id="lateximage-web_GEAPiles-60"
+    class="lateximagesource"
+><!--
+      A(s)    B+C
+                2+       2–
+BaSO4(s)     Ba(aq) + SO4(aq)
+--><img
+    src="web_GEAPiles-images/CA9D0C06BBBA4C09F8AF2723BFB3D587.svg"
+    alt="\( \begin {array}{c}\ch {A_{(s)} &lt;=&gt; B + C} \\ \ch {BaSO4_{(s)} &lt;=&gt; Ba^{2+}_{(aq)} + SO4^{2-}_{(aq)}}\end {array} \)"
+    role="math"
+    style="width:15.84062em ; vertical-align:-1.20354em "
+    class="lateximage"
+></span></td>
+<td class="tdl">
+<a href="../../figures/Eq3.png" target="_blank" ><img
+    src="../../figures/Eq3.png"
+    style="
+    -ms-transform:scale(0.3,0.3);
+    -webkit-transform:scale(0.3,0.3);
+    transform:scale(0.3,0.3);
+    "
+    class="inlineimage"
+    alt="(image)"
+></a></td>
+</tr>
+
+<tr class="hline">
+<td class="tdl"><span
+    id="lateximage-web_GEAPiles-61"
+    class="lateximagesource"
+><!--
+   A      2B
+N2O4(g)   NO2(g)
+--><img
+    src="web_GEAPiles-images/616CBA23CFC56ED9BD9E3FBBFC367657.svg"
+    alt="\( \begin {array}{c}\ch {A &lt;=&gt; 2B} \\ \ch {N2O4_{(g)} &lt;=&gt; NO2_{(g)}}\end {array} \)"
+    role="math"
+    style="width:11.07524em ; vertical-align:-1.20383em "
+    class="lateximage"
+></span></td>
+<td class="tdl">
+<a href="../../figures/Eq4.png" target="_blank" ><img
+    src="../../figures/Eq4.png"
+    style="
+    -ms-transform:scale(0.4,0.4);
+    -webkit-transform:scale(0.4,0.4);
+    transform:scale(0.4,0.4);
+    "
+    class="inlineimage"
+    alt="(image)"
+></a></td>
+</tr>
+
+<tr class="hline" aria-hidden="true">
+<td class="tdl"></td>
+<td class="tdl"></td>
+</tr>
+</table>
+
+</div>
+
+</figure>
+
+
+<div
+    class="tcolorbox"
+    style=" border: 1px solid #3383E5; background: #EEF4FC; "
+>
+
+
+<div
+    class="tcolorboxtitle"
+    style=" border-top: 1px solid #3383E5; border-bottom: 1px solid #3383E5; background: #3383E5; color: #FFFFFF; "
+>
+
+<p>
+Principi de Le Chatelier
+</p>
+</div>
+
+
+<div
+    class="tcolorboxupper"
+    style=" color: #000000; "
+>
+
+<p>
+Estableix que si es fa una alteració en un sistema en equilibri, aquest es desplaçarà per contrarestar el canvi. Els factors que afecten l’equilibri són:
+</p>
+
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> Canvis de concentració:
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">–</span> Afegir reactius desplaça l’equilibri cap als productes i viceversa.
+</p>
+</li>
+</ul>
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Canvis de pressió:
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">–</span> Si la reacció involucra gasos, augmentar la pressió afavoreix el costat amb menys mols gasosos.
+</p>
+</li>
+</ul>
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Canvis de temperatura:
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">–</span> En reaccions exotèrmiques (<span
+    id="lateximage-web_GEAPiles-62"
+    class="lateximagesource"
+><!--
+A+B   C + D + calor
+--><img
+    src="web_GEAPiles-images/26E0807FA7F74323F013C0F9EA95ED26.svg"
+    alt="\( \ch {A + B &lt;=&gt; C + D} + \text {calor} \)"
+    role="math"
+    style="width:13.42667em ; vertical-align:-0.10374em "
+    class="lateximage"
+></span>), augmentar <span
+    id="lateximage-web_GEAPiles-63"
+    class="lateximagesource"
+><!--
+T
+--><img
+    src="web_GEAPiles-images/19092770CB12680F0613E2C39B40310D.svg"
+    alt="\( T \)"
+    role="math"
+    style="width:0.93419em"
+    class="lateximage"
+></span> desplaça l’equilibri cap als reactius.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">–</span> En reaccions endotèrmiques (<span
+    id="lateximage-web_GEAPiles-64"
+    class="lateximagesource"
+><!--
+A + B + calor   C+D
+--><img
+    src="web_GEAPiles-images/2F803E66970036FC068182DCB5C41870.svg"
+    alt="\( \ch {A + B} + \text {calor} \ch {&lt;=&gt; C + D} \)"
+    role="math"
+    style="width:13.42667em ; vertical-align:-0.10374em "
+    class="lateximage"
+></span>), augmentar <span
+    id="lateximage-web_GEAPiles-65"
+    class="lateximagesource"
+><!--
+T
+--><img
+    src="web_GEAPiles-images/19092770CB12680F0613E2C39B40310D.svg"
+    alt="\( T \)"
+    role="math"
+    style="width:0.93419em"
+    class="lateximage"
+></span> afavoreix els productes.
+</p>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<p>
+L’energia lliure de Gibbs està relacionada amb la constant d’equilibri <span
+     id="lateximage-web_GEAPiles-66"
+     class="lateximagesource"
+><!--
+K
+--><img
+    src="web_GEAPiles-images/690087E957966DA11E6B7BCCACF3BFD5.svg"
+    alt="\( K \)"
+    role="math"
+    style="width:1.18115em"
+    class="lateximage"
+></span> d’una reacció, que veurem a la secció <a href="index.html#sec:equilibri_ionic">3.2</a>, i en determina l’espontaneïtat:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-24" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-67"
+    class="lateximagesource"
+><!--
+∆G = ∆G◦ + RT ln Q
+--><img
+    src="web_GEAPiles-images/image-67.svg"
+    alt="\[ \Delta G = \Delta G^\circ + RT \ln Q   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+on <span
+    id="lateximage-web_GEAPiles-68"
+    class="lateximagesource"
+><!--
+Q
+--><img
+    src="web_GEAPiles-images/21E5969167A30E536FCB0E177EEFBB94.svg"
+    alt="\( Q \)"
+    role="math"
+    style="width:1.01831em ; vertical-align:-0.24306em "
+    class="lateximage"
+></span> és el coeficient de reacció, definit com:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-25" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-69"
+    class="lateximagesource"
+><!--
+     [C]c [D]d
+Q=
+     [A]a [B]b
+--><img
+    src="web_GEAPiles-images/image-69.svg"
+    alt="\[ Q = \frac {[\ch {C}]^c [\ch {D}]^d}{[\ch {A}]^a [\ch {B}]^b}         \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+per a les concentracions en qualsevol punt de la reacció. A l’equilibri (<span
+     id="lateximage-web_GEAPiles-70"
+     class="lateximagesource"
+><!--
+∆G = 0
+--><img
+    src="web_GEAPiles-images/62C1329ECA9734E8E8AA4C3302070C5D.svg"
+    alt="\( \Delta G = 0 \)"
+    role="math"
+    style="width:4.34622em"
+    class="lateximage"
+></span>, <span
+    id="lateximage-web_GEAPiles-71"
+    class="lateximagesource"
+><!--
+Q=K
+--><img
+    src="web_GEAPiles-images/F260E2899647CF464C1B2E074F42030B.svg"
+    alt="\( Q = K \)"
+    role="math"
+    style="width:3.83601em ; vertical-align:-0.24306em "
+    class="lateximage"
+></span>):
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-26" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-72"
+    class="lateximagesource"
+><!--
+∆G◦ = −RT ln K
+--><img
+    src="web_GEAPiles-images/image-72.svg"
+    alt="\[ \Delta G^\circ = -RT \ln K \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+L’entalpia lliure normal (<span
+     id="lateximage-web_GEAPiles-73"
+     class="lateximagesource"
+><!--
+∆G◦
+--><img
+    src="web_GEAPiles-images/CE351AB075559F5D293203B3310574D1.svg"
+    alt="\( \Delta G^\circ \)"
+    role="math"
+    style="width:2.6292em"
+    class="lateximage"
+></span>) es pot calcular a partir de les energies lliures de formació de les substàncies:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-27" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-74"
+    class="lateximagesource"
+><!--
+        ∑                        ∑
+∆G◦ =       ∆G◦f (productes) −       ∆G◦f (reactius)
+--><img
+    src="web_GEAPiles-images/image-74.svg"
+    alt="\[ \Delta G^\circ = \sum \Delta G_f^\circ (\text {productes}) - \sum \Delta G_f^\circ (\text {reactius})                      \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+i correspon a la situació en la que tots els reactius i productes es troben a 1 atm, si son gasos, o a 1 M si son dissolts en aigua.
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> Si <span
+    id="lateximage-web_GEAPiles-75"
+    class="lateximagesource"
+><!--
+K>1
+--><img
+    src="web_GEAPiles-images/8F421A7D3BBCC9B6CD99066B1DE4116A.svg"
+    alt="\( K &gt; 1 \)"
+    role="math"
+    style="width:3.47281em ; vertical-align:-0.04887em "
+    class="lateximage"
+></span>, <span
+    id="lateximage-web_GEAPiles-76"
+    class="lateximagesource"
+><!--
+∆G◦ < 0
+--><img
+    src="web_GEAPiles-images/5C54A8879F937D362DB6CC98BDC92601.svg"
+    alt="\( \Delta G^\circ &lt; 0 \)"
+    role="math"
+    style="width:4.92085em ; vertical-align:-0.04887em "
+    class="lateximage"
+></span> i la reacció és espontània en sentit directe.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Si <span
+    id="lateximage-web_GEAPiles-77"
+    class="lateximagesource"
+><!--
+K<1
+--><img
+    src="web_GEAPiles-images/92A129ADF31D45728F6E6EB8F4FD9724.svg"
+    alt="\( K &lt; 1 \)"
+    role="math"
+    style="width:3.47281em ; vertical-align:-0.04887em "
+    class="lateximage"
+></span>, <span
+    id="lateximage-web_GEAPiles-78"
+    class="lateximagesource"
+><!--
+∆G◦ > 0
+--><img
+    src="web_GEAPiles-images/E479EEADFA0054F771E1A9C64B50CC49.svg"
+    alt="\( \Delta G^\circ &gt; 0 \)"
+    role="math"
+    style="width:4.92085em ; vertical-align:-0.04887em "
+    class="lateximage"
+></span> i la reacció és no espontània en sentit directe.
+</p>
+</li>
+</ul>
+<!--
+...... subsection Equació de Nernst ......
+-->
+<h5 id="autosec-171"><span class="sectionnumber">3.1.6&#x2003;</span>Equació de Nernst</h5>
+<a id="web_GEAPiles-autopage-171"></a>
+
+
+<p>
+El voltatge real d’una cel.la depèn de la concentració. A partir de la <span
+     id="lateximage-web_GEAPiles-79"
+     class="lateximagesource"
+><!--
+∆ε◦
+--><img
+    src="web_GEAPiles-images/60B6FD8F70067E6E36B68C926EAC0E31.svg"
+    alt="\( \Delta \varepsilon ^{\circ } \)"
+    role="math"
+    style="width:2.22928em"
+    class="lateximage"
+></span> podem veure com, per a una reacció del tipus
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-28" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-80"
+    class="lateximagesource"
+><!--
+aA + bB   cC + dD
+--><img
+    src="web_GEAPiles-images/image-80.svg"
+    alt="\[ \ch {a A + b B &lt;=&gt; c C + d D} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+el voltatge de la cel.la es calcularà fent
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-29" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-81"
+    class="lateximagesource"
+><!--
+             0.059     [C]c [D]d
+∆ε = ∆ε◦ −         log
+               n       [A]a [B]b
+--><img
+    src="web_GEAPiles-images/image-81.svg"
+    alt="\[ \Delta \varepsilon =\Delta \varepsilon ^{\circ }-\frac {0.059}{n} \log \frac {[C]^c[D]^d}{[A]^a[B]^b} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+És fàcil veure que, en l’equilibri, <span
+     id="lateximage-web_GEAPiles-82"
+     class="lateximagesource"
+><!--
+∆ε = 0
+--><img
+    src="web_GEAPiles-images/3C8E1799A8A2911547A892873CF9F2DD.svg"
+    alt="\( \Delta \varepsilon =0 \)"
+    role="math"
+    style="width:3.9463em"
+    class="lateximage"
+></span>.
+</p>
+
+
+<div
+    class="tcolorbox"
+    style=" border: 1px solid #3383E5; background: #EEF4FC; "
+>
+
+
+<div
+    class="tcolorboxtitle"
+    style=" border-top: 1px solid #3383E5; border-bottom: 1px solid #3383E5; background: #3383E5; color: #FFFFFF; "
+>
+
+<p>
+Desenvolupament de l’equació de Nernst
+</p>
+</div>
+
+
+<div
+    class="tcolorboxupper"
+    style=" color: #000000; "
+>
+
+<p>
+L’energia lliure de Gibbs d’una reacció electroquímica està relacionada amb el potencial elèctric.
+</p>
+
+<p>
+Com que <span
+    id="lateximage-web_GEAPiles-83"
+    class="lateximagesource"
+><!--
+∆G = −nF ∆ε
+--><img
+    src="web_GEAPiles-images/39664A0EFCBBD9B95E4F7936BA04FB08.svg"
+    alt="\( \Delta G = -n F \Delta \varepsilon \)"
+    role="math"
+    style="width:8.0457em ; vertical-align:-0.10417em "
+    class="lateximage"
+></span> i <span
+    id="lateximage-web_GEAPiles-84"
+    class="lateximagesource"
+><!--
+∆G◦ = −nF ∆ε◦
+--><img
+    src="web_GEAPiles-images/2BF2D3443637BDC87D6465B82EF0E7F4.svg"
+    alt="\( \Delta G^\circ = -n F \Delta \varepsilon ^\circ \)"
+    role="math"
+    style="width:9.195em ; vertical-align:-0.10417em "
+    class="lateximage"
+></span>, substituint a l’equació de Gibbs:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-30" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-85"
+    class="lateximagesource"
+><!--
+−nF ∆ε = −nF ∆ε◦ + RT ln Q
+--><img
+    src="web_GEAPiles-images/image-85.svg"
+    alt="\[ -n F \Delta \varepsilon = -n F \Delta \varepsilon ^\circ + RT \ln Q   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Dividint per <span
+     id="lateximage-web_GEAPiles-86"
+     class="lateximagesource"
+><!--
+−nF
+--><img
+    src="web_GEAPiles-images/BCDB04952AEB8823D5C863C61A7E957E.svg"
+    alt="\( -nF \)"
+    role="math"
+    style="width:2.73006em ; vertical-align:-0.10417em "
+    class="lateximage"
+></span>:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-31" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-87"
+    class="lateximagesource"
+><!--
+             RT
+∆ε = ∆ε◦ −      ln Q
+             nF
+--><img
+    src="web_GEAPiles-images/image-87.svg"
+    alt="\[ \Delta \varepsilon = \Delta \varepsilon ^\circ - \frac {RT}{nF} \ln Q   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Si considerem la temperatura estàndard de 298 K i la constant de gas ideal:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-32" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-88"
+    class="lateximagesource"
+><!--
+RT   (8.314)(298)
+   =              = 0.0257 V
+F        96485
+--><img
+    src="web_GEAPiles-images/image-88.svg"
+    alt="\[ \frac {RT}{F} = \frac {(8.314)(298)}{96485} = 0.0257 \text { V}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Així, l’equació de Nernst per a una reacció amb <span
+     id="lateximage-web_GEAPiles-89"
+     class="lateximagesource"
+><!--
+n
+--><img
+    src="web_GEAPiles-images/5C04FE5A67BC8DB469D4F567B23FC4CA.svg"
+    alt="\( n \)"
+    role="math"
+    style="width:0.78041em"
+    class="lateximage"
+></span> electrons es pot escriure com:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-33" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-90"
+    class="lateximagesource"
+><!--
+             0.0257
+∆ε = ∆ε◦ −          ln Q
+                n
+--><img
+    src="web_GEAPiles-images/image-90.svg"
+    alt="\[ \Delta \varepsilon = \Delta \varepsilon ^\circ - \frac {0.0257}{n} \ln Q   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+o en base decimal:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-34" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-91"
+    class="lateximagesource"
+><!--
+             0.0591
+∆ε = ∆ε◦ −          log Q
+                n
+--><img
+    src="web_GEAPiles-images/image-91.svg"
+    alt="\[ \Delta \varepsilon = \Delta \varepsilon ^\circ - \frac {0.0591}{n} \log Q   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+</div>
+
+</div>
+<!--
+...... section Equilibri iònic en solucions aquoses ......
+-->
+<h4 id="autosec-198"><span class="sectionnumber">3.2&#x2003;</span>Equilibri iònic en solucions aquoses</h4>
+<a id="web_GEAPiles-autopage-198"></a>
+
+
+<a id="sec:equilibri_ionic"></a>
+
+<p>
+Moltes reaccions químiques tenen lloc en dissolucions aquoses, on els ions es troben en equilibri. Aquest equilibri es pot descriure amb la constant d’equilibri, que ens permet predir la direcció de la reacció i la seva espontaneïtat. En aquesta secció explorarem les reaccions que descriuen processos àcid/base.
+</p>
+<!--
+...... subsection Reaccions àcid-base ......
+-->
+<h5 id="autosec-199"><span class="sectionnumber">3.2.1&#x2003;</span>Reaccions àcid-base</h5>
+<a id="web_GEAPiles-autopage-199"></a>
+
+
+<p>
+Així com les reaccions REDOX impliquen una transferència electrònica, existeixen reaccions en les quals hi ha una transferència protònica (<span
+     id="lateximage-web_GEAPiles-92"
+     class="lateximagesource"
+><!--
+H+
+--><img
+    src="web_GEAPiles-images/76EB3A45AFC7F86FAC3A1C7B68538E81.svg"
+    alt="\ch{H+}"
+    role="math"
+    style="width:1.42386em"
+    class="lateximage"
+></span>), com a mínim en la definició de Lowry-Brønsted (veure més avall), i que anomenem de àcid-base (Figura <a href="index.html#fig:lewis_acid_base">3.3</a>).
+</p>
+
+<figure id="autoid-35" class="figure ">
+<div class="center">
+
+<p>
+
+<a href="../../figures/lewis_acid_base.png" target="_blank" ><img
+    src="../../figures/lewis_acid_base.png"
+    style="
+    width:390pt;
+    "
+    class="inlineimage"
+    alt="(image)"
+></a>
+</p>
+
+
+<div class="figurecaption">
+Figura&nbsp;3.3: Exemple de reacció àcid-base (font: Stackexchange).
+
+</div>
+
+<a id="fig:lewis_acid_base"></a>
+
+</div>
+
+</figure>
+
+<p>
+Hi ha tres gran teories que permeten explicar el concepte àcid-base:<sup>1</sup><a id="web_GEAPiles-autopage-202"></a>
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <b>Arrhenius</b>: Arrhenius (1880-1890) va desenvolupar la teoria segons la qual àcids i bases es dissociaven en els seus ions segons:
+</p>
+
+<div class="displaymath">
+<a id="autoid-36" ></a >
+<p>
+<span
+    id="lateximage-web_GEAPiles-93"
+    class="lateximagesource"
+><!--
+AH   A– + H+
+--><img
+    src="web_GEAPiles-images/image-93.svg"
+    alt="\[ \ch {\textit {A}H &lt;=&gt; \textit {A^-} + H+} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<div class="displaymath">
+<a id="autoid-37" ></a >
+<p>
+<span
+    id="lateximage-web_GEAPiles-94"
+    class="lateximagesource"
+><!--
+BOH   B+ + OH–
+--><img
+     src="web_GEAPiles-images/image-94.svg"
+     alt="\[ \ch {\textit {B}OH &lt;=&gt; \textit {B^+} + OH-} \]"
+     role="math"
+     style=""
+     class="lateximage"
+></span>
+</p>
+</div>
+<p>
+En realitat, l’existència de l’ió <span
+     id="lateximage-web_GEAPiles-95"
+     class="lateximagesource"
+><!--
+H+
+--><img
+    src="web_GEAPiles-images/76EB3A45AFC7F86FAC3A1C7B68538E81.svg"
+    alt="\ch{H+}"
+    role="math"
+    style="width:1.42386em"
+    class="lateximage"
+></span> és fictícia, ja que es troba sempre solvatat amb una molècula d’aigua en forma de <span
+    id="lateximage-web_GEAPiles-96"
+    class="lateximagesource"
+><!--
+H3O+
+--><img
+    src="web_GEAPiles-images/D04E541C94FEB4E7FAA5C170B560780F.svg"
+    alt="\ch{H3O+}"
+    role="math"
+    style="width:2.70824em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span> o estats d’hidratació superior.
+</p>
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <b>Lowry-Brønsted</b>: Això ens duu de forma natural al concepte d’àcid-base formulat per Lowry-Brønsted (1923): un àcid és una espècie química amb tendència a donar un protó, i una base a acceptar-lo. Així, ens queda:
+</p>
+
+<div class="displaymath">
+<a id="autoid-38" ></a >
+<p>
+<span
+    id="lateximage-web_GEAPiles-97"
+    class="lateximagesource"
+><!--
+AH + B   A– + BH+
+--><img
+    src="web_GEAPiles-images/image-97.svg"
+    alt="\[ \ch {\textit {A}H + \textit {B} &lt;=&gt; \textit {A}^- + \textit {B}H^+} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">–</span> <b>a)</b> <span
+    id="lateximage-web_GEAPiles-98"
+    class="lateximagesource"
+><!--
+HBr
+--><img
+    src="web_GEAPiles-images/5FBC8929DFAA6CF6723EFCF72A7B819F.svg"
+    alt="\ch{HBr}"
+    role="math"
+    style="width:2.14261em"
+    class="lateximage"
+></span>: És un àcid de Brønsted, ja que pot donar un protó.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">–</span> <b>b)</b> <span
+    id="lateximage-web_GEAPiles-99"
+    class="lateximagesource"
+><!--
+NO2–
+--><img
+    src="web_GEAPiles-images/2057337387A1FD4D8A5C71A05D18EA91.svg"
+    alt="\ch{NO2^-}"
+    role="math"
+    style="width:2.53023em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>: És una base de Brønsted, ja que pot acceptar un protó.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">–</span> <b>c)</b> <span
+    id="lateximage-web_GEAPiles-100"
+    class="lateximagesource"
+><!--
+HCO3–
+--><img
+    src="web_GEAPiles-images/440C29C18CEA86395C6987D3F5E832A4.svg"
+    alt="\ch{HCO3^-}"
+    role="math"
+    style="width:3.37648em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>: Pot actuar com a àcid (cedint un protó i formant <span
+    id="lateximage-web_GEAPiles-101"
+    class="lateximagesource"
+><!--
+CO32–
+--><img
+    src="web_GEAPiles-images/F91D9418987E6A1470D1261164243282.svg"
+    alt="\ch{CO3^{2-}}"
+    role="math"
+    style="width:2.87086em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>) o com a base (acceptant un protó i formant <span
+    id="lateximage-web_GEAPiles-102"
+    class="lateximagesource"
+><!--
+H2CO3
+--><img
+     src="web_GEAPiles-images/A743B3FB6CCC2C9CBFFCB5F8A6743F80.svg"
+     alt="\ch{H2CO3}"
+     role="math"
+     style="width:3.44136em ; vertical-align:-0.28317em "
+     class="lateximage"
+></span>), per tant, és una espècie amfipròtica.
+</p>
+</li>
+</ul>
+<p>
+Per a una reacció àcid-base d’una substància acídica en aigua tindríem, per exemple:
+</p>
+
+<div class="displaymath">
+<a id="autoid-39" ></a >
+<p>
+<span
+    id="lateximage-web_GEAPiles-103"
+    class="lateximagesource"
+><!--
+HSO4– + H2O   H3O+ + SO42–
+--><img
+    src="web_GEAPiles-images/image-103.svg"
+    alt="\[ \ch {HSO4- + H2O &lt;=&gt; H3O+ + SO4^{2-}} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+<p>
+A partir d’aquesta expressió, podem escriure la constant d’equilibri, o constant de dissociació de l’àcid <span
+    id="lateximage-web_GEAPiles-104"
+    class="lateximagesource"
+><!--
+Ka
+--><img
+    src="web_GEAPiles-images/BE5A8971F7294987457766DC0EE4E84F.svg"
+    alt="\( K_a \)"
+    role="math"
+    style="width:1.69644em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span>, de la reacció com<sup>2</sup><a id="web_GEAPiles-autopage-226"></a>
+</p>
+
+<div class="displaymath">
+<a id="autoid-40" ></a >
+<p>
+<span
+    id="lateximage-web_GEAPiles-107"
+    class="lateximagesource"
+><!--
+       [H3O+][SO42–]
+Ka =
+         [HSO4–]
+--><img
+    src="web_GEAPiles-images/image-107.svg"
+    alt="\[ K_a = \frac {[\ch {H3O+}][\ch {SO4^{2-}}]}{[\ch {HSO4-}]} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <b>Lewis</b>: Finalment, també podem entendre el concepte d’àcid-base a partir de la <a href="https://openstax.org/books/qu%C3%ADmica-2ed/pages/15-2-acidos-y-bases-de-lewis" target="_blank" >definició de Lewis</a> (1923). Segons
+aquesta definició, un àcid és qualsevol substància que pot acceptar electrons, mentre que una base és tota substància que en pot donar. Es tracta d’una definició més general, ja que no requereix la presència de protons.
+</p>
+<div class="center">
+<p>
+<span
+    id="lateximage-web_GEAPiles-108"
+    class="lateximagesource"
+><!--
+Li + F   Li+ + F –
+--><img
+     src="web_GEAPiles-images/4B4BE1A839A7A45B549616D0AB042FE1.svg"
+     alt="\ch{ &quot;\chlewis {180.}{Li}&quot; + &quot;\chlewis {0.90:180:270:}{F}&quot; -&gt; Li+ + &quot;\chlewis {0:90:180:270:}{F}&quot; {}- }"
+     role="math"
+     style="width:12.38023em ; vertical-align:-0.42838em "
+     class="lateximage"
+></span>
+</p>
+<p>
+o bé
+</p>
+<p>
+<span
+     id="lateximage-web_GEAPiles-109"
+     class="lateximagesource"
+><!--
+  Li +        F       Li+ +         F–
+ 2   1    2   2   5    2
+1s 2s    1s 2s 2p     1s      1s 2s2 2p6
+                                2
+--><img
+    src="web_GEAPiles-images/A111CC106F569B80B60E912EB149FF54.svg"
+    alt="\ch{ !(\elconf {Li})( &quot;\chlewis {180.}{Li}&quot; ) + !(\elconf {F})( &quot;\chlewis {0.90:180:270:}{F}&quot; ) -&gt; !(\writeelconf {2})( Li+ ) + !(\writeelconf {2,2+6})( &quot;\chlewis {0:90:180:270:}{F}&quot; {}- ) }"
+    role="math"
+    style="width:18.92928em ; vertical-align:-1.72427em "
+    class="lateximage"
+></span>
+</p>
+</div>
+</li>
+</ul>
+
+<p>
+Per al que segueix usarem essencialment la definició de Lowry-Brønsted.
+</p>
+<div role="note" class="footnotes">
+
+<a id="web_GEAPiles-autopage-234"></a>
+<p>
+<sup>1</sup>&nbsp;D’entre els molts recursos disponibles a la xarxa, és particularment simple i ben explicat el que trobareu a <a href="https://www.chemguide.co.uk/physical/acidbaseeqia/theories.html" target="_blank"
+>https://www.chemguide.co.uk/physical/acidbaseeqia/theories.html</a>
+</p>
+<p>
+<sup>2</sup>&nbsp;<a id="foot:KaKb"></a>Pots trobar dades de <span
+    id="lateximage-web_GEAPiles-105"
+    class="lateximagesource"
+><!--
+Ka
+--><img
+    src="web_GEAPiles-images/BE5A8971F7294987457766DC0EE4E84F.svg"
+    alt="\( K_a \)"
+    role="math"
+    style="width:1.69644em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span> i <span
+    id="lateximage-web_GEAPiles-106"
+    class="lateximagesource"
+><!--
+Kb
+--><img
+    src="web_GEAPiles-images/F564D503DD41E158D2A30176DC661A0C.svg"
+    alt="\( K_b \)"
+    role="math"
+    style="width:1.59383em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span> a <a href="https://chem.libretexts.org/Reference/Reference_Tables/Equilibrium_Constants" target="_blank" >https://chem.libretexts.org/Reference/Reference_Tables/Equilibrium_Constants</a>
+</p>
+
+
+</div>
+<!--
+...... subsection Equilibri àcid-base ......
+-->
+<h5 id="autosec-239"><span class="sectionnumber">3.2.2&#x2003;</span>Equilibri àcid-base</h5>
+<a id="web_GEAPiles-autopage-239"></a>
+
+
+<p>
+Considerem un àcid dèbil genèric <span
+    id="lateximage-web_GEAPiles-110"
+    class="lateximagesource"
+><!--
+HA
+--><img
+    src="web_GEAPiles-images/3037A57DDFB32900B09FB8E7A95F387C.svg"
+    alt="\( \ch {HA} \)"
+    role="math"
+    style="width:1.81136em"
+    class="lateximage"
+></span> en dissolució aquosa:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-41" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-111"
+    class="lateximagesource"
+><!--
+HA + H2O   H3O+ + A–
+--><img
+    src="web_GEAPiles-images/image-111.svg"
+    alt="\[ \ch {HA + H2O &lt;=&gt; H3O+ + A^-}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+La seva constant d’acidesa es defineix com:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-42" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-112"
+    class="lateximagesource"
+><!--
+       [H3O+][A–]
+Ka =
+          [HA]
+--><img
+    src="web_GEAPiles-images/image-112.svg"
+    alt="\[ K_a = \frac {[\ch {H3O+}][\ch {A^-}]}{[\ch {HA}]}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Podem veure <span
+    id="lateximage-web_GEAPiles-113"
+    class="lateximagesource"
+><!--
+Ka
+--><img
+    src="web_GEAPiles-images/BE5A8971F7294987457766DC0EE4E84F.svg"
+    alt="\( K_a \)"
+    role="math"
+    style="width:1.69644em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span> com la constant d’equilibri d’aquesta reacció d’ionització. Tanmateix, en termes generals, si tenim una reacció química del tipus:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-43" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-114"
+    class="lateximagesource"
+><!--
+HA   H+ + A –
+--><img
+    src="web_GEAPiles-images/image-114.svg"
+    alt="\[ \ch {HA &lt;=&gt; H+ + A^-} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+la seva constant d’equilibri <span
+     id="lateximage-web_GEAPiles-115"
+     class="lateximagesource"
+><!--
+Keq
+--><img
+    src="web_GEAPiles-images/6BE3C491B7E524D06ACEBA00137E4C7C.svg"
+    alt="\( K_{\text {eq}} \)"
+    role="math"
+    style="width:1.99162em ; vertical-align:-0.39224em "
+    class="lateximage"
+></span> es defineix com:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-44" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-116"
+    class="lateximagesource"
+><!--
+         [H+][A–]
+Keq =
+        [HA][H2O]
+--><img
+    src="web_GEAPiles-images/image-116.svg"
+    alt="\[ K_{\text {eq}} = \frac {[\ch {H+}][\ch {A^-}]}{[\ch {HA}][\ch {H2O}]}                             \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Sabem que en dissolució aquosa, la concentració de l’aigua és pràcticament constant i es pot incloure en la constant d’equilibri:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-45" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-117"
+    class="lateximagesource"
+><!--
+Ka = Keq [H2O]
+--><img
+    src="web_GEAPiles-images/image-117.svg"
+    alt="\[ K_a = K_{\text {eq}} [\ch {H2O}]                 \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+<b>EXEMPLE&nbsp;1. Ionització dels àcids dipròtics</b>
+</p>
+
+<p>
+La ionització dels àcids dipròtics en dissolució aquosa és un dels nombrosos exemples coneguts d’equilibris múltiples. Per a la dissociació de l’àcid carbònic (<span
+     id="lateximage-web_GEAPiles-118"
+     class="lateximagesource"
+><!--
+H2CO3
+--><img
+    src="web_GEAPiles-images/A743B3FB6CCC2C9CBFFCB5F8A6743F80.svg"
+    alt="\ch{H2CO3}"
+    role="math"
+    style="width:3.44136em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>) a 25&#x202f;&deg;C, s’han determinat les següents constants d’equilibri<a id="web_GEAPiles-autopage-257"></a>[<a href="index.html#LWR-ht-cite.0@overby_quimica_2021">4</a>]:
+</p>
+
+
+<div class="displaymath">
+
+<a id="autoid-46" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-119"
+    class="lateximagesource"
+><!--
+H2CO3(aq)   H+(aq) + HCO3–(aq)
+--><img
+    src="web_GEAPiles-images/image-119.svg"
+    alt="\[ \ch {H2CO3 (aq) &lt;=&gt; H+ (aq) + HCO3- (aq)}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+
+<div class="displaymath">
+
+<a id="autoid-47" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-120"
+    class="lateximagesource"
+><!--
+        [H+][HCO3–]
+Kc′ =               = 4,2 · 10−7
+          [H2CO3]
+--><img
+    src="web_GEAPiles-images/image-120.svg"
+    alt="\[ K&apos;_c = \frac {[\ch {H+}][\ch {HCO3-}]}{[\ch {H2CO3}]} = \num {4.2e-7}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+
+<div class="displaymath">
+
+<a id="autoid-48" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-121"
+    class="lateximagesource"
+><!--
+HCO3–(aq)   H+(aq) + CO32–(aq)
+--><img
+    src="web_GEAPiles-images/image-121.svg"
+    alt="\[ \ch {HCO3- (aq) &lt;=&gt; H+ (aq) + CO3^2- (aq)}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+
+<div class="displaymath">
+
+<a id="autoid-49" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-122"
+    class="lateximagesource"
+><!--
+         [H+][CO32–]
+Kc′′ =               = 4,8 · 10−11
+          [HCO3–]
+--><img
+    src="web_GEAPiles-images/image-122.svg"
+    alt="\[ K&apos;&apos;_c = \frac {[\ch {H+}][\ch {CO3^2-}]}{[\ch {HCO3-}]} = \num {4.8e-11}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+La reacció global és la suma d’aquestes dues reaccions:
+</p>
+
+
+<div class="displaymath">
+
+<a id="autoid-50" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-123"
+    class="lateximagesource"
+><!--
+H2CO3(aq)   2 H+(aq) + CO32–(aq)
+--><img
+    src="web_GEAPiles-images/image-123.svg"
+    alt="\[ \ch {H2CO3 (aq) &lt;=&gt; 2 H+ (aq) + CO3^2- (aq)}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+i la corresponent constant d’equilibri està donada per:
+</p>
+
+
+<div class="displaymath">
+
+<a id="autoid-51" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-124"
+    class="lateximagesource"
+><!--
+       [H+]2 [CO32–]
+Kc =
+         [H2CO3]
+--><img
+    src="web_GEAPiles-images/image-124.svg"
+    alt="\[ K_c = \frac {[\ch {H+}]^2[\ch {CO3^2-}]}{[\ch {H2CO3}]}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+i és fàcil veure que:
+</p>
+
+
+<div class="displaymath">
+
+<a id="autoid-52" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-125"
+    class="lateximagesource"
+><!--
+Kc = Kc′ Kc′′ = (4,2 · 10−7 )(4,8 · 10−11 ) = 2,0 · 10−17
+--><img
+    src="web_GEAPiles-images/image-125.svg"
+    alt="\[ K_c = K&apos;_c K&apos;&apos;_c = (\num {4.2e-7})(\num {4.8e-11}) = \num {2.0e-17}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+<!--
+...... subsection L'escala de pH ......
+-->
+<h5 id="autosec-272"><span class="sectionnumber">3.2.3&#x2003;</span>L’escala de pH</h5>
+<a id="web_GEAPiles-autopage-272"></a>
+
+
+<p>
+La reacció d’equilibri de la hidròlisi de l’aigua es pot escriure com
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-53" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-126"
+    class="lateximagesource"
+><!--
+H20(l) + H20(l)   H 3O   (aq) + OH   (aq)
+--><img
+    src="web_GEAPiles-images/image-126.svg"
+    alt="\[ \ch {H20_{(l)} + H20_{(l)} &lt;=&gt; H3O+_{(aq)} + OH-_{(aq)}} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+i té associada una constant d’equilibri <span
+      id="lateximage-web_GEAPiles-127"
+      class="lateximagesource"
+><!--
+Kw
+--><img
+    src="web_GEAPiles-images/909003CBFB7D8F595C0CC515A58A056E.svg"
+    alt="\( K_w \)"
+    role="math"
+    style="width:1.90092em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span>:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-54" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-128"
+    class="lateximagesource"
+><!--
+Kw = [H3O+][OH–]
+--><img
+    src="web_GEAPiles-images/image-128.svg"
+    alt="\[ K_w=[\ch {H3O+}][\ch {OH-}] \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+amb un valor de 10<span
+    id="lateximage-web_GEAPiles-129"
+    class="lateximagesource"
+><!--
+−14
+--><img
+    src="web_GEAPiles-images/3A993F46D7BF88FF43FA1EE5F48109DE.svg"
+    alt="\( ^{-14} \)"
+    role="math"
+    style="width:1.87036em"
+    class="lateximage"
+></span> a 25<span
+    id="lateximage-web_GEAPiles-130"
+    class="lateximagesource"
+><!--
+°
+--><img
+    src="web_GEAPiles-images/3EFCF162BA1341B6C125FC4611321DB6.svg"
+    alt="\( \degree \)"
+    role="math"
+    style="height:0.8609em"
+    class="lateximage"
+></span>C si expressem la concentració dels dos ions en <span
+    id="lateximage-web_GEAPiles-131"
+    class="lateximagesource"
+><!--
+M
+--><img
+    src="web_GEAPiles-images/D90665079E7470A52C8CC7A335516BDF.svg"
+    alt="\( M \)"
+    role="math"
+    style="width:1.37907em"
+    class="lateximage"
+></span>. En aigua pura, doncs, la concentració d’ions <span
+    id="lateximage-web_GEAPiles-132"
+    class="lateximagesource"
+><!--
+H3O+
+--><img
+    src="web_GEAPiles-images/D04E541C94FEB4E7FAA5C170B560780F.svg"
+    alt="\ch{H3O+}"
+    role="math"
+    style="width:2.70824em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span> i <span
+    id="lateximage-web_GEAPiles-133"
+    class="lateximagesource"
+><!--
+OH–
+--><img
+    src="web_GEAPiles-images/571BD6980E21616D750B73E7748C5162.svg"
+    alt="\ch{OH-}"
+    role="math"
+    style="width:2.2996em"
+    class="lateximage"
+></span> és de 10<span
+    id="lateximage-web_GEAPiles-134"
+    class="lateximagesource"
+><!--
+−7
+--><img
+    src="web_GEAPiles-images/E4C2180A80084CFDC6023E96BC0D208A.svg"
+    alt="\( ^{-7} \)"
+    role="math"
+    style="width:1.37212em"
+    class="lateximage"
+></span> M, respectivament. Per tal de facilitar els càlculs treballem normalment en escala logarítmica i definim
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-55" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-135"
+    class="lateximagesource"
+><!--
+pH = − log10 [H3O+]
+--><img
+    src="web_GEAPiles-images/image-135.svg"
+    alt="\[ pH = - \log _{10} [\ch {H3O+}] \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Per tant, un valor de pH=7 implica que tenim una dissolució neutra pel que fa a la seva acidesa. Una concentració superior de protons (pH<span
+     id="lateximage-web_GEAPiles-136"
+     class="lateximagesource"
+><!--
+<
+--><img
+    src="web_GEAPiles-images/9267CCDA07EFC9E44311267FED2A9F06.svg"
+    alt="\( &lt; \)"
+    role="math"
+    style="width:1.00233em ; vertical-align:-0.04887em "
+    class="lateximage"
+></span>7) implica una dissolució àcida i a l’inrevés.
+</p>
+
+<p>
+En equilibri químic, les constants d’acidesa (<span
+    id="lateximage-web_GEAPiles-137"
+    class="lateximagesource"
+><!--
+Ka
+--><img
+    src="web_GEAPiles-images/BE5A8971F7294987457766DC0EE4E84F.svg"
+    alt="\( K_a \)"
+    role="math"
+    style="width:1.69644em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span>) i de basicitat (<span
+    id="lateximage-web_GEAPiles-138"
+    class="lateximagesource"
+><!--
+Kb
+--><img
+    src="web_GEAPiles-images/F564D503DD41E158D2A30176DC661A0C.svg"
+    alt="\( K_b \)"
+    role="math"
+    style="width:1.59383em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span>) d’un parell àcid-base conjugat estan relacionades amb el producte iònic de l’aigua, <span
+    id="lateximage-web_GEAPiles-139"
+    class="lateximagesource"
+><!--
+Kw
+--><img
+    src="web_GEAPiles-images/6C8CBF4C6BA040E2345700E2E85734EE.svg"
+    alt="\( K_w \)"
+    role="math"
+    style="width:1.90092em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span>. Aquesta relació ens permet entendre la força relativa d’àcids i bases conjugades. Considerem un àcid feble <span
+    id="lateximage-web_GEAPiles-140"
+    class="lateximagesource"
+><!--
+HA
+--><img
+    src="web_GEAPiles-images/3037A57DDFB32900B09FB8E7A95F387C.svg"
+    alt="\( \ch {HA} \)"
+    role="math"
+    style="width:1.81136em"
+    class="lateximage"
+></span> que es dissocia en aigua segons:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-56" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-141"
+    class="lateximagesource"
+><!--
+HA   H+ + A –
+--><img
+    src="web_GEAPiles-images/image-141.svg"
+    alt="\[ \ch {HA &lt;=&gt; H+ + A^-} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+La seva constant d’acidesa és:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-57" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-142"
+    class="lateximagesource"
+><!--
+       [H+][A–]
+Ka =
+         [HA]
+--><img
+    src="web_GEAPiles-images/image-142.svg"
+    alt="\[ K_a = \frac {[\ch {H+}][\ch {A^-}]}{[\ch {HA}]}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+D’altra banda, la base conjugada <span
+     id="lateximage-web_GEAPiles-143"
+     class="lateximagesource"
+><!--
+A–
+--><img
+    src="web_GEAPiles-images/4E61E0A72DEAF306E6FEFC4B5057B2B8.svg"
+    alt="\( \ch {A^-} \)"
+    role="math"
+    style="width:1.37836em"
+    class="lateximage"
+></span> pot reaccionar amb l’aigua:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-58" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-144"
+    class="lateximagesource"
+><!--
+A– + H2O   OH– + HA
+--><img
+    src="web_GEAPiles-images/image-144.svg"
+    alt="\[ \ch {A^- + H2O &lt;=&gt; OH^- + HA}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Amb la constant de basicitat:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-59" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-145"
+    class="lateximagesource"
+><!--
+       [OH–][HA]
+Kb =
+          [A–]
+--><img
+    src="web_GEAPiles-images/image-145.svg"
+    alt="\[ K_b = \frac {[\ch {OH^-}][\ch {HA}]}{[\ch {A^-}]}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Multiplicant <span
+    id="lateximage-web_GEAPiles-146"
+    class="lateximagesource"
+><!--
+Ka
+--><img
+    src="web_GEAPiles-images/BE5A8971F7294987457766DC0EE4E84F.svg"
+    alt="\( K_a \)"
+    role="math"
+    style="width:1.69644em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span> i <span
+    id="lateximage-web_GEAPiles-147"
+    class="lateximagesource"
+><!--
+Kb
+--><img
+    src="web_GEAPiles-images/F564D503DD41E158D2A30176DC661A0C.svg"
+    alt="\( K_b \)"
+    role="math"
+    style="width:1.59383em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span>:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-60" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-148"
+    class="lateximagesource"
+><!--
+          (              )       (               )
+              [H+][A–]               [OH–][HA]
+Ka Kb =                      ×
+                [HA]                    [A–]
+--><img
+    src="web_GEAPiles-images/image-148.svg"
+    alt="\[ K_a K_b = \left ( \frac {[\ch {H+}][\ch {A^-}]}{[\ch {HA}]} \right ) \times \left ( \frac {[\ch {OH^-}][\ch {HA}]}{[\ch {A^-}]} \right )   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Cancel.lant termes comuns:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-61" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-149"
+    class="lateximagesource"
+><!--
+Ka Kb = [H+][OH–]
+--><img
+    src="web_GEAPiles-images/image-149.svg"
+    alt="\[ K_a K_b = [\ch {H+}][\ch {OH^-}]   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Com que el producte iònic de l’aigua és:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-62" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-150"
+    class="lateximagesource"
+><!--
+Kw = [H+][OH–]
+--><img
+    src="web_GEAPiles-images/image-150.svg"
+    alt="\[ K_w = [\ch {H+}][\ch {OH^-}] \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+obtenim la relació fonamental:
+</p>
+
+
+<div class="displaymath">
+
+<a id="autoid-63" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-151"
+    class="lateximagesource"
+><!--
+Kw = Ka Kb
+--><img
+    src="web_GEAPiles-images/image-151.svg"
+    alt="\[ K_w = K_a K_b \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Aquesta equació ens diu que, com més fort és un àcid (major <span
+    id="lateximage-web_GEAPiles-152"
+    class="lateximagesource"
+><!--
+Ka
+--><img
+    src="web_GEAPiles-images/0259C62F2BDFF6D5C09F2483DDF60EE4.svg"
+    alt="\( K_a \)"
+    role="math"
+    style="width:1.69644em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span>), més feble serà la seva base conjugada (menor <span
+    id="lateximage-web_GEAPiles-153"
+    class="lateximagesource"
+><!--
+Kb
+--><img
+    src="web_GEAPiles-images/F90761DD257023FCD40B932ED5EF3CC5.svg"
+    alt="\( K_b \)"
+    role="math"
+    style="width:1.59383em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span>), i viceversa. En concret:
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> Si un àcid és fort (<span
+    id="lateximage-web_GEAPiles-154"
+    class="lateximagesource"
+><!--
+Ka
+--><img
+    src="web_GEAPiles-images/BE5A8971F7294987457766DC0EE4E84F.svg"
+    alt="\( K_a \)"
+    role="math"
+    style="width:1.69644em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span> gran), la seva base conjugada tindrà un <span
+    id="lateximage-web_GEAPiles-155"
+    class="lateximagesource"
+><!--
+Kb
+--><img
+    src="web_GEAPiles-images/F564D503DD41E158D2A30176DC661A0C.svg"
+    alt="\( K_b \)"
+    role="math"
+    style="width:1.59383em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span> petit, per tant, serà feble.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Si una base és forta (<span
+    id="lateximage-web_GEAPiles-156"
+    class="lateximagesource"
+><!--
+Kb
+--><img
+    src="web_GEAPiles-images/F564D503DD41E158D2A30176DC661A0C.svg"
+    alt="\( K_b \)"
+    role="math"
+    style="width:1.59383em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span> gran), el seu àcid conjugat tindrà un <span
+    id="lateximage-web_GEAPiles-157"
+    class="lateximagesource"
+><!--
+Ka
+--><img
+    src="web_GEAPiles-images/BE5A8971F7294987457766DC0EE4E84F.svg"
+    alt="\( K_a \)"
+    role="math"
+    style="width:1.69644em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span> petit, per tant, serà feble.
+</p>
+</li>
+</ul>
+
+<p>
+Com que a 25°C el producte iònic de l’aigua és <span
+    id="lateximage-web_GEAPiles-158"
+    class="lateximagesource"
+><!--
+Kw = 10−14
+--><img
+    src="web_GEAPiles-images/D273D04ABE04263812A0055840E6780E.svg"
+    alt="\( K_w = 10^{-14} \)"
+    role="math"
+    style="width:6.65784em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span>, això implica que:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-64" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-159"
+    class="lateximagesource"
+><!--
+pKa + pKb = pKw = 14
+--><img
+    src="web_GEAPiles-images/image-159.svg"
+    alt="\[ pK_a + pK_b = pK_w = 14 \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Així, si coneixem <span
+     id="lateximage-web_GEAPiles-160"
+     class="lateximagesource"
+><!--
+pKa
+--><img
+    src="web_GEAPiles-images/C653DD68A96AC1AC140B3E7E4331DBBE.svg"
+    alt="\( pK_a \)"
+    role="math"
+    style="width:2.32535em ; vertical-align:-0.24306em "
+    class="lateximage"
+></span>, podem trobar <span
+    id="lateximage-web_GEAPiles-161"
+    class="lateximagesource"
+><!--
+pKb
+--><img
+    src="web_GEAPiles-images/093B786471E70B691DC328B4426130ED.svg"
+    alt="\( pK_b \)"
+    role="math"
+    style="width:2.22273em ; vertical-align:-0.24306em "
+    class="lateximage"
+></span> fàcilment.
+</p>
+
+
+<div
+    class="tcolorbox"
+    style=" border: 1px solid #3383E5; background: #EEF4FC; "
+>
+
+
+<div
+    class="tcolorboxtitle"
+    style=" border-top: 1px solid #3383E5; border-bottom: 1px solid #3383E5; background: #3383E5; color: #FFFFFF; "
+>
+
+<p>
+Equació de Henderson-Hasselbalch
+</p>
+</div>
+
+
+<div
+    class="tcolorboxupper"
+    style=" color: #000000; "
+>
+
+<p>
+L’equació de Henderson-Hasselbalch relaciona el pH d’una dissolució àcida amb el pK<span
+     id="lateximage-web_GEAPiles-162"
+     class="lateximagesource"
+><!--
+a
+--><img
+    src="web_GEAPiles-images/D68EE1D5F0FB31647E434F4EF80AD148.svg"
+    alt="\( _a \)"
+    role="math"
+    style="width:0.63481em ; vertical-align:-0.1875em "
+    class="lateximage"
+></span> i la concentració d’ions presents:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-65" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-163"
+    class="lateximagesource"
+><!--
+                   [A− ]
+pH = pKa + log10
+                   [AH]
+--><img
+    src="web_GEAPiles-images/image-163.svg"
+    alt="\[ pH = pK_a + \log _{10} \frac {[A^-]}{[AH]}   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+</div>
+
+</div>
+<!--
+...... section Principis de la bateria de plom-àcid ......
+-->
+<h4 id="autosec-349"><span class="sectionnumber">3.3&#x2003;</span>Principis de la bateria de plom-àcid</h4>
+<a id="web_GEAPiles-autopage-349"></a>
+
+
+<p>
+La bateria de plom de cotxe està composta per 6 cel.les idèntiques connectades en sèrie. Es pot recarregar invertint la reacció electroquímica normal en aplicar un voltatge extern entre el càtode i l’ànode, un procés conegut com electròlisi. En les reaccions químiques espontànies, es converteix l’energia química
+en energia elèctrica, mentre que en l’electròlisi s’utilitza l’energia elèctrica per induir una reacció química no espontània. La reacció global de descàrrega en una bateria de plom-àcid és[<a href="index.html#LWR-ht-cite.0@may_lead_2018">3</a>]:
+</p>
+
+
+<div class="displaymathnumbered">
+
+<a id="autoid-66" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-164"
+    class="lateximagesource"
+><!--
+PbO2 + Pb + 2 H2SO4   2 PbSO4 + 2 H2O   (3.1)
+--><img
+    src="web_GEAPiles-images/image-164.svg"
+    alt="(3.1) \begin{equation} \ch {PbO2 + Pb + 2 H2SO4 -&gt; 2 PbSO4 + 2 H2O} \end{equation}"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Les semireaccions són:
+</p>
+
+
+<div class="displaymathnumbered">
+
+<a id="autoid-67" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-165"
+    class="lateximagesource"
+><!--
+PbO2(s) + SO42–(aq) + 4 H3O+(aq) + 2 e–     PbSO4(s) + 6 H2O(l)   E 0 = 1,685 V   (3.2)
+                                        –
+                       PbSO4(s) + 2 e       Pb(s) + SO42–(aq)   E = −0,356 V
+                                                                  0
+                                                                                  (3.3)
+--><img
+    src="web_GEAPiles-images/image-165.svg"
+    alt="(3.2–3.3) \{begin}{align} \ch {PbO2(s) + SO4^{2-} (aq) + 4 H3O+ (aq) + 2 e- &amp;-&gt; PbSO4(s) + 6 H2O(l)} \quad E^0 = \SI {1.685}{V} \\ \ch {PbSO4(s) + 2 e- &amp;-&gt; Pb(s) + SO4^{2-} (aq)} \quad E^0 = \SI {-0.356}{V}
+\{end}{align} "
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+El potencial estàndard de la cel·la s’obté sumant els potencials estàndard de les semireaccions:
+</p>
+
+
+<div class="displaymathnumbered">
+
+<a id="autoid-68" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-166"
+    class="lateximagesource"
+><!--
+ 0
+Ecel·la    0
+        = Ecàtode − Eànode
+                     0
+                           = (1,685 V) − (−0,356 V) = 2,041 V   (3.4)
+--><img
+    src="web_GEAPiles-images/image-166.svg"
+    alt="(3.4) \begin{equation} E^0_{\text {cel·la}} = E^0_{\text {càtode}} - E^0_{\text {ànode}} = (\SI {1.685}{V}) - (\SI {-0.356}{V}) = \SI {2.041}{V} \end{equation}"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+El material actiu positiu és diòxid de plom altament porós, mentre que el material actiu negatiu és plom finament dividit. L’electròlit és àcid sulfúric aquós diluït, que participa en el procés de descàrrega. Durant la descàrrega, els ions <span
+    id="lateximage-web_GEAPiles-167"
+    class="lateximagesource"
+><!--
+HSO4–
+--><img
+    src="web_GEAPiles-images/25B08C7EE5F50448249DCC4BD009A5A2.svg"
+    alt="\ch{HSO4-}"
+    role="math"
+    style="width:3.17523em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span> migren cap a l’elèctrode negatiu i produeixen ions <span
+    id="lateximage-web_GEAPiles-168"
+    class="lateximagesource"
+><!--
+H+
+--><img
+    src="web_GEAPiles-images/76EB3A45AFC7F86FAC3A1C7B68538E81.svg"
+    alt="\ch{H+}"
+    role="math"
+    style="width:1.42386em"
+    class="lateximage"
+></span> i sulfat de plom. A l’elèctrode positiu, el diòxid de plom reacciona amb l’electròlit per formar cristalls de sulfat de plom i aigua. Tots dos elèctrodes es descarreguen fins a formar sulfat de plom, que és un mal conductor, i l’electròlit es dilueix progressivament a mesura que avança la descàrrega (Fig. <a
+href="index.html#fig:bateria_plom">??</a>).
+</p>
+
+<figure id="autoid-69" class="figure ">
+<div class="center">
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-169"
+    class="lateximagesource"
+><!--
+       Pb (ànode)                          PbO2 (Càtode)
+
+
+                    Flux d’electrons (e–)
+           –                                    +
+
+
+
+Pb2+                 Pb2+                Pb2+          Pb2+
+                            H2SO4
+
+Pb2+                 Pb2+                Pb2+          Pb2+
+
+
+Pb2+                 Pb2+                Pb2+          Pb2+
+
+                            H+
+                                 SO42–
+--><img
+    src="web_GEAPiles-images/image-169.svg"
+    alt="(-tikz-&nbsp;diagram)"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<a id="fig:bateria_plom"></a>
+
+
+<div class="figurecaption">
+Figura&nbsp;3.4: Esquema d’una bateria de plom-àcid durant la descàrrega.
+
+</div>
+
+</figure>
+
+<p>
+Durant la càrrega, es produeixen les reaccions inverses. A mesura que les cel.les s’acosten a l’estat complet de càrrega i els elèctrodes es converteixen progressivament de nou en diòxid de plom i plom, s’incrementa la concentració de sulfat. Una càrrega excessiva provocarà pèrdua d’aigua, ja que aquesta es
+descompon en hidrogen i oxigen per electròlisi. No obstant això, el sobrepotencial necessari per a aquest procés és prou alt perquè la pèrdua d’aigua es pugui gestionar controlant el voltatge de càrrega.
+</p>
+
+<p>
+Per a bateries inundades, una selecció adequada dels aliatges de la graella i els paràmetres de càrrega permeten reduir la pèrdua d’aigua a nivells molt baixos, de manera que només cal afegir aigua ocasionalment per al manteniment de la bateria. Tanmateix, si una cel.la segellada està dissenyada perquè
+l’electròlit estigui immobilitzat en un separador de matriu de vidre absorbent (AGM) o gelificat amb sílice finament dispersa, es poden formar canals entre les plaques positiva i negativa. Aquests canals poden ser porositat interconnectada en les bateries AGM o microesquerdes en el gel, permetent el pas de gas
+d’oxigen des de l’elèctrode positiu, on es genera, fins a l’elèctrode negatiu, on reacciona amb el plom per formar sulfat de plom. Les reaccions són:
+</p>
+
+
+<div class="displaymathnumbered">
+
+<a id="autoid-70" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-170"
+    class="lateximagesource"
+><!--
+                1
+H 2O   2 H+ +     O + 2 e–   (3.5)
+                2 2
+--><img
+    src="web_GEAPiles-images/image-170.svg"
+    alt="(3.5) \begin{equation} \ch {H2O -&gt; 2 H+ + 1/2 O2 + 2 e-} \end{equation}"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+
+<div class="displaymathnumbered">
+
+<a id="autoid-71" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-171"
+    class="lateximagesource"
+><!--
+       1
+Pb +     O + H2SO4   PbSO4 + H2O   (3.6)
+       2 2
+--><img
+    src="web_GEAPiles-images/image-171.svg"
+    alt="(3.6) \begin{equation} \ch {Pb + 1/2 O2 + H2SO4 -&gt; PbSO4 + H2O} \end{equation}"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+La difusió d’oxigen en fase gasosa des de l’elèctrode positiu al negatiu és molt més ràpida que en l’electròlit líquid. L’oxigen es recombina químicament per produir sulfat de plom, que és el producte normal de descàrrega, despolaritzant la placa, que després es recarrega a plom com en el procés de càrrega normal.
+</p>
+
+<p>
+Altres requisits per a les cel.les segellades de recombinació inclouen la selecció d’aliatges de graella amb un alt sobrepotencial d’hidrogen per reduir l’evolució d’hidrogen a l’elèctrode negatiu i, en general, l’ús de materials d’alta puresa tant per als materials actius com per a les graelles. A més, les cel.les han
+d’incorporar vàlvules unidireccionals per permetre l’alliberament de petites quantitats d’hidrogen i evitar l’entrada d’aire. Les bateries amb aquestes cel.les es coneixen com a bateries de plom-àcid regulades per vàlvula (VRLA), ja que tenen una vàlvula unidireccional que allibera gas de la cel.la quan la pressió
+interna arriba a un nivell preestablert, però impedeix l’entrada d’aire.
+</p>
+
+<p>
+Per aprendre més: <a href="http://chembook.org/page.php?chnum=7&amp;sect=9" target="_blank" >http://chembook.org/page.php?chnum=7&amp;sect=9</a>.
+</p>
+<!--
+...... section Exercicis ......
+-->
+<h4 id="autosec-367"><span class="sectionnumber">3.4&#x2003;</span>Exercicis</h4>
+<a id="web_GEAPiles-autopage-367"></a>
+
+
+<p>
+<b>Exercici 1. Identificar reaccions REDOX</b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Indica quines d’aquestes reaccions és REDOX
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> <span
+    id="lateximage-web_GEAPiles-172"
+    class="lateximagesource"
+><!--
+ClO– + NO2–   NO3– + Cl–
+--><img
+    src="web_GEAPiles-images/CBA6476CA872734AF110C75078830216.svg"
+    alt="\ch{ClO- + NO2- &lt;=&gt; NO3- + Cl-}"
+    role="math"
+    style="width:15.19188em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> <span
+    id="lateximage-web_GEAPiles-173"
+    class="lateximagesource"
+><!--
+2 CCl4 + K2CrO4   2 Cl2CO + CrO2Cl2 + 2 KCl
+--><img
+    src="web_GEAPiles-images/12893B7FC27722135C38E6D815FB79A2.svg"
+    alt="\ch{2 CCl4 + K2CrO4 &lt;=&gt; 2 Cl2CO + CrO2Cl2 + 2 KCl}"
+    role="math"
+    style="width:25.25777em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> <span
+    id="lateximage-web_GEAPiles-174"
+    class="lateximagesource"
+><!--
+HCl + NaOH   NaCl + H2O
+--><img
+    src="web_GEAPiles-images/37D56BFC262D659D6A8D9CE25B995729.svg"
+    alt="\ch{HCl + NaOH -&gt; NaCl + H2O}"
+    role="math"
+    style="width:16.1445em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">4.</span> <span
+    id="lateximage-web_GEAPiles-175"
+    class="lateximagesource"
+><!--
+H3PO4 + 3 NaOH   Na3PO4 + 3 H2O
+--><img
+    src="web_GEAPiles-images/6E17BB5226999AAE8378D6542BB09A00.svg"
+    alt="\ch{H3PO4 + 3 NaOH -&gt; Na3PO4 + 3 H2O}"
+    role="math"
+    style="width:20.18376em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">5.</span> <span
+    id="lateximage-web_GEAPiles-176"
+    class="lateximagesource"
+><!--
+Zn + Cu2+   Zn2+ + Cu
+--><img
+    src="web_GEAPiles-images/5FA7541531CD62A014562062F3B71CF3.svg"
+    alt="\ch{Zn + Cu^{2+} -&gt; Zn^{2+} + Cu}"
+    role="math"
+    style="width:13.66388em ; vertical-align:-0.096em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">6.</span> <span
+    id="lateximage-web_GEAPiles-177"
+    class="lateximagesource"
+><!--
+2 Al + 3 Cl2   2 AlCl3
+--><img
+    src="web_GEAPiles-images/DB8870CBE5BC1DB47EC3005A8D420A89.svg"
+    alt="\ch{2 Al + 3 Cl2 -&gt; 2 AlCl3}"
+    role="math"
+    style="width:12.49776em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">7.</span> <span
+    id="lateximage-web_GEAPiles-178"
+    class="lateximagesource"
+><!--
+Fe + CuSO4   FeSO4 + Cu
+--><img
+    src="web_GEAPiles-images/5802F6A3BD946492CF91B7B95F9E0B9B.svg"
+    alt="\ch{Fe + CuSO4 -&gt; FeSO4 + Cu}"
+    role="math"
+    style="width:15.13388em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">8.</span> <span
+    id="lateximage-web_GEAPiles-179"
+    class="lateximagesource"
+><!--
+2 H 2O 2   2 H 2O + O 2
+--><img
+    src="web_GEAPiles-images/B52F72C3897B27BEC495DE540E62DBE6.svg"
+    alt="\ch{2 H2O2 -&gt; 2 H2O + O2}"
+    role="math"
+    style="width:12.30687em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">9.</span> <span
+    id="lateximage-web_GEAPiles-180"
+    class="lateximagesource"
+><!--
+2 KMnO4 + 5 H2C2O4 + 6 HCl   2 MnCl2 + 10 CO2 + 8 H2O + 2 KCl
+--><img
+    src="web_GEAPiles-images/A0B7C83243B2D5D339F28410883BA889.svg"
+    alt="\ch{2 KMnO4 + 5 H2C2O4 + 6 HCl -&gt; 2 MnCl2 + 10 CO2 + 8 H2O + 2 KCl}"
+    role="math"
+    style="width:35.63942em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">10.</span> <span
+    id="lateximage-web_GEAPiles-181"
+    class="lateximagesource"
+><!--
+CaCO3 + 2 HCl   CaCl2 + CO2 + H2O
+--><img
+    src="web_GEAPiles-images/E2241456A560883D9AB75C701DB8FD9A.svg"
+    alt="\ch{CaCO3 + 2 HCl -&gt; CaCl2 + CO2 + H2O}"
+    role="math"
+    style="width:21.03976em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">11.</span> <span
+    id="lateximage-web_GEAPiles-182"
+    class="lateximagesource"
+><!--
+2 H2 + O 2   2 H 2O
+--><img
+    src="web_GEAPiles-images/86BDA2883D93EBBFA9C5BEBFFA8DC2B7.svg"
+    alt="\ch{2 H2 + O2 -&gt; 2 H2O}"
+    role="math"
+    style="width:11.0225em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">12.</span> <span
+    id="lateximage-web_GEAPiles-183"
+    class="lateximagesource"
+><!--
+Cl2 + 2 KI   2 KCl + I2
+--><img
+    src="web_GEAPiles-images/05A42D6C07787C29D9ADECB34164D7F2.svg"
+    alt="\ch{Cl2 + 2 KI -&gt; 2 KCl + I2}"
+    role="math"
+    style="width:13.05313em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">13.</span> <span
+    id="lateximage-web_GEAPiles-184"
+    class="lateximagesource"
+><!--
+NH3 + HCl   NH4Cl
+--><img
+    src="web_GEAPiles-images/5359BDB7F5D89C18CD88BE46DEAFD388.svg"
+    alt="\ch{NH3 + HCl -&gt; NH4Cl}"
+    role="math"
+    style="width:12.21637em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">14.</span> <span
+    id="lateximage-web_GEAPiles-185"
+    class="lateximagesource"
+><!--
+2 Na + 2 H2O   2 NaOH + H2
+--><img
+    src="web_GEAPiles-images/A49BB8BD94D8B19A350410B063C4CE82.svg"
+    alt="\ch{2 Na + 2 H2O -&gt; 2 NaOH + H2}"
+    role="math"
+    style="width:16.64526em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">15.</span> <span
+    id="lateximage-web_GEAPiles-186"
+    class="lateximagesource"
+><!--
+2 Fe3+ + 2 I–   2 Fe2+ + I2
+--><img
+    src="web_GEAPiles-images/C2134D19B7D7ED6634F76C9BE88E5E12.svg"
+    alt="\ch{2 Fe^{3+} + 2 I^- -&gt; 2 Fe^{2+} + I2}"
+    role="math"
+    style="width:14.18413em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">16.</span> <span
+    id="lateximage-web_GEAPiles-187"
+    class="lateximagesource"
+><!--
+Ca(OH)2 + CO2   CaCO3 + H2O
+--><img
+    src="web_GEAPiles-images/688CFC312FFB82E0441AE9B0E4371F9B.svg"
+    alt="\ch{Ca(OH)2 + CO2 -&gt; CaCO3 + H2O}"
+    role="math"
+    style="width:18.14763em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">17.</span> <span
+    id="lateximage-web_GEAPiles-188"
+    class="lateximagesource"
+><!--
+4 Fe + 3 O2   2 Fe2O3
+--><img
+    src="web_GEAPiles-images/F7F8F3F1F1100FC1BF1D3A074EB74A35.svg"
+    alt="\ch{4 Fe + 3 O2 -&gt; 2 Fe2O3}"
+    role="math"
+    style="width:12.31712em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">18.</span> <span
+    id="lateximage-web_GEAPiles-189"
+    class="lateximagesource"
+><!--
+BaCl2 + Na2SO4   BaSO4 + 2 NaCl
+--><img
+    src="web_GEAPiles-images/DA0D92D5C1805914CEC45A1183FE4EB3.svg"
+    alt="\ch{BaCl2 + Na2SO4 -&gt; BaSO4 + 2 NaCl}"
+    role="math"
+    style="width:19.24225em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">19.</span> <span
+    id="lateximage-web_GEAPiles-190"
+    class="lateximagesource"
+><!--
+H2SO4 + 2 NaOH   Na2SO4 + 2 H2O
+--><img
+    src="web_GEAPiles-images/D8CCE56E5FCA2A994308BF0DFD16F5F6.svg"
+    alt="\ch{H2SO4 + 2 NaOH -&gt; Na2SO4 + 2 H2O}"
+    role="math"
+    style="width:20.04376em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">20.</span> <span
+    id="lateximage-web_GEAPiles-191"
+    class="lateximagesource"
+><!--
+AgNO3 + NaCl   AgCl + NaNO3
+--><img
+    src="web_GEAPiles-images/5AD14DC7391E6266598AD47F36022A16.svg"
+    alt="\ch{AgNO3 + NaCl -&gt; AgCl + NaNO3}"
+    role="math"
+    style="width:18.51888em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">21.</span> <span
+    id="lateximage-web_GEAPiles-192"
+    class="lateximagesource"
+><!--
+H2CO3   CO2 + H2O
+--><img
+    src="web_GEAPiles-images/774806FB3A82B7BB92CE96A09DF93BDE.svg"
+    alt="\ch{H2CO3 -&gt; CO2 + H2O}"
+    role="math"
+    style="width:12.34262em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">22.</span> <span
+    id="lateximage-web_GEAPiles-193"
+    class="lateximagesource"
+><!--
+NaHCO3 + HCl   NaCl + CO2 + H2O
+--><img
+    src="web_GEAPiles-images/9614FF1BF504F32F66041E9B49CAAFA4.svg"
+    alt="\ch{NaHCO3 + HCl -&gt; NaCl + CO2 + H2O}"
+    role="math"
+    style="width:20.88826em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>
+</p>
+</li>
+</ul>
+
+<p>
+<b>Exercici 2. Equilibrant reaccions REDOX</b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Iguala les següents reaccions. Pista: quan hagis d’afegir hidrogen, fes-ho en forma de protons <span
+     id="lateximage-web_GEAPiles-194"
+     class="lateximagesource"
+><!--
+H+
+--><img
+    src="web_GEAPiles-images/76EB3A45AFC7F86FAC3A1C7B68538E81.svg"
+    alt="\ch{H+}"
+    role="math"
+    style="width:1.42386em"
+    class="lateximage"
+></span>.
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> <span
+    id="lateximage-web_GEAPiles-195"
+    class="lateximagesource"
+><!--
+H2O2 + 2 I–   I2 + 2 OH–
+--><img
+    src="web_GEAPiles-images/43AF2562A95F5D41CB02E85AC349CFFD.svg"
+    alt="\ch{H2O2 + 2 I- &lt;=&gt; I2 + 2 OH-}"
+    role="math"
+    style="width:14.16151em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> <span
+    id="lateximage-web_GEAPiles-196"
+    class="lateximagesource"
+><!--
+MnO4– + I–   Mn2+ + I2
+--><img
+    src="web_GEAPiles-images/8596071BE844DA2D995B2919BCE79E3E.svg"
+    alt="\ch{MnO4- + I- &lt;=&gt; Mn^{2+} + I2}"
+    role="math"
+    style="width:13.676em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> <span
+    id="lateximage-web_GEAPiles-197"
+    class="lateximagesource"
+><!--
+MnO4– + H2O2   Mn2+ + O2
+--><img
+    src="web_GEAPiles-images/3F8DD392C03B7996C80044F747667C19.svg"
+    alt="\ch{MnO4- + H2O2 &lt;=&gt; Mn^{2+} + O2}"
+    role="math"
+    style="width:15.93526em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">4.</span> <span
+    id="lateximage-web_GEAPiles-198"
+    class="lateximagesource"
+><!--
+MnO4– + H2C2O4   Mn2+ + CO2
+--><img
+    src="web_GEAPiles-images/1062E54D2E4BF12ABA2CF9C0BB50F6D0.svg"
+    alt="\ch{MnO4- + H2C2O4 &lt;=&gt; Mn^{2+} + CO2}"
+    role="math"
+    style="width:17.95712em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>
+</p>
+</li>
+</ul>
+
+<p>
+<b>Exercici 3. Igualar reaccions REDOX</b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Iguala la reacció entre en benzaldehid i l’ió <span
+     id="lateximage-web_GEAPiles-199"
+     class="lateximagesource"
+><!--
+Cr2O72–
+--><img
+    src="web_GEAPiles-images/0A810204AEB9FC4CD95AAA6AAB5B24AB.svg"
+    alt="\ch{Cr2O7^{2-}}"
+    role="math"
+    style="width:3.74274em ; vertical-align:-0.2858em "
+    class="lateximage"
+></span> per donar àcid benzoïc i ió <span
+    id="lateximage-web_GEAPiles-200"
+    class="lateximagesource"
+><!--
+Cr+3
+--><img
+    src="web_GEAPiles-images/8C96B63A2CF05EA22552A8DE2CF86D92.svg"
+    alt="\ch{Cr^{+3}}"
+    role="math"
+    style="width:2.19073em"
+    class="lateximage"
+></span>. Pista: on calguin oxigens, afegeix molècules d’aigua; on calguin hidrogens, afegeix protons.
+</p>
+
+<p>
+<b>Exercici 4. Igualar reaccions REDOX</b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Iguala la reacció <span
+     id="lateximage-web_GEAPiles-201"
+     class="lateximagesource"
+><!--
+ClO– + CrO2–   CrO4– + Cl–
+--><img
+    src="web_GEAPiles-images/EA8DABAE77A624DB58F07E845F688FB1.svg"
+    alt="\ch{ClO- + CrO2- &lt;=&gt; CrO4- + Cl-}"
+    role="math"
+    style="width:16.01437em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span> en una dissolució bàsica. Pista: fes com sempre però al final tingues en compte que els reactius han d’incorporar l’ió <span
+    id="lateximage-web_GEAPiles-202"
+    class="lateximagesource"
+><!--
+OH–
+--><img
+    src="web_GEAPiles-images/571BD6980E21616D750B73E7748C5162.svg"
+    alt="\ch{OH-}"
+    role="math"
+    style="width:2.2996em"
+    class="lateximage"
+></span>.
+</p>
+
+<p>
+<b>Exercici 5. Reducció de la magnetita amb monòxid de carboni</b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Mostra les semireaccions implicades en la reducció de l’òxid de ferro mitjançant monòxid de carboni. Suposa que l’òxid de ferro es troba com a magnetita, <span
+    id="lateximage-web_GEAPiles-203"
+    class="lateximagesource"
+><!--
+Fe3O4
+--><img
+    src="web_GEAPiles-images/99A4055DD5D127E274A8D19A14017A23.svg"
+    alt="\ch{Fe3O4}"
+    role="math"
+    style="width:2.88637em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>. A partir d’aquestes semireaccions, dedueix la reacció global i calcula el potencial estàndard de la reacció.
+</p>
+
+<p>
+<b>Exercici 6. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Pots racionalitzar qualitativament els quatre factors implicats en la descripció de l’equilibri químic en les reaccions:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-72" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-204"
+    class="lateximagesource"
+><!--
+H2(g)   2 H(g)
+--><img
+    src="web_GEAPiles-images/image-204.svg"
+    alt="\[ \ch {H2_{(g)} &lt;=&gt; 2 H_{(g)}} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+
+<div class="displaymath">
+
+<a id="autoid-73" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-205"
+    class="lateximagesource"
+><!--
+H2(g) + I2(g)   2 HI(g)
+--><img
+    src="web_GEAPiles-images/image-205.svg"
+    alt="\[ \ch {H2_{(g)} + I2_{(g)} &lt;=&gt; 2 HI_{(g)}} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+? Per a les dues reaccions, calcula el valor de <span
+     id="lateximage-web_GEAPiles-206"
+     class="lateximagesource"
+><!--
+∆G◦
+--><img
+    src="web_GEAPiles-images/EDE81EE6B3F5C1242B5079E7E47E2DD6.svg"
+    alt="\( \Delta G^{\circ } \)"
+    role="math"
+    style="width:2.6292em"
+    class="lateximage"
+></span> a partir de dades obtingudes a la literatura (usa els enllaços de la Secció <a href="index.html#??">??</a>).
+</p>
+
+<p>
+<b>Exercici 7. Equilibri <span
+      id="lateximage-web_GEAPiles-207"
+      class="lateximagesource"
+><!--
+COCl2
+--><img
+    src="web_GEAPiles-images/3D08060F29162406FCEC50FBE43EDFBB.svg"
+    alt="\ch{COCl2}"
+    role="math"
+    style="width:3.25949em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span></b>
+</p>
+
+<p>
+El clorur de carbonil (<span
+     id="lateximage-web_GEAPiles-208"
+     class="lateximagesource"
+><!--
+COCl2
+--><img
+    src="web_GEAPiles-images/B6F7A344F1BFF855C113289EF600F891.svg"
+    alt="\ch{COCl2}"
+    role="math"
+    style="width:3.25949em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span>), també anomenat fosgen, es va utilitzar a la Primera Guerra Mundial com a gas verinós. Les concentracions d’equilibri a 74&#x202f;&deg;C per a la reacció entre monòxid de carboni i clor molecular que produeix clorur de carbonil són:
+</p>
+<div class="center">
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-209"
+    class="lateximagesource"
+><!--
+CO(g) + Cl2(g)   COCl2(g)
+--><img
+    src="web_GEAPiles-images/AC7CD9752575DDD352ECF0AABE4ADC88.svg"
+    alt="\ch{CO(g) + Cl2(g) &lt;=&gt; COCl2(g)}"
+    role="math"
+    style="width:15.16637em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Les concentracions d’equilibri són:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-74" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-210"
+    class="lateximagesource"
+><!--
+[CO] = 1,2 · 10−2 mol/L,   [Cl2] = 0,054 mol/L,   [COCl2] = 0,14 mol/L
+--><img
+    src="web_GEAPiles-images/image-210.svg"
+    alt="\[ [\ch {CO}] = \qty {1.2e-2}{\mol \per \liter }, \quad [\ch {Cl2}] = \qty {0.054}{\mol \per \liter }, \quad [\ch {COCl2}] = \qty {0.14}{\mol \per \liter }   \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Calcula la constant d’equilibri (<span
+    id="lateximage-web_GEAPiles-211"
+    class="lateximagesource"
+><!--
+Kc
+--><img
+    src="web_GEAPiles-images/952CEFE36EC972F15B7D8C90DBD11E0C.svg"
+    alt="\ch{K_c}"
+    role="math"
+    style="width:1.20087em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>) de la reacció a aquesta temperatura.
+</p>
+
+<p>
+<b>Exercici 8. Equilibri <span
+      id="lateximage-web_GEAPiles-212"
+      class="lateximagesource"
+><!--
+PCl5
+--><img
+    src="web_GEAPiles-images/3AF163A5A045538DADFBD89C15F20193.svg"
+    alt="\ch{PCl5}"
+    role="math"
+    style="width:2.25073em ; vertical-align:-0.28404em "
+    class="lateximage"
+></span><a id="web_GEAPiles-autopage-450"></a>[<a href="index.html#LWR-ht-cite.0@overby_quimica_2021">4</a>]</b>
+</p>
+
+<p>
+La constant d’equilibri <span
+     id="lateximage-web_GEAPiles-213"
+     class="lateximagesource"
+><!--
+Kp
+--><img
+    src="web_GEAPiles-images/E35F7B7487B7D2F8F4B9BA50F661C77C.svg"
+    alt="\ch{K_p}"
+    role="math"
+    style="width:1.28049em ; vertical-align:-0.47917em "
+    class="lateximage"
+></span> obtinguda per a la descomposició del pentaclorur de fòsfor en triclorur de fòsfor i clor molecular és 1,05 a 250&#x202f;&deg;C:
+</p>
+<div class="center">
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-214"
+    class="lateximagesource"
+><!--
+PCl5(g)   PCl3(g) + Cl2(g)
+--><img
+    src="web_GEAPiles-images/D15D591CE06D8B711556FC757E8B670D.svg"
+    alt="\ch{PCl5(g) &lt;=&gt; PCl3(g) + Cl2(g)}"
+    role="math"
+    style="width:14.69324em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Si les pressions parcials en l’equilibri de <span
+      id="lateximage-web_GEAPiles-215"
+      class="lateximagesource"
+><!--
+PCl5
+--><img
+    src="web_GEAPiles-images/1030FF150BD1912B28E3291871818246.svg"
+    alt="\ch{PCl5}"
+    role="math"
+    style="width:2.25073em ; vertical-align:-0.28404em "
+    class="lateximage"
+></span> i <span
+    id="lateximage-web_GEAPiles-216"
+    class="lateximagesource"
+><!--
+PCl3
+--><img
+    src="web_GEAPiles-images/32819D1F7ED711CD6119EE76A111CBF3.svg"
+    alt="\ch{PCl3}"
+    role="math"
+    style="width:2.25073em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span> són de 0,875&#x202f;atm i 0,463&#x202f;atm, respectivament, quina és la pressió parcial a l’equilibri del <span
+    id="lateximage-web_GEAPiles-217"
+    class="lateximagesource"
+><!--
+Cl2
+--><img
+    src="web_GEAPiles-images/4FF840AAE30F9C2CD319AF50A961BC19.svg"
+    alt="\ch{Cl2}"
+    role="math"
+    style="width:1.5745em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span> a aquesta temperatura?
+</p>
+
+<p>
+<b>Exercici 9. Equilibri <span
+      id="lateximage-web_GEAPiles-218"
+      class="lateximagesource"
+><!--
+CH3OH
+--><img
+    src="web_GEAPiles-images/4CEC189CE44F4EAA55AE29B45DFDE363.svg"
+    alt="\ch{CH3OH}"
+    role="math"
+    style="width:3.94699em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span><a id="web_GEAPiles-autopage-463"></a>[<a href="index.html#LWR-ht-cite.0@overby_quimica_2021">4</a>]</b>
+</p>
+
+<p>
+El metanol (<span
+    id="lateximage-web_GEAPiles-219"
+    class="lateximagesource"
+><!--
+CH3OH
+--><img
+    src="web_GEAPiles-images/1EA8DBDF52B81318C9B84D819C0539BD.svg"
+    alt="\ch{CH3OH}"
+    role="math"
+    style="width:3.94699em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>) s’elabora industrialment mitjançant la reacció:
+</p>
+<div class="center">
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-220"
+    class="lateximagesource"
+><!--
+CO(g) + 2 H2(g)   CH3OH(g)
+--><img
+    src="web_GEAPiles-images/150CC97E3B0480302DD59E072B73B2E8.svg"
+    alt="\ch{CO (g) + 2 H2 (g) &lt;=&gt; CH3OH (g)}"
+    role="math"
+    style="width:16.4185em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+La constant d’equilibri (<span
+     id="lateximage-web_GEAPiles-221"
+     class="lateximagesource"
+><!--
+Kc
+--><img
+    src="web_GEAPiles-images/952CEFE36EC972F15B7D8C90DBD11E0C.svg"
+    alt="\ch{K_c}"
+    role="math"
+    style="width:1.20087em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>) per a la reacció és de 10,5 a 220&#x202f;&deg;C. Quin és el valor de <span
+    id="lateximage-web_GEAPiles-222"
+    class="lateximagesource"
+><!--
+Kp
+--><img
+    src="web_GEAPiles-images/E35F7B7487B7D2F8F4B9BA50F661C77C.svg"
+    alt="\ch{K_p}"
+    role="math"
+    style="width:1.28049em ; vertical-align:-0.47917em "
+    class="lateximage"
+></span> a aquesta temperatura?
+</p>
+
+<p>
+<b>Exercici 10. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Quina és la relació entre la constant d’equilibri d’una reacció i la de la seva inversa?
+</p>
+
+<p>
+<b>Exercici 11. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Escriu la constant d’equilibri de la reacció
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-75" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-223"
+    class="lateximagesource"
+><!--
+2 NO(g) + O2(g)   N2O4(g)
+--><img
+    src="web_GEAPiles-images/image-223.svg"
+    alt="\[ \ch {2 NO_{(g)} + O2_{(g)} &lt;=&gt; N2O4_{(g)}} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+a partir de les de les reaccions
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-76" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-224"
+    class="lateximagesource"
+><!--
+2 NO(g) + O2(g)   2 NO2(g)
+--><img
+    src="web_GEAPiles-images/image-224.svg"
+    alt="\[ \ch {2 NO_{(g)} + O2_{(g)} &lt;=&gt; 2 NO2_{(g)}} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+i
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-77" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-225"
+    class="lateximagesource"
+><!--
+2 NO2(g) + O2(g)   N2O4(g)
+--><img
+    src="web_GEAPiles-images/image-225.svg"
+    alt="\[ \ch {2 NO2_{(g)} + O2_{(g)} &lt;=&gt; N2O4_{(g)}} \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+<b>Exercici 12. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+La constant d’equilibri de la reacció d’isomerització entre l’<span
+     id="lateximage-web_GEAPiles-226"
+     class="lateximagesource"
+><!--
+n
+--><img
+    src="web_GEAPiles-images/FF2A592D161BBEC979B6F70A25CB73AF.svg"
+    alt="\( n \)"
+    role="math"
+    style="width:0.78041em"
+    class="lateximage"
+></span>-butà i l’isobutà és 2.5. Representa gràficament la tendència del sistema en funció de diverses concentracions inicials de cadascuna de les dues substàncies.
+</p>
+
+<p>
+<b>Exercici 13. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+La constant d’equilibri de la dissociacio del <span
+     id="lateximage-web_GEAPiles-227"
+     class="lateximagesource"
+><!--
+NH4HS
+--><img
+    src="web_GEAPiles-images/3896001BB3071E2870E2C16EA9D7A7CE.svg"
+    alt="\ch{NH4HS}"
+    role="math"
+    style="width:3.74199em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span> sòlid en amoniac i sulfur d’hidrogen és de 0.11 atm<span
+    id="lateximage-web_GEAPiles-228"
+    class="lateximagesource"
+><!--
+2
+--><img
+    src="web_GEAPiles-images/9CDB622D9975D09C8B333566F1B07751.svg"
+    alt="\( ^2 \)"
+    role="math"
+    style="height:1.01749em"
+    class="lateximage"
+></span>. Si posem una mica d’aquest sòlid en un recipient tancat que conté amoniac a una pressió de 0.5 atm. Quina és la pressió final del sistema un cop assolit l’equlibri?
+</p>
+
+<p>
+<b>Exercici 14. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+La constant d’equilibri de la reacció
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-78" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-229"
+    class="lateximagesource"
+><!--
+CO2(g) + H2(g)   CO(g) + H2O(g)
+--><img
+    src="web_GEAPiles-images/image-229.svg"
+    alt="\[ \ch {CO2_{(g)} + H2_{(g)} &lt;=&gt; CO_{(g)} + H2O_{(g)}}                      \]"
+    role="math"
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+a 690K és 0.10. Quina és la pressió d’equilibri del sistema si barregem 0.5 mol de <span
+     id="lateximage-web_GEAPiles-230"
+     class="lateximagesource"
+><!--
+CO2
+--><img
+    src="web_GEAPiles-images/545421712C4B92986983D6E8CB16965F.svg"
+    alt="\ch{CO2}"
+    role="math"
+    style="width:2.12198em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span> i 0.5 mol de <span
+    id="lateximage-web_GEAPiles-231"
+    class="lateximagesource"
+><!--
+H2
+--><img
+    src="web_GEAPiles-images/841DD24E9E1F606CE333A09C2B39B180.svg"
+    alt="\ch{H2}"
+    role="math"
+    style="width:1.34949em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span> en un recipient de 5 l a 690K? Si augmentéssim la T, la pressió augmentaria o disminuiria?
+</p>
+
+<p>
+<b>Exercici 15. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Escriu la reacció àcid-base de l’ió carbonat en aigua en equlibri amb l’ió bicarbonat. Qui té el rol d’àcid i de base en la reacció directa i la inversa?
+</p>
+
+<p>
+<b>Exercici 16. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Per a cadascuna de les següents reaccions, realitza les següents tasques:
+</p>
+
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> Predir quin serà el signe de <span
+    id="lateximage-web_GEAPiles-232"
+    class="lateximagesource"
+><!--
+  ◦
+∆Sm
+--><img
+    src="web_GEAPiles-images/E52932384B72EA645D68702DA5ED7983.svg"
+    alt="\( \Delta S^\circ _m \)"
+    role="math"
+    style="width:2.78773em ; vertical-align:-0.30902em "
+    class="lateximage"
+></span> per a la reacció.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> Calcular el valor de <span
+    id="lateximage-web_GEAPiles-233"
+    class="lateximagesource"
+><!--
+  ◦
+∆Sm
+--><img
+    src="web_GEAPiles-images/E52932384B72EA645D68702DA5ED7983.svg"
+    alt="\( \Delta S^\circ _m \)"
+    role="math"
+    style="width:2.78773em ; vertical-align:-0.30902em "
+    class="lateximage"
+></span> a partir de les dades de la taula.
+</p>
+</li>
+</ul>
+<div class="center">
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-234"
+    class="lateximagesource"
+><!--
+Ca(s) + 21 O2(g)   CaO(s)
+--><img
+    src="web_GEAPiles-images/A1F7416F9F40BAF09811743AC0EDEC6C.svg"
+    alt="\ch{Ca(s) + 1/2 O2(g) &lt;=&gt; CaO(s)}"
+    role="math"
+    style="width:14.26724em ; vertical-align:-0.4328em "
+    class="lateximage"
+></span>
+</p>
+</div>
+<div class="center">
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-235"
+    class="lateximagesource"
+><!--
+CaCO3(s)   CaO(s) + CO2(g)
+--><img
+    src="web_GEAPiles-images/2F3E979D456B41F27877E3D10F241A81.svg"
+    alt="\ch{CaCO3(s) &lt;=&gt; CaO(s) + CO2(g)}"
+    role="math"
+    style="width:16.25137em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>
+</p>
+</div>
+<div class="center">
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-236"
+    class="lateximagesource"
+><!--
+N2(g) + 2 O2(g)   2 NO2(g)
+--><img
+    src="web_GEAPiles-images/DAF89D50BFDCD20E193A9236EAE2DB6C.svg"
+    alt="\ch{N2(g) + 2 O2(g) &lt;=&gt; 2 NO2(g)}"
+    role="math"
+    style="width:15.01em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+<b>Exercici 17. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Classifica les següents reaccions segons si són espontànies a qualsevol temperatura, només a baixa temperatura, només a alta temperatura o mai espontànies:
+</p>
+<div class="center">
+<table>
+
+<tr style="display:none"><th>.</th></tr>
+
+<tr>
+<td class="tdc">Reacció</td>
+<td class="tdc"><span
+    id="lateximage-web_GEAPiles-237"
+    class="lateximagesource"
+><!--
+  ◦
+∆Hm
+--><img
+    src="web_GEAPiles-images/6427C26CD18BE22D7DF523E4A557CABA.svg"
+    alt="\( \Delta H^\circ _m \)"
+    role="math"
+    style="width:3.06032em ; vertical-align:-0.30902em "
+    class="lateximage"
+></span> (kJ mol<span
+    id="lateximage-web_GEAPiles-238"
+    class="lateximagesource"
+><!--
+−1
+--><img
+    src="web_GEAPiles-images/42480C947751412D9DA92DAB79BF28ED.svg"
+    alt="\( ^{-1} \)"
+    role="math"
+    style="width:1.37212em"
+    class="lateximage"
+></span>)</td>
+<td class="tdc"><span
+    id="lateximage-web_GEAPiles-239"
+    class="lateximagesource"
+><!--
+  ◦
+∆Sm
+--><img
+    src="web_GEAPiles-images/E52932384B72EA645D68702DA5ED7983.svg"
+    alt="\( \Delta S^\circ _m \)"
+    role="math"
+    style="width:2.78773em ; vertical-align:-0.30902em "
+    class="lateximage"
+></span> (J K<span
+    id="lateximage-web_GEAPiles-240"
+    class="lateximagesource"
+><!--
+−1
+--><img
+    src="web_GEAPiles-images/42480C947751412D9DA92DAB79BF28ED.svg"
+    alt="\( ^{-1} \)"
+    role="math"
+    style="width:1.37212em"
+    class="lateximage"
+></span> mol<span
+    id="lateximage-web_GEAPiles-241"
+    class="lateximagesource"
+><!--
+−1
+--><img
+    src="web_GEAPiles-images/42480C947751412D9DA92DAB79BF28ED.svg"
+    alt="\( ^{-1} \)"
+    role="math"
+    style="width:1.37212em"
+    class="lateximage"
+></span>)</td>
+</tr>
+
+<tr class="hline">
+<td class="tdc"><span
+    id="lateximage-web_GEAPiles-242"
+    class="lateximagesource"
+><!--
+N2(g) + 3 F2(g)   2 NF3(g)
+--><img
+    src="web_GEAPiles-images/F4ED4D716E4B72750D473809221A9497.svg"
+    alt="\ch{N2(g) + 3 F2(g) &lt;=&gt; 2 NF3(g)}"
+    role="math"
+    style="width:14.4675em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span></td>
+<td class="tdc">+249</td>
+<td class="tdc">-277.8</td>
+</tr>
+
+<tr>
+<td class="tdc"><span
+    id="lateximage-web_GEAPiles-243"
+    class="lateximagesource"
+><!--
+N2(g) + 3 Cl2(g)   2 NCl3(g)
+--><img
+    src="web_GEAPiles-images/3769A9D1DBF0C1A7246F32D7AA2262BB.svg"
+    alt="\ch{N2(g) + 3 Cl2(g) &lt;=&gt; 2 NCl3(g)}"
+    role="math"
+    style="width:15.53em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span></td>
+<td class="tdc">+460</td>
+<td class="tdc">-275</td>
+</tr>
+
+<tr>
+<td class="tdc"><span
+    id="lateximage-web_GEAPiles-244"
+    class="lateximagesource"
+><!--
+N2(g) + 2 F2(g)   2 NF2(g)
+--><img
+    src="web_GEAPiles-images/9BF74CA3066A470C6DA1B512B3D006F5.svg"
+    alt="\ch{N2(g) + 2 F2(g) &lt;=&gt; 2 NF2(g)}"
+    role="math"
+    style="width:14.4675em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span></td>
+<td class="tdc">+93.3</td>
+<td class="tdc">+198.3</td>
+</tr>
+
+<tr>
+<td class="tdc"><span
+    id="lateximage-web_GEAPiles-245"
+    class="lateximagesource"
+><!--
+C5H12(g) + 8 O2(g)   5 CO2(g) + 6 H2O(g)
+--><img
+    src="web_GEAPiles-images/B5F2F038488E0507467E42E815EBD199.svg"
+    alt="\ch{C5H12(g) + 8 O2(g) &lt;=&gt; 5 CO2(g) + 6 H2O(g)}"
+    role="math"
+    style="width:22.38275em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span></td>
+<td class="tdc">-2044.7</td>
+<td class="tdc">+101.3</td>
+</tr>
+
+</table>
+
+</div>
+
+<p>
+<b>Exercici 18. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Sense consultar cap taula, prediu quines de les següents reaccions seran espontànies:
+</p>
+
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> <span
+    id="lateximage-web_GEAPiles-246"
+    class="lateximagesource"
+><!--
+2 NO2(g)   N2O4(g)
+--><img
+    src="web_GEAPiles-images/DC13111FF673236C89E92C90507E37D5.svg"
+    alt="\ch{2 NO2(g) &lt;=&gt; N2O4(g)}"
+    role="math"
+    style="width:11.42786em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> <span
+    id="lateximage-web_GEAPiles-247"
+    class="lateximagesource"
+><!--
+PbF4(g) + 10 F2(g)   4 PF5(g)
+--><img
+    src="web_GEAPiles-images/EEF90FE694A6E543D631470C11330DC4.svg"
+    alt="\ch{PbF4(g) + 10 F2(g) &lt;=&gt; 4 PF5(g)}"
+    role="math"
+    style="width:15.89125em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> <span
+    id="lateximage-web_GEAPiles-248"
+    class="lateximagesource"
+><!--
+2 NaCl(s)   2 Na(s) + Cl2(g)
+--><img
+    src="web_GEAPiles-images/80CFA1C058B3DCD4D7AFCA1C906FA503.svg"
+    alt="\ch{2 NaCl(s) &lt;=&gt; 2 Na(s) + Cl2(g)}"
+    role="math"
+    style="width:15.58374em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">4.</span> <span
+    id="lateximage-web_GEAPiles-249"
+    class="lateximagesource"
+><!--
+C5H12(g) + 8 O2(g)   5 CO2(g) + 6 H2O(g)
+--><img
+    src="web_GEAPiles-images/B5F2F038488E0507467E42E815EBD199.svg"
+    alt="\ch{C5H12(g) + 8 O2(g) &lt;=&gt; 5 CO2(g) + 6 H2O(g)}"
+    role="math"
+    style="width:22.38275em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>
+</p>
+</li>
+</ul>
+
+<p>
+<b>Exercici 19. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Es considera la funció <span
+     id="lateximage-web_GEAPiles-250"
+     class="lateximagesource"
+><!--
+∆G = ∆H − T ∆S
+--><img
+    src="web_GEAPiles-images/B21639346797F29169C6C73946633839.svg"
+    alt="\( \Delta G = \Delta H - T \Delta S \)"
+    role="math"
+    style="width:10.21548em ; vertical-align:-0.10417em "
+    class="lateximage"
+></span>, anomenada entalpia lliure. Respon:
+</p>
+
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> Què li succeeix a l’entalpia lliure d’un sistema en un procés irreversible quan només es realitza treball <span
+    id="lateximage-web_GEAPiles-251"
+    class="lateximagesource"
+><!--
+pV
+--><img
+    src="web_GEAPiles-images/DE4DEF73A0CDD477D377F7D05FAD66FA.svg"
+    alt="\( pV \)"
+    role="math"
+    style="width:1.66595em ; vertical-align:-0.24306em "
+    class="lateximage"
+></span>?
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> De quina manera pot tenir lloc una reacció no espontània?
+</p>
+</li>
+</ul>
+
+<p>
+<b>Exercici 20. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+En una reacció <span
+    id="lateximage-web_GEAPiles-252"
+    class="lateximagesource"
+><!--
+A→B
+--><img
+    src="web_GEAPiles-images/7F58F48351F5B6AE46666C9CF8A5A66C.svg"
+    alt="\( A \to B \)"
+    role="math"
+    style="width:3.9229em"
+    class="lateximage"
+></span> a pressió constant d’1 atm i 298 K, es despren 40 kJ mol<span
+    id="lateximage-web_GEAPiles-253"
+    class="lateximagesource"
+><!--
+−1
+--><img
+    src="web_GEAPiles-images/42480C947751412D9DA92DAB79BF28ED.svg"
+    alt="\( ^{-1} \)"
+    role="math"
+    style="width:1.37212em"
+    class="lateximage"
+></span> de calor sense realitzar treball útil. En un segon cas, la mateixa reacció es realitza de forma que s’obté un màxim treball útil i es desprenen 1,6 kJ mol<span
+    id="lateximage-web_GEAPiles-254"
+    class="lateximagesource"
+><!--
+−1
+--><img
+    src="web_GEAPiles-images/42480C947751412D9DA92DAB79BF28ED.svg"
+    alt="\( ^{-1} \)"
+    role="math"
+    style="width:1.37212em"
+    class="lateximage"
+></span> menys.
+</p>
+
+<p>
+Calcula per a cada procés: <span
+    id="lateximage-web_GEAPiles-255"
+    class="lateximagesource"
+><!--
+q
+--><img
+    src="web_GEAPiles-images/285F51CC7B6BABD0179129E3821169F8.svg"
+    alt="\( q \)"
+    role="math"
+    style="width:0.63298em ; vertical-align:-0.24306em "
+    class="lateximage"
+></span>, <span
+    id="lateximage-web_GEAPiles-256"
+    class="lateximagesource"
+><!--
+w
+--><img
+    src="web_GEAPiles-images/219C07F515931042948956F1A2320031.svg"
+    alt="\( w \)"
+    role="math"
+    style="width:0.95865em"
+    class="lateximage"
+></span>, <span
+    id="lateximage-web_GEAPiles-257"
+    class="lateximagesource"
+><!--
+∆E
+--><img
+    src="web_GEAPiles-images/B6CF03C6269816507512E252DAEE501B.svg"
+    alt="\( \Delta E \)"
+    role="math"
+    style="width:2.06653em"
+    class="lateximage"
+></span>, <span
+    id="lateximage-web_GEAPiles-258"
+    class="lateximagesource"
+><!--
+∆H
+--><img
+    src="web_GEAPiles-images/CE66493B876AB6F52A03C9830380DA2B.svg"
+    alt="\( \Delta H \)"
+    role="math"
+    style="width:2.21236em"
+    class="lateximage"
+></span>, <span
+    id="lateximage-web_GEAPiles-259"
+    class="lateximagesource"
+><!--
+∆S
+--><img
+    src="web_GEAPiles-images/2B2C16650FC25F089E50439652DD6C51.svg"
+    alt="\( \Delta S \)"
+    role="math"
+    style="width:1.91028em"
+    class="lateximage"
+></span> i <span
+    id="lateximage-web_GEAPiles-260"
+    class="lateximagesource"
+><!--
+∆G
+--><img
+    src="web_GEAPiles-images/736DF72DE0DA58BF23F0B6ABFAED76E8.svg"
+    alt="\( \Delta G \)"
+    role="math"
+    style="width:2.05455em"
+    class="lateximage"
+></span>.
+</p>
+
+<p>
+<b>Exercici 21. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Calcula <span
+    id="lateximage-web_GEAPiles-261"
+    class="lateximagesource"
+><!--
+∆G◦m
+--><img
+    src="web_GEAPiles-images/8F0696DF0D0085162D05D88E5DFFF0F6.svg"
+    alt="\( \Delta G^\circ _m \)"
+    role="math"
+    style="width:3.00406em ; vertical-align:-0.30902em "
+    class="lateximage"
+></span> per a la reacció:
+</p>
+<div class="center">
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-262"
+    class="lateximagesource"
+><!--
+C(diamant)   C(grafit)
+--><img
+    src="web_GEAPiles-images/2CDEFE38BC92B0FC3A8859F2D8B659EA.svg"
+    alt="\ch{C(diamant) &lt;=&gt; C(grafit)}"
+    role="math"
+    style="width:13.2301em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Explica per què el diamant no es converteix espontàniament en grafit.
+</p>
+
+<p>
+<b>Exercici 22. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Un mol d’aigua s’evapora a les temperatures de 70ºC i 100ºC, a pressió constant d’1 atm. Es coneix que l’entalpia normal de vaporització de l’aigua és 41,1&#x202f;kJmol<sup>−1</sup>.
+</p>
+
+<p>
+Calcula:
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> <span
+    id="lateximage-web_GEAPiles-263"
+    class="lateximagesource"
+><!--
+  ◦
+∆Sm
+--><img
+    src="web_GEAPiles-images/E52932384B72EA645D68702DA5ED7983.svg"
+    alt="\( \Delta S^\circ _m \)"
+    role="math"
+    style="width:2.78773em ; vertical-align:-0.30902em "
+    class="lateximage"
+></span> del procés de vaporització a les dues temperatures.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> <span
+    id="lateximage-web_GEAPiles-264"
+    class="lateximagesource"
+><!--
+∆G◦m
+--><img
+    src="web_GEAPiles-images/8F0696DF0D0085162D05D88E5DFFF0F6.svg"
+    alt="\( \Delta G^\circ _m \)"
+    role="math"
+    style="width:3.00406em ; vertical-align:-0.30902em "
+    class="lateximage"
+></span> del procés de vaporització a les dues temperatures.
+</p>
+</li>
+</ul>
+
+<p>
+Interpreta els resultats.
+</p>
+
+<p>
+<b>Exercici 23. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Calcula la constant d’equilibri <span
+    id="lateximage-web_GEAPiles-265"
+    class="lateximagesource"
+><!--
+Kp
+--><img
+    src="web_GEAPiles-images/63A627733160C525F1FD43AA56987078.svg"
+    alt="\( K_p \)"
+    role="math"
+    style="width:1.66954em ; vertical-align:-0.35764em "
+    class="lateximage"
+></span> a 298 K per a la reacció:
+</p>
+<div class="center">
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-266"
+    class="lateximagesource"
+><!--
+CaCO3(s)   CaO(s) + CO2(g)
+--><img
+    src="web_GEAPiles-images/2F3E979D456B41F27877E3D10F241A81.svg"
+    alt="\ch{CaCO3(s) &lt;=&gt; CaO(s) + CO2(g)}"
+    role="math"
+    style="width:16.25137em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Utilitza les dades de la taula 9.7.
+</p>
+
+<p>
+<b>Exercici 24. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+La constant d’equilibri de la reacció:
+</p>
+<div class="center">
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-267"
+    class="lateximagesource"
+><!--
+NO(g) + 21 O2(g)   NO2(g)
+--><img
+    src="web_GEAPiles-images/0924E3A9CC22B675523EFB03977EACC7.svg"
+    alt="\ch{NO(g) + 1/2 O2(g) &lt;=&gt; NO2(g)}"
+    role="math"
+    style="width:14.81662em ; vertical-align:-0.4328em "
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+és <span
+     id="lateximage-web_GEAPiles-268"
+     class="lateximagesource"
+><!--
+K = 1.3 × 106
+--><img
+    src="web_GEAPiles-images/A703AA1D56AE48824660D3F4FC939F9D.svg"
+    alt="\( K = 1.3 \times 10^6 \)"
+    role="math"
+    style="width:7.78357em ; vertical-align:-0.10417em "
+    class="lateximage"
+></span> a 298 K. Si l’entalpia normal de la reacció és <span
+    id="lateximage-web_GEAPiles-269"
+    class="lateximagesource"
+><!--
+  ◦
+∆Hm = −56,48 kJmol−1
+--><img
+    src="web_GEAPiles-images/AE99AE999D236A0B58BED73D0650FBEC.svg"
+    alt="\( \Delta H^\circ _m = \qty {-56.48}{\kJ \mol ^{-1}} \)"
+    role="math"
+    style="width:13.41898em ; vertical-align:-0.30902em "
+    class="lateximage"
+></span>, calcula la constant d’equilibri a 598 K.
+</p>
+
+<p>
+<b>Exercici 25. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Calcula el valor aproximat de <span
+    id="lateximage-web_GEAPiles-270"
+    class="lateximagesource"
+><!--
+∆G◦m
+--><img
+    src="web_GEAPiles-images/8F0696DF0D0085162D05D88E5DFFF0F6.svg"
+    alt="\( \Delta G^\circ _m \)"
+    role="math"
+    style="width:3.00406em ; vertical-align:-0.30902em "
+    class="lateximage"
+></span> a 600 K i 1200 K per a la reacció:
+</p>
+<div class="center">
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-271"
+    class="lateximagesource"
+><!--
+CH4(g) + H2O(g)   3 H2(g) + CO(g)
+--><img
+    src="web_GEAPiles-images/BB446225A649572264A143EA1A861C2E.svg"
+    alt="\ch{CH4(g) + H2O(g) &lt;=&gt; 3 H2(g) + CO(g)}"
+    role="math"
+    style="width:19.61787em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+Determina si la reacció és espontània a cada temperatura. Suposa que <span
+    id="lateximage-web_GEAPiles-272"
+    class="lateximagesource"
+><!--
+  ◦
+∆Hm
+--><img
+    src="web_GEAPiles-images/6427C26CD18BE22D7DF523E4A557CABA.svg"
+    alt="\( \Delta H^\circ _m \)"
+    role="math"
+    style="width:3.06032em ; vertical-align:-0.30902em "
+    class="lateximage"
+></span> i <span
+    id="lateximage-web_GEAPiles-273"
+    class="lateximagesource"
+><!--
+  ◦
+∆Sm
+--><img
+    src="web_GEAPiles-images/E52932384B72EA645D68702DA5ED7983.svg"
+    alt="\( \Delta S^\circ _m \)"
+    role="math"
+    style="width:2.78773em ; vertical-align:-0.30902em "
+    class="lateximage"
+></span> de la reacció no varien apreciablement amb la temperatura.
+</p>
+
+<p>
+<b>Exercici 26. pH àcid feble (Exercici 3.2)</b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Sabent que el <em>p</em>K<sub>a</sub> de l’àcid acètic és 4,74, calcula el pH d’una dissolució preparada amb 0,305&#x202f;mol/L d’àcid acètic i 0,328&#x202f;mol/L d’acetat sòdic.
+</p>
+
+<p>
+<b>Exercici 27. Solubilitat <span
+      id="lateximage-web_GEAPiles-274"
+      class="lateximagesource"
+><!--
+Ag2CrO4
+--><img
+    src="web_GEAPiles-images/6E7862FF68BAC4254A263BBF459D7EA0.svg"
+    alt="\ch{Ag2CrO4}"
+    role="math"
+    style="width:4.4851em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span></b>
+</p>
+
+<p>
+Quina és la constant de solubilitat del cromat d’argent (<span
+    id="lateximage-web_GEAPiles-275"
+    class="lateximagesource"
+><!--
+Ag2CrO4
+--><img
+    src="web_GEAPiles-images/B4A8AC71E3EDF60D6AA3816749411E25.svg"
+    alt="\ch{Ag2CrO4}"
+    role="math"
+    style="width:4.4851em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>) si la concentració d’una dissolució saturada d’aquesta sal té una concentració de 6.7<span
+    id="lateximage-web_GEAPiles-276"
+    class="lateximagesource"
+><!--
+×
+--><img
+    src="web_GEAPiles-images/A2F361869FFDCE393462F426A87E5471.svg"
+    alt="\( \times \)"
+    role="math"
+    style="width:1.00233em ; vertical-align:-0.10417em "
+    class="lateximage"
+></span>10<span
+    id="lateximage-web_GEAPiles-277"
+    class="lateximagesource"
+><!--
+−5
+--><img
+    src="web_GEAPiles-images/115EDA5C9F54312072B71A5129CEE5A4.svg"
+    alt="\( ^{-5} \)"
+    role="math"
+    style="width:1.37212em"
+    class="lateximage"
+></span>M d’ions cromat?
+</p>
+
+<p>
+<b>Exercici 28. Solubilitat <span
+      id="lateximage-web_GEAPiles-278"
+      class="lateximagesource"
+><!--
+AgCl
+--><img
+    src="web_GEAPiles-images/E92CC67F7DC63C74A7C5D67182E27E79.svg"
+    alt="\ch{AgCl}"
+    role="math"
+    style="width:2.64636em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span></b>
+</p>
+
+<p>
+S’afegeix ió <span
+     id="lateximage-web_GEAPiles-279"
+     class="lateximagesource"
+><!--
+Ag+
+--><img
+    src="web_GEAPiles-images/341B25508E3292D660BB6E1F8E21FF28.svg"
+    alt="\ch{Ag+}"
+    role="math"
+    style="width:1.99011em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span> a una dissolució que conté <span
+    id="lateximage-web_GEAPiles-280"
+    class="lateximagesource"
+><!--
+Cl–
+--><img
+    src="web_GEAPiles-images/2A05A0ED6E856CED372089C8D6919C8C.svg"
+    alt="\ch{Cl-}"
+    role="math"
+    style="width:1.64711em"
+    class="lateximage"
+></span> i <span
+    id="lateximage-web_GEAPiles-281"
+    class="lateximagesource"
+><!--
+I–
+--><img
+    src="web_GEAPiles-images/C888011DDA6BF400547C4E87B0A40473.svg"
+    alt="\ch{I-}"
+    role="math"
+    style="width:0.88086em"
+    class="lateximage"
+></span>, ambdós a una concentració de 0.01 M. Què precipita abans, <span
+    id="lateximage-web_GEAPiles-282"
+    class="lateximagesource"
+><!--
+AgCl
+--><img
+    src="web_GEAPiles-images/B9B974A8F5CB5DB4DAD1836FD7080FEF.svg"
+    alt="\ch{AgCl}"
+    role="math"
+    style="width:2.64636em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span> o <span
+    id="lateximage-web_GEAPiles-283"
+    class="lateximagesource"
+><!--
+AgI
+--><img
+    src="web_GEAPiles-images/C3F9EB47F75F169F470759F16F256FC0.svg"
+    alt="\ch{AgI}"
+    role="math"
+    style="width:1.88011em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>? Quina és la concentració d’ions <span
+    id="lateximage-web_GEAPiles-284"
+    class="lateximagesource"
+><!--
+Ag+
+--><img
+    src="web_GEAPiles-images/341B25508E3292D660BB6E1F8E21FF28.svg"
+    alt="\ch{Ag+}"
+    role="math"
+    style="width:1.99011em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span> quan la primera sal comença a precipitar? I quina és la concentració de l’anió del primer precipitat quan la segona sal comença a precipitar?
+</p>
+
+<p>
+<b>Dades:</b>
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-79" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-285"
+    class="lateximagesource"
+><!--
+Kps (AgCl) = 1,8 · 10−10
+ Kps (AgI) = 8,3 · 10−17
+--><img
+    src="web_GEAPiles-images/image-285.svg"
+    alt="(3.7–3.6) \{begin}{align*} K_\text {ps}(\ch {AgCl}) &amp;= \qty {1.8e-10}{} \\ K_\text {ps}(\ch {AgI}) &amp;= \qty {8.3e-17}{} \{end}{align*} "
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+<b>Exercici 29. Solubilitat de <span
+      id="lateximage-web_GEAPiles-286"
+      class="lateximagesource"
+><!--
+AgCl
+--><img
+    src="web_GEAPiles-images/E92CC67F7DC63C74A7C5D67182E27E79.svg"
+    alt="\ch{AgCl}"
+    role="math"
+    style="width:2.64636em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span> (Exercici 3.1 2025)</b>
+</p>
+
+<p>
+A una dissolució saturada de <span
+    id="lateximage-web_GEAPiles-287"
+    class="lateximagesource"
+><!--
+AgCl
+--><img
+    src="web_GEAPiles-images/B9B974A8F5CB5DB4DAD1836FD7080FEF.svg"
+    alt="\ch{AgCl}"
+    role="math"
+    style="width:2.64636em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span>, s’hi afegeix <span
+    id="lateximage-web_GEAPiles-288"
+    class="lateximagesource"
+><!--
+AgNO3
+--><img
+    src="web_GEAPiles-images/D12A867F2EB968B1491759E6498CE7E2.svg"
+    alt="\ch{AgNO3}"
+    role="math"
+    style="width:3.66699em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span> fins que la concentració d’ions <span
+    id="lateximage-web_GEAPiles-289"
+    class="lateximagesource"
+><!--
+Ag+
+--><img
+    src="web_GEAPiles-images/341B25508E3292D660BB6E1F8E21FF28.svg"
+    alt="\ch{Ag+}"
+    role="math"
+    style="width:1.99011em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span> arriba a 0,751&#x202f;mol/L. Quina serà la concentració resultant d’ions <span
+    id="lateximage-web_GEAPiles-290"
+    class="lateximagesource"
+><!--
+Cl–
+--><img
+    src="web_GEAPiles-images/2A05A0ED6E856CED372089C8D6919C8C.svg"
+    alt="\ch{Cl-}"
+    role="math"
+    style="width:1.64711em"
+    class="lateximage"
+></span> a la dissolució, expressada com a pCl?
+</p>
+
+<p>
+(Dades: el producte de solubilitat del <span
+    id="lateximage-web_GEAPiles-291"
+    class="lateximagesource"
+><!--
+AgCl
+--><img
+    src="web_GEAPiles-images/B9B974A8F5CB5DB4DAD1836FD7080FEF.svg"
+    alt="\ch{AgCl}"
+    role="math"
+    style="width:2.64636em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span> és 1,8 · 10<sup>−10</sup>.)
+</p>
+
+<p>
+<b>Exercici 30. Relació entre energia lliure de Gibbs i potencial elèctric (Exercici 3.3 2025)</b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Si la variació de potencial elèctric en un procés químic és de 0,49&#x202f;V, quina serà la variació de l’energia lliure de Gibbs (<span
+      id="lateximage-web_GEAPiles-292"
+      class="lateximagesource"
+><!--
+∆G
+--><img
+    src="web_GEAPiles-images/736DF72DE0DA58BF23F0B6ABFAED76E8.svg"
+    alt="\( \Delta G \)"
+    role="math"
+    style="width:2.05455em"
+    class="lateximage"
+></span>) associada al procés? (Suposa que el procés transfereix 1 mol d’electrons.)
+</p>
+
+<p>
+<b>Exercici 31. </b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Troba constant d’equilibri de la reacció <span
+    id="lateximage-web_GEAPiles-293"
+    class="lateximagesource"
+><!--
+2 Fe2+ + 3 I–   2 Fe(2+) + I3–
+--><img
+    src="web_GEAPiles-images/F9C2B9965D446D6FB7E6EEEC721393FA.svg"
+    alt="\ch{2 Fe^{2+} + 3 I- &lt;=&gt; 2 Fe ^{(2+)} + I3-}"
+    role="math"
+    style="width:15.04764em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>.
+</p>
+
+<p>
+<b>Exercici 32. Pila de <span
+      id="lateximage-web_GEAPiles-294"
+      class="lateximagesource"
+><!--
+Fe
+--><img
+    src="web_GEAPiles-images/2AE787C1E80FD205459C16321A7D137E.svg"
+    alt="\ch{Fe}"
+    role="math"
+    style="width:1.19511em"
+    class="lateximage"
+></span> i <span
+    id="lateximage-web_GEAPiles-295"
+    class="lateximagesource"
+><!--
+I3–
+--><img
+    src="web_GEAPiles-images/A06DE8045234A4534122DF302024B763.svg"
+    alt="\ch{I3-}"
+    role="math"
+    style="width:1.15024em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span></b>
+</p>
+
+<p>
+Una pila està formada per un elèctrode de <span
+    id="lateximage-web_GEAPiles-296"
+    class="lateximagesource"
+><!--
+Pt
+--><img
+    src="web_GEAPiles-images/42D1504844848096F256A0181D8D2083.svg"
+    alt="\ch{Pt}"
+    role="math"
+    style="width:1.10136em"
+    class="lateximage"
+></span> submergit en una dissolució 0,05&#x202f;M de <span
+    id="lateximage-web_GEAPiles-297"
+    class="lateximagesource"
+><!--
+FeSO4
+--><img
+    src="web_GEAPiles-images/18796590BE6D1BDE8A2FEEA3A6723CA3.svg"
+    alt="\ch{FeSO4}"
+    role="math"
+    style="width:3.08574em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span> i 0,1&#x202f;M de <span
+    id="lateximage-web_GEAPiles-298"
+    class="lateximagesource"
+><!--
+Fe2(SO4)3
+--><img
+    src="web_GEAPiles-images/2FD8AD3E61BE100FDCC9115873F20D76.svg"
+    alt="\ch{Fe2(SO4)3}"
+    role="math"
+    style="width:4.64449em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span>, i un altre amb un elèctrode de <span
+    id="lateximage-web_GEAPiles-299"
+    class="lateximagesource"
+><!--
+Pt
+--><img
+    src="web_GEAPiles-images/42D1504844848096F256A0181D8D2083.svg"
+    alt="\ch{Pt}"
+    role="math"
+    style="width:1.10136em"
+    class="lateximage"
+></span> submergit en una dissolució que conté 0,005&#x202f;M de <span
+    id="lateximage-web_GEAPiles-300"
+    class="lateximagesource"
+><!--
+I3–
+--><img
+    src="web_GEAPiles-images/2E2D9D74FD9AF80A0C29D69C8EEE285F.svg"
+    alt="\ch{I3-}"
+    role="math"
+    style="width:1.15024em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span> i 0,1&#x202f;M de <span
+    id="lateximage-web_GEAPiles-301"
+    class="lateximagesource"
+><!--
+KI
+--><img
+    src="web_GEAPiles-images/15EE525627CFA07244ECC26804FB6DAA.svg"
+    alt="\ch{KI}"
+    role="math"
+    style="width:1.19762em"
+    class="lateximage"
+></span>. Entre les dues dissolucions es col·loca un pont salí.
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">a)</span> Dibuixar l’esquema de la pila indicant l’ànode, el càtode, la polaritat dels elèctrodes, com circulen els electrons i els ions, i la notació abreujada de la pila.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">b)</span> Escriure la reacció ajustada, indicant l’agent oxidant i el reductor.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">c)</span> Calcular la constant d’equilibri de la reacció redox.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">d)</span> Calcular la força electromotriu de la pila a 25&#x202f;&deg;C.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">e)</span> Si al càtode s’afegeix oxalat 1&#x202f;M, calcular la força electromotriu (f.e.m).
+</p>
+</li>
+</ul>
+
+<p>
+Dades:
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <span
+    id="lateximage-web_GEAPiles-302"
+    class="lateximagesource"
+><!--
+E ◦ (Fe3+/Fe2+) = 0,77 V
+--><img
+    src="web_GEAPiles-images/752628E8421DC4BD029D34B760A3BE28.svg"
+    alt="\( E^\circ (\ch {Fe^3+ / Fe^2+}) = \SI {0.77}{V} \)"
+    role="math"
+    style="width:12.12625em ; vertical-align:-0.3125em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <span
+    id="lateximage-web_GEAPiles-303"
+    class="lateximagesource"
+><!--
+E ◦ (I3–/I–) = 0,55 V
+--><img
+    src="web_GEAPiles-images/00B7A1D13E5992F35EDC37567CC51EB0.svg"
+    alt="\( E^\circ (\ch {I3- / I-}) = \SI {0.55}{V} \)"
+    role="math"
+    style="width:9.99088em ; vertical-align:-0.3125em "
+    class="lateximage"
+></span>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <span
+    id="lateximage-web_GEAPiles-304"
+    class="lateximagesource"
+><!--
+pKs (FeC2O4) = 6.7
+--><img
+    src="web_GEAPiles-images/507B70E7FD7EE8754EB9A17E12D5D9C3.svg"
+    alt="\( \p {K_{\text {s}}}(\ch {FeC2O4}) = 6.7 \)"
+    role="math"
+    style="width:10.04414em ; vertical-align:-0.3125em "
+    class="lateximage"
+></span>
+</p>
+</li>
+</ul>
+
+<p>
+<b>Exercici 33. Pila de permanganat potàssic</b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Una pila voltaica consta d’una làmina de platí en una dissolució aquosa 0,1&#x202f;mol/L de permanganat potàssic i 0,01&#x202f;mol/L de clorur de manganès (II) amb un <span
+    id="lateximage-web_GEAPiles-305"
+    class="lateximagesource"
+><!--
+pH
+--><img
+    src="web_GEAPiles-images/E1549E786EC7AA5922CEE8E8ABF22834.svg"
+    alt="\pH"
+    role="math"
+    style="width:1.59135em ; vertical-align:-0.2925em "
+    class="lateximage"
+></span> igual a 2 en un compartiment, i d’una làmina de coure submergida en una dissolució 0,02&#x202f;mol/L de sulfat de coure en l’altre.
+</p>
+
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">a)</span> Dibuixa la pila indicant l’ànode, el càtode, la polaritat dels elèctrodes, com circulen els electrons i els ions. Indica també la notació simplificada de la pila.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">b)</span> Calcula a 25&#x202f;&deg;C la f.e.m. de la pila.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">c)</span> Calcula la variació d’energia lliure a 25&#x202f;&deg;C.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">d)</span> Si el <span
+    id="lateximage-web_GEAPiles-306"
+    class="lateximagesource"
+><!--
+pH
+--><img
+    src="web_GEAPiles-images/E1549E786EC7AA5922CEE8E8ABF22834.svg"
+    alt="\pH"
+    role="math"
+    style="width:1.59135em ; vertical-align:-0.2925em "
+    class="lateximage"
+></span> del compartiment del coure fos igual a 8, precipitaria l’hidròxid de coure (II)? Calcula la f.e.m. de la pila en aquest cas.
+</p>
+</li>
+</ul>
+
+<p>
+Dades:
+</p>
+
+<div class="displaymath">
+
+<a id="autoid-80" ></a >
+
+<p>
+<span
+    id="lateximage-web_GEAPiles-307"
+    class="lateximagesource"
+><!--
+E ◦ (MnO4–/Mn2+) = 1,51 V
+ E ◦ (Cu2+/Cu(s)) = 0,34 V
+              F = 96 485,3 C/mol
+   Kps (Cu(OH)2) = 2.2 × 10−20
+--><img
+    src="web_GEAPiles-images/image-307.svg"
+    alt="(3.7–3.6) \{begin}{align*} E^\circ (\ch {MnO4^-}/\ch {Mn^{2+}}) &amp;= \SI {1.51}{\volt } \\ E^\circ (\ch {Cu^{2+}}/\ch {Cu(s)}) &amp;= \SI {0.34}{\volt } \\ F &amp;= \SI {96485.3}{\coulomb \per \mol } \\ K_\text {ps}(\ch
+{Cu(OH)2}) &amp;= 2.2 \times 10^{-20} \{end}{align*} "
+    style=""
+    class="lateximage"
+></span>
+</p>
+</div>
+
+<p>
+<b>Exercici 34. Cotxes amb cel·la de combustible de metanol</b>
+</p>
+<details class="ex-solution"><summary>Mostra la resolució</summary><p>Resolució disponible a <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a> i als materials d autoavaluacio daquest tema.</p></details>
+
+<p>
+Les entalpies i energies lliures de formació (a condicions estàndar) de les espècies d’interès són:
+</p>
+<div class="center">
+<table>
+
+<tr style="display:none"><th>.</th></tr>
+
+<tr>
+<td class="tdl"><b>Substància</b></td>
+<td class="tdc"><span
+    id="lateximage-web_GEAPiles-308"
+    class="lateximagesource"
+><!--
+∆Hf◦
+--><img
+    src="web_GEAPiles-images/D592E7E77FA397E01FD50AC5FBA3787E.svg"
+    alt="\( \Delta H_f^\circ \)"
+    role="math"
+    style="width:2.787em ; vertical-align:-0.52415em "
+    class="lateximage"
+></span> (MJ/kmol)</td>
+<td class="tdc"><span
+    id="lateximage-web_GEAPiles-309"
+    class="lateximagesource"
+><!--
+∆G◦f
+--><img
+    src="web_GEAPiles-images/7C42CA563E353B44F4086B68A3931AAE.svg"
+    alt="\( \Delta G_f^\circ \)"
+    role="math"
+    style="width:2.70256em ; vertical-align:-0.52415em "
+    class="lateximage"
+></span> (MJ/kmol)</td>
+</tr>
+
+<tr class="hline">
+<td class="tdl"><span
+    id="lateximage-web_GEAPiles-310"
+    class="lateximagesource"
+><!--
+CH3OH(g)
+--><img
+    src="web_GEAPiles-images/666F72F6389AAFE049416D89C39E6830.svg"
+    alt="\ch{CH3OH (g)}"
+    role="math"
+    style="width:5.30199em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span></td>
+<td class="tdc">-201.2</td>
+<td class="tdc">-161.9</td>
+</tr>
+
+<tr>
+<td class="tdl"><span
+    id="lateximage-web_GEAPiles-311"
+    class="lateximagesource"
+><!--
+CH3OH(l)
+--><img
+    src="web_GEAPiles-images/8F418433E13D85B4844AD6CF8E51500E.svg"
+    alt="\ch{CH3OH (l)}"
+    role="math"
+    style="width:5.03699em ; vertical-align:-0.28317em "
+    class="lateximage"
+></span></td>
+<td class="tdc">-238.6</td>
+<td class="tdc">-166.2</td>
+</tr>
+
+<tr>
+<td class="tdl"><span
+    id="lateximage-web_GEAPiles-312"
+    class="lateximagesource"
+><!--
+O2(g)
+--><img
+    src="web_GEAPiles-images/FA1DC92F67A75C32CABA1B5A3E4CCF79.svg"
+    alt="\ch{O2 (g)}"
+    role="math"
+    style="width:2.66948em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span></td>
+<td class="tdc">0</td>
+<td class="tdc">0</td>
+</tr>
+
+<tr>
+<td class="tdl"><span
+    id="lateximage-web_GEAPiles-313"
+    class="lateximagesource"
+><!--
+CO2(g)
+--><img
+    src="web_GEAPiles-images/386ED867A1C625E5C6354E0C7D73DA80.svg"
+    alt="\ch{CO2 (g)}"
+    role="math"
+    style="width:3.47699em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span></td>
+<td class="tdc">-393.5</td>
+<td class="tdc">-394.4</td>
+</tr>
+
+<tr>
+<td class="tdl"><span
+    id="lateximage-web_GEAPiles-314"
+    class="lateximagesource"
+><!--
+H2O(g)
+--><img
+    src="web_GEAPiles-images/2850C3156C8502D0862704163EB3326B.svg"
+    alt="\ch{H2O (g)}"
+    role="math"
+    style="width:3.58199em ; vertical-align:-0.2975em "
+    class="lateximage"
+></span></td>
+<td class="tdc">-241.8</td>
+<td class="tdc">-228.6</td>
+</tr>
+
+<tr>
+<td class="tdl"><span
+    id="lateximage-web_GEAPiles-315"
+    class="lateximagesource"
+><!--
+H2O(l)
+--><img
+    src="web_GEAPiles-images/0393C27E2C64A8E63FAAD3D9B49D1C1C.svg"
+    alt="\ch{H2O (l)}"
+    role="math"
+    style="width:3.31699em ; vertical-align:-0.27617em "
+    class="lateximage"
+></span></td>
+<td class="tdc">-285.9</td>
+<td class="tdc">-237.2</td>
+</tr>
+
+</table>
+
+</div>
+
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">a)</span> Quanta calor s’obté en cremar 1&#x202f;kg de metanol en un motor d’explosió interna (IC)?
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">b)</span> Quanta energia elèctrica produiria una pila de combustible ideal per cada kg de combustible?
+</p>
+</li>
+</ul>
+
+<p>
+Traduït d’<a href="https://web.stanford.edu/class/ee293b/EE293B/Welcome_files/FEP9_ConsSOL_ELSEVIER.pdf" target="_blank" >aquesta col·lecció d’exercicis</a>
+</p>
+<!--
+...... chapter Bibliografia ......
+-->
+<h3 id="autosec-670">Bibliografia</h3>
+<a id="web_GEAPiles-autopage-670"></a>
+
+
+<ul class="list" style="list-style-type:none">
+
+
+<li>
+<p>
+<span class="listmarker">[1]</span> <a id="LWR-ht-cite.0@bowers_understanding_2014"></a>Geoffrey M. Bowers i Ruth A. Bowers. <em>Understanding Chemistry through Cars</em>. en. CRC Press, nov. de&nbsp;2014. <span class="textsc">isbn</span>: 978-1-4665-7184-6. <span
+class="textsc">doi</span>: <a href="https://doi.org/10.1201/b17581" target="_blank" >10.1201/b17581</a>. <span class="textsc">uRl</span>: <a href="https://www.taylorfrancis.com/books/9781466571846" target="_blank"
+>https://www.taylorfrancis.com/books/9781466571846</a>.
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+<span class="listmarker">[2]</span> <a id="LWR-ht-cite.0@liu_understanding_2016"></a>Chaofeng Liu, Zachary G. Neale i Guozhong Cao. “Understanding electrochemical potentials of cathode materials in rechargeable batteries”. en. A: <em>Materials Today</em> 19.2 (març
+de&nbsp;2016), pàg. 109 - 123. <span class="textsc">issn</span>: 13697021. <span class="textsc">doi</span>: <a href="https://doi.org/10.1016/j.mattod.2015.10.009" target="_blank" >10.1016/j.mattod.2015.10.009</a>. <span class="textsc">uRl</span>: <a
+href="https://linkinghub.elsevier.com/retrieve/pii/S1369702115003181" target="_blank" >https://linkinghub.elsevier.com/retrieve/pii/S1369702115003181</a> (cons. 09-08-2023).
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+<span class="listmarker">[3]</span> <a id="LWR-ht-cite.0@may_lead_2018"></a>Geoffrey J. May, Alistair Davidson i Boris Monahov. “Lead batteries for utility energy storage: A review”. A: <em>Journal of Energy Storage</em> 15 (febr. de&nbsp;2018), pàg. 145 - 157. <span
+class="textsc">issn</span>: 2352-152X. <span class="textsc">doi</span>: <a href="https://doi.org/10.1016/j.est.2017.11.008" target="_blank" >10.1016/j.est.2017.11.008</a>. <span class="textsc">uRl</span>: <a
+href="https://www.sciencedirect.com/science/article/pii/S2352152X17304437" target="_blank" >https://www.sciencedirect.com/science/article/pii/S2352152X17304437</a> (cons. 17-03-2025).
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+<span class="listmarker">[4]</span> <a id="LWR-ht-cite.0@overby_quimica_2021"></a>Jason Overby i Raymond Chang. <em>QUÍMICA</em>. 13a&nbsp;ed. McGraw-Hill, 2021. <span class="textsc">isbn</span>: 978-1-4562-7994-3. <span class="textsc">uRl</span>: <a
+href="https://www-ingebook-com.biblioremot.uvic.cat/ib/NPcd/IB_BooksVis?cod_primaria=1000187&amp;codigo_libro=10619" target="_blank" >https://www-ingebook-com.biblioremot.uvic.cat/ib/NPcd/IB_BooksVis?cod_primaria=1000187&amp;codigo_libro=10619</a> (cons.
+09-03-2025).
+</p>
+</li>
+</ul>
+
+<a id="web_GEAPiles-autofile-last"></a>
+</section>
+
+</main>
+
+</div>
+
+<section class="lt-auto"><h4>Exercicis d autoavaluacio</h4><p>Autoavaluacio del tema: <a href="../../pdf/autoavaluacio_GEAPiles.pdf" target="_blank" rel="noopener">autoavaluacio_GEAPiles.pdf</a> · Exercicis resolts: <a href="../../pdf/Exercise.pdf" target="_blank" rel="noopener">Exercise.pdf</a></p></section><footer class="lt-footer"><p>© Jordi Villà i Freixa 2025-2026 · Llicència del contingut: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> · Llicències de figures: <a href="/figures/licenses" target="_blank" rel="noopener">veure detall</a></p></footer>
+</body>
+</html>

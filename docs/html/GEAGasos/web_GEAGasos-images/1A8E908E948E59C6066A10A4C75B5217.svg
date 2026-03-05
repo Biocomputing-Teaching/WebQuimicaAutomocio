@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8.748pt" height="8.02pt" viewBox="0 0 8.748 8.02">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<filter id="filter-color-to-alpha" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0.2126 0.7152 0.0722 0 0"/>
+</filter>
+<g>
+<g id="glyph-0-0">
+<path d="M 7.671875 -6.6875 C 7.671875 -6.765625 7.609375 -6.8125 7.53125 -6.8125 C 7.28125 -6.8125 6.984375 -6.78125 6.71875 -6.78125 C 6.390625 -6.78125 6.046875 -6.8125 5.734375 -6.8125 C 5.671875 -6.8125 5.546875 -6.8125 5.546875 -6.625 C 5.546875 -6.515625 5.625 -6.5 5.703125 -6.5 C 5.96875 -6.484375 6.15625 -6.375 6.15625 -6.171875 C 6.15625 -6.015625 6.015625 -5.796875 6.015625 -5.796875 L 2.953125 -0.921875 L 2.265625 -6.203125 C 2.265625 -6.375 2.5 -6.5 2.953125 -6.5 C 3.09375 -6.5 3.203125 -6.5 3.203125 -6.703125 C 3.203125 -6.78125 3.125 -6.8125 3.078125 -6.8125 C 2.671875 -6.8125 2.25 -6.78125 1.828125 -6.78125 C 1.65625 -6.78125 1.46875 -6.78125 1.28125 -6.78125 C 1.109375 -6.78125 0.921875 -6.8125 0.75 -6.8125 C 0.671875 -6.8125 0.5625 -6.8125 0.5625 -6.625 C 0.5625 -6.5 0.640625 -6.5 0.8125 -6.5 C 1.359375 -6.5 1.375 -6.40625 1.40625 -6.15625 L 2.1875 -0.015625 C 2.21875 0.1875 2.265625 0.21875 2.390625 0.21875 C 2.546875 0.21875 2.59375 0.171875 2.671875 0.046875 L 6.265625 -5.671875 C 6.75 -6.453125 7.171875 -6.484375 7.53125 -6.5 C 7.65625 -6.515625 7.671875 -6.6875 7.671875 -6.6875 Z M 7.671875 -6.6875 "/>
+</g>
+</g>
+<clipPath id="clip-0">
+<path clip-rule="nonzero" d="M 0 7 L 1 7 L 1 7.53125 L 0 7.53125 Z M 0 7 "/>
+</clipPath>
+<image id="source-7" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAAAmJLR0QA/4ePzL8AAAAKSURBVAiZY2ACAAAEAANTOtgzAAAAAElFTkSuQmCC"/>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-7" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, -0.126, 7.07201)"/>
+</g>
+</mask>
+<image id="source-6" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAABmJLR0QA/wD/AP+gvaeTAAAADElEQVQImWNgYGAAAAAEAAGjChXjAAAAAElFTkSuQmCC"/>
+<clipPath id="clip-1">
+<path clip-rule="nonzero" d="M 0 0 L 8 0 L 8 7.53125 L 0 7.53125 Z M 0 0 "/>
+</clipPath>
+<clipPath id="clip-2">
+<path clip-rule="nonzero" d="M 8 7 L 8.621094 7 L 8.621094 7.53125 L 8 7.53125 Z M 8 7 "/>
+</clipPath>
+<image id="source-13" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAAAmJLR0QA/4ePzL8AAAAKSURBVAiZY2ACAAAEAANTOtgzAAAAAElFTkSuQmCC"/>
+<mask id="mask-1">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-13" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, 8.139, 7.07201)"/>
+</g>
+</mask>
+<image id="source-19" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAAAmJLR0QA/4ePzL8AAAAKSURBVAiZY2ACAAAEAANTOtgzAAAAAElFTkSuQmCC"/>
+<mask id="mask-2">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-19" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, 8.379, 7.07201)"/>
+</g>
+</mask>
+</defs>
+<g clip-path="url(#clip-0)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, -0.126, 7.07201)"/>
+</g>
+</g>
+<g clip-path="url(#clip-1)">
+<g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
+<use xlink:href="#glyph-0-0" x="0.114" y="7.312"/>
+</g>
+</g>
+<g clip-path="url(#clip-2)">
+<g mask="url(#mask-1)">
+<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, 8.139, 7.07201)"/>
+</g>
+<g mask="url(#mask-2)">
+<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, 8.379, 7.07201)"/>
+</g>
+</g>
+</svg>

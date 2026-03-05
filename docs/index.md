@@ -19,6 +19,13 @@ permalink: /index
 **Grup:** G51, presencial, matí  
 **Llengua d'impartició:** Català  
 **Professorat:** [Jordi Villà Freixa](Sobre)
+**Recursos web:** [Enllaços d'interès](links)
+
+## Navegació ràpida
+
+- [Capítols (web HTML + PDF)](capitols)
+- [Fitxers d'autoavaluació](autoavaluacions)
+- [Recursos i enllaços](links)
 
 ## Objectius de Desenvolupament Sostenible (ODS)
 
@@ -110,6 +117,14 @@ Els objectius principals d'aquesta assignatura són:
 - Pigments i color
 - Degradació
 - Làmpares incandescents i leds
+
+### Versió web HTML (des de LaTeX)
+- [Tema 1: Els gasos i el seu comportament](html/GEAGasos/index.html)
+- [Tema 2: La combustió](html/GEACombustio/index.html)
+- [Tema 3: Piles i bateries](html/GEAPiles/index.html)
+- [Tema 4: Forces intermoleculars](html/GEAForcesInt/index.html)
+- [Tema 5: Química de materials](html/GEAMaterials/index.html)
+- [Tema 6: Llum i química](html/GEALlum/index.html)
 
 ## Avaluació
 

@@ -12,6 +12,7 @@ permalink: /links
 * [La química en l'automoció](https://www.quimicaysociedad.org/wp-content/uploads/2018/05/archivo18.pdf)
 * Explorant les estructures moleculars i les propietats de les substàncies químiques a [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
 * [UnitConverter](https://www.unitconverters.net/)
+* [Formulari de química](https://biocomputing-teaching.github.io/WebQuimicaAutomocio/pdf/Formulari.pdf)
 
 ## Tema 1. Els gasos i el seu comportament
 
@@ -48,7 +49,7 @@ permalink: /links
 * [Fuel cell cars](https://cen.acs.org/articles/95/i38/Fuel-cell-cars-finally-drive.html)
 * [Polymer Electrolite Fuel Cell Science and Technology](https://iopscience.iop.org/article/10.1149/1945-7111/acada3) (revisió avançada)
 
-## Tema 8. La llum i l'àtom
+## Tema 6. La llum i l'àtom
 
 * [Estabilitat dels nuclis en funció de la seva composició de protons i neutrons](https://www.youtube.com/watch?v=vLsLjmTT_XI)
 * [Orbitals atòmics](https://www.youtube.com/watch?v=Nr40fnfHccQ&t=230s)

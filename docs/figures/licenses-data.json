@@ -1,0 +1,353 @@
+{
+  "09358-cover-mirai-700.jpeg": {
+    "status": "not_found"
+  },
+  "2p.jpg": {
+    "status": "found_cc",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "license": "CC BY-SA 4.0",
+    "file_url": "https://commons.wikimedia.org/wiki/File:Tree-lined_slopes,_Nilgiris_District.jpg"
+  },
+  "3d.jpg": {
+    "status": "found_cc",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "license": "CC BY-SA 3.0",
+    "file_url": "https://commons.wikimedia.org/wiki/File:3d.jpg"
+  },
+  "AfinitatElectronica.png": {
+    "status": "not_found"
+  },
+  "AzeotropEX.png": {
+    "status": "not_found"
+  },
+  "BandgapLEDs.png": {
+    "status": "not_found"
+  },
+  "Bohr.png": {
+    "status": "found_cc",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "license": "CC BY-SA 4.0",
+    "file_url": "https://commons.wikimedia.org/wiki/File:Bohr.png"
+  },
+  "BolzDist.png": {
+    "status": "not_found"
+  },
+  "Boyle.png": {
+    "status": "not_found"
+  },
+  "Brownian_motion.png": {
+    "status": "not_found"
+  },
+  "CBC_crystal_structure.png": {
+    "status": "not_found"
+  },
+  "CaracteristiquesPolimers.png": {
+    "status": "not_found"
+  },
+  "Chemical-structures-of-PET-PBT-and-PTT.png": {
+    "status": "not_found"
+  },
+  "CristalinaAmorfa.png": {
+    "status": "not_found"
+  },
+  "D2s2p.png": {
+    "status": "not_found"
+  },
+  "DefectesPunt.png": {
+    "status": "not_found"
+  },
+  "EG-WAT-hydrogenbnd.jpg": {
+    "status": "not_found"
+  },
+  "EG-hydrogenbnd.jpg": {
+    "status": "not_found"
+  },
+  "Eq1.png": {
+    "status": "not_found"
+  },
+  "Eq2.png": {
+    "status": "not_found"
+  },
+  "Eq3.png": {
+    "status": "not_found"
+  },
+  "Eq4.png": {
+    "status": "not_found"
+  },
+  "EstructuresPolimers.jpg": {
+    "status": "not_found"
+  },
+  "FCC_crystal_structure.png": {
+    "status": "not_found"
+  },
+  "FactorCompress.png": {
+    "status": "not_found"
+  },
+  "FactorCompressT.png": {
+    "status": "not_found"
+  },
+  "FermiBand.png": {
+    "status": "not_found"
+  },
+  "FractionalDistillation.png": {
+    "status": "not_found"
+  },
+  "FreeElectron.png": {
+    "status": "not_found"
+  },
+  "Galvanic_cell_with_no_cation_flow.png": {
+    "status": "found_cc",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "license": "CC BY-SA 3.0",
+    "file_url": "https://commons.wikimedia.org/wiki/File:Galvanic_cell_with_no_cation_flow.png"
+  },
+  "HCP_crystal_structure.png": {
+    "status": "not_found"
+  },
+  "HFO-1234yf.jpg": {
+    "status": "not_found"
+  },
+  "Hess1.png": {
+    "status": "not_found"
+  },
+  "Ionomer.svg.png": {
+    "status": "not_found"
+  },
+  "LiIon3.png": {
+    "status": "not_found"
+  },
+  "MXDIST.png": {
+    "status": "not_found"
+  },
+  "Manometre.png": {
+    "status": "not_found"
+  },
+  "Membrane_Electrode_Assembly_-_Electro-Chemical_Reaction_Diagram.jpg": {
+    "status": "found_cc",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "license": "CC BY-SA 3.0",
+    "file_url": "https://commons.wikimedia.org/wiki/File:Membrane_Electrode_Assembly_-_Electro-Chemical_Reaction_Diagram.jpg"
+  },
+  "NaClLewis.png": {
+    "status": "not_found"
+  },
+  "NaClaq.jpg": {
+    "status": "not_found"
+  },
+  "Nafion2.svg.png": {
+    "status": "not_found"
+  },
+  "Old-barometers.jpg": {
+    "status": "found_cc",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "license": "CC BY-SA 3.0",
+    "file_url": "https://commons.wikimedia.org/wiki/File:Old-barometers.jpg"
+  },
+  "Otto-real.png": {
+    "status": "not_found"
+  },
+  "ParticulaCaixa.png": {
+    "status": "not_found"
+  },
+  "ParticulaCaixa2.png": {
+    "status": "not_found"
+  },
+  "Phase-diagram-of-pure-solvent-and-solution_W640.jpg": {
+    "status": "not_found"
+  },
+  "PhaseDiagram.png": {
+    "status": "not_found"
+  },
+  "PhaseDiagram2.png": {
+    "status": "not_found"
+  },
+  "PigmentsOrganics.png": {
+    "status": "not_found"
+  },
+  "R2.png": {
+    "status": "found_non_cc",
+    "license_url": "",
+    "license": "Public domain",
+    "file_url": "https://commons.wikimedia.org/wiki/File:R2.png"
+  },
+  "RefredamentAliatge.png": {
+    "status": "not_found"
+  },
+  "ResistenciaMaterials.jpg": {
+    "status": "not_found"
+  },
+  "Rutherford.png": {
+    "status": "not_found"
+  },
+  "Schematic-representation-of-the-TIP3-water-model-and-the-hydrogen-bond-formed-The_W640.jpg": {
+    "status": "not_found"
+  },
+  "SistEntornUnivers.png": {
+    "status": "not_found"
+  },
+  "SphericalCoords.png": {
+    "status": "not_found"
+  },
+  "TeoriaCinetica.png": {
+    "status": "not_found"
+  },
+  "TgTm.png": {
+    "status": "not_found"
+  },
+  "TorreDestillacio.jpg": {
+    "status": "not_found"
+  },
+  "TransportinPEMFC.png": {
+    "status": "not_found"
+  },
+  "WaterPD.png": {
+    "status": "not_found"
+  },
+  "Water_vapor_pressure_graph.png": {
+    "status": "not_found"
+  },
+  "aigua.jpg": {
+    "status": "not_found"
+  },
+  "aliatges.jpg": {
+    "status": "not_found"
+  },
+  "altforn.png": {
+    "status": "not_found"
+  },
+  "azeotropetanolaigua.png": {
+    "status": "not_found"
+  },
+  "blackbody.png": {
+    "status": "not_found"
+  },
+  "bravais.jpg": {
+    "status": "not_found"
+  },
+  "cathodeRays.png": {
+    "status": "not_found"
+  },
+  "ceramicsVidres.jpg": {
+    "status": "not_found"
+  },
+  "composicioEutectica.png": {
+    "status": "not_found"
+  },
+  "degeneracio.png": {
+    "status": "not_found"
+  },
+  "desv_raoult.png": {
+    "status": "not_found"
+  },
+  "diodes.png": {
+    "status": "found_cc",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "license": "CC BY-SA 3.0",
+    "file_url": "https://commons.wikimedia.org/wiki/File:Diodes.png"
+  },
+  "dipolarmoment.png": {
+    "status": "not_found"
+  },
+  "electromagnetism.png": {
+    "status": "found_cc",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "license": "CC BY-SA 3.0",
+    "file_url": "https://commons.wikimedia.org/wiki/File:Electromagnetism.png"
+  },
+  "epoxi.jpg": {
+    "status": "not_found"
+  },
+  "espectreElectromagnetic.png": {
+    "status": "not_found"
+  },
+  "espectreLinies.jpg": {
+    "status": "not_found"
+  },
+  "evap_vs_condens.png": {
+    "status": "not_found"
+  },
+  "grupsfuncionals.png": {
+    "status": "not_found"
+  },
+  "hidrurs_boiling_point.png": {
+    "status": "not_found"
+  },
+  "hydrogenEmissionSeries.jpg": {
+    "status": "not_found"
+  },
+  "jesacada3f4_lr.jpg": {
+    "status": "not_found"
+  },
+  "jesacada3f6_lr.jpg": {
+    "status": "not_found"
+  },
+  "jesacada3sc1_lr.jpg": {
+    "status": "not_found"
+  },
+  "jesacada3sc2_lr.jpg": {
+    "status": "not_found"
+  },
+  "lewis_acid_base.png": {
+    "status": "not_found"
+  },
+  "metalic.png": {
+    "status": "not_found"
+  },
+  "molecular-geometry.png": {
+    "status": "not_found"
+  },
+  "nacl.png": {
+    "status": "not_found"
+  },
+  "omplir.png": {
+    "status": "not_found"
+  },
+  "photoelect.png": {
+    "status": "not_found"
+  },
+  "photonics-11-00491-g001.png": {
+    "status": "not_found"
+  },
+  "pisto_dw.png": {
+    "status": "not_found"
+  },
+  "polimers.jpg": {
+    "status": "not_found"
+  },
+  "polimers.png": {
+    "status": "not_found"
+  },
+  "postexhaustion.png": {
+    "status": "not_found"
+  },
+  "punt_critic.png": {
+    "status": "not_found"
+  },
+  "resinesFenoliques.jpg": {
+    "status": "not_found"
+  },
+  "rutherford.jpg": {
+    "status": "found_cc",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "license": "CC BY-SA 4.0",
+    "file_url": "https://commons.wikimedia.org/wiki/File:Rutherford.jpg"
+  },
+  "std-pots-shortlist.png": {
+    "status": "not_found"
+  },
+  "transesterificacio.jpg": {
+    "status": "not_found"
+  },
+  "vulcanization.png": {
+    "status": "found_cc",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "license": "CC BY-SA 3.0",
+    "file_url": "https://commons.wikimedia.org/wiki/File:Vulcanization.png"
+  },
+  "wV.png": {
+    "status": "not_found"
+  },
+  "zeroabsolut.png": {
+    "status": "not_found"
+  }
+}

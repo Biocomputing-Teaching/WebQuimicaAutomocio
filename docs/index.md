@@ -153,6 +153,11 @@ L'assignatura es basa en sessions teoricopràctiques amb una forta avaluació co
 
 [Exercicis resolts](pdf/Exercise.pdf)
 
+### Pràctiques
+
+- [Pràctica 1: Piles i potencials d'elèctrode](pdf/P1_pila.pdf)
+- [Guia per a l'elaboració d'informes](pdf/guia_reports.pdf)
+
 ## Bibliografia
 
 ### Bàsica

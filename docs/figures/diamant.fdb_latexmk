@@ -1,0 +1,9 @@
+# Fdb version 4
+["lualatex"] 0 "diamant.tex" "diamant.pdf" "diamant" 0 -1
+  "diamant.aux" 0 -1 0 "lualatex"
+  "diamant.tex" 0 -1 0 ""
+  (generated)
+  "diamant.aux"
+  "diamant.log"
+  "diamant.pdf"
+  (rewritten before read)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.121pt" height="9.748pt" viewBox="0 0 19.121 9.748">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.103" height="9.748" viewBox="0 0 19.103 9.748">
 <defs>
 <filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
 <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
@@ -21,7 +21,7 @@
 <image id="source-7" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAAAmJLR0QA/4ePzL8AAAAKSURBVAiZY2ACAAAEAANTOtgzAAAAAElFTkSuQmCC"/>
 <mask id="mask-0">
 <g filter="url(#filter-remove-color)">
-<use xlink:href="#source-7" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, -0.3315, 7.43901)"/>
+<use xlink:href="#source-7" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, -0.3585, 7.43901)"/>
 </g>
 </mask>
 <image id="source-6" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAABmJLR0QA/wD/AP+gvaeTAAAADElEQVQImWNgYGAAAAAEAAGjChXjAAAAAElFTkSuQmCC"/>
@@ -32,46 +32,46 @@
 <path clip-rule="nonzero" d="M 13 6 L 18 6 L 18 9.621094 L 13 9.621094 Z M 13 6 "/>
 </clipPath>
 <clipPath id="clip-2">
-<path clip-rule="nonzero" d="M 18 9 L 18.679688 9 L 18.679688 9.621094 L 18 9.621094 Z M 18 9 "/>
+<path clip-rule="nonzero" d="M 18 9 L 18.65625 9 L 18.65625 9.621094 L 18 9.621094 Z M 18 9 "/>
 </clipPath>
 <image id="source-13" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAAAmJLR0QA/4ePzL8AAAAKSURBVAiZY2ACAAAEAANTOtgzAAAAAElFTkSuQmCC"/>
 <mask id="mask-1">
 <g filter="url(#filter-remove-color)">
-<use xlink:href="#source-13" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, 18.2015, 9.37701)"/>
+<use xlink:href="#source-13" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, 18.1745, 9.37701)"/>
 </g>
 </mask>
 <clipPath id="clip-3">
-<path clip-rule="nonzero" d="M 18 7 L 18.679688 7 L 18.679688 8 L 18 8 Z M 18 7 "/>
+<path clip-rule="nonzero" d="M 18 7 L 18.65625 7 L 18.65625 8 L 18 8 Z M 18 7 "/>
 </clipPath>
 <image id="source-19" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAAAmJLR0QA/4ePzL8AAAAKSURBVAiZY2ACAAAEAANTOtgzAAAAAElFTkSuQmCC"/>
 <mask id="mask-2">
 <g filter="url(#filter-remove-color)">
-<use xlink:href="#source-19" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, 18.4415, 7.43901)"/>
+<use xlink:href="#source-19" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, 18.4145, 7.43901)"/>
 </g>
 </mask>
 </defs>
 <g mask="url(#mask-0)">
-<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, -0.3315, 7.43901)"/>
+<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, -0.3585, 7.43901)"/>
 </g>
 <g clip-path="url(#clip-0)">
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-0" x="-0.0915" y="7.679"/>
-<use xlink:href="#glyph-0-1" x="4.920684" y="7.679"/>
+<use xlink:href="#glyph-0-0" x="-0.1185" y="7.679"/>
+<use xlink:href="#glyph-0-1" x="4.893684" y="7.679"/>
 </g>
 </g>
 <g clip-path="url(#clip-1)">
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-1-0" x="13.3825" y="9.174"/>
+<use xlink:href="#glyph-1-0" x="13.3555" y="9.174"/>
 </g>
 </g>
 <g clip-path="url(#clip-2)">
 <g mask="url(#mask-1)">
-<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, 18.2015, 9.37701)"/>
+<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, 18.1745, 9.37701)"/>
 </g>
 </g>
 <g clip-path="url(#clip-3)">
 <g mask="url(#mask-2)">
-<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, 18.4415, 7.43901)"/>
+<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, 18.4145, 7.43901)"/>
 </g>
 </g>
 </svg>

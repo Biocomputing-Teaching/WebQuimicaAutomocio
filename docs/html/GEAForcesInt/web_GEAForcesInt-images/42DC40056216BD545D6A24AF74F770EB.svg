@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10.574pt" height="7.354pt" viewBox="0 0 10.574 7.354">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10.556" height="7.354" viewBox="0 0 10.556 7.354">
 <defs>
 <filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
 <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
@@ -18,51 +18,51 @@
 <image id="source-7" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAAAmJLR0QA/4ePzL8AAAAKSURBVAiZY2ACAAAEAANTOtgzAAAAAElFTkSuQmCC"/>
 <mask id="mask-0">
 <g filter="url(#filter-remove-color)">
-<use xlink:href="#source-7" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, -0.105, 4.84901)"/>
+<use xlink:href="#source-7" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, -0.132, 4.84901)"/>
 </g>
 </mask>
 <image id="source-6" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAABmJLR0QA/wD/AP+gvaeTAAAADElEQVQImWNgYGAAAAAEAAGjChXjAAAAAElFTkSuQmCC"/>
 <clipPath id="clip-0">
-<path clip-rule="nonzero" d="M 0 0 L 6 0 L 6 7.03125 L 0 7.03125 Z M 0 0 "/>
+<path clip-rule="nonzero" d="M 0 0 L 5 0 L 5 7.03125 L 0 7.03125 Z M 0 0 "/>
 </clipPath>
 <clipPath id="clip-1">
-<path clip-rule="nonzero" d="M 10 7 L 10.359375 7 L 10.359375 7.03125 L 10 7.03125 Z M 10 7 "/>
+<path clip-rule="nonzero" d="M 10 7 L 10.335938 7 L 10.335938 7.03125 L 10 7.03125 Z M 10 7 "/>
 </clipPath>
 <image id="source-13" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAAAmJLR0QA/4ePzL8AAAAKSURBVAiZY2ACAAAEAANTOtgzAAAAAElFTkSuQmCC"/>
 <mask id="mask-1">
 <g filter="url(#filter-remove-color)">
-<use xlink:href="#source-13" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, 9.881, 6.78601)"/>
+<use xlink:href="#source-13" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, 9.854, 6.78601)"/>
 </g>
 </mask>
 <clipPath id="clip-2">
-<path clip-rule="nonzero" d="M 10 5 L 10.359375 5 L 10.359375 6 L 10 6 Z M 10 5 "/>
+<path clip-rule="nonzero" d="M 10 5 L 10.335938 5 L 10.335938 6 L 10 6 Z M 10 5 "/>
 </clipPath>
 <image id="source-19" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAAAmJLR0QA/4ePzL8AAAAKSURBVAiZY2ACAAAEAANTOtgzAAAAAElFTkSuQmCC"/>
 <mask id="mask-2">
 <g filter="url(#filter-remove-color)">
-<use xlink:href="#source-19" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, 10.121, 4.84901)"/>
+<use xlink:href="#source-19" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, 10.094, 4.84901)"/>
 </g>
 </mask>
 </defs>
 <g mask="url(#mask-0)">
-<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, -0.105, 4.84901)"/>
+<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, -0.132, 4.84901)"/>
 </g>
 <g clip-path="url(#clip-0)">
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-0" x="0.135" y="5.089"/>
+<use xlink:href="#glyph-0-0" x="0.108" y="5.089"/>
 </g>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-1-0" x="5.147" y="6.584"/>
+<use xlink:href="#glyph-1-0" x="5.12" y="6.584"/>
 </g>
 <g clip-path="url(#clip-1)">
 <g mask="url(#mask-1)">
-<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, 9.881, 6.78601)"/>
+<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, 9.854, 6.78601)"/>
 </g>
 </g>
 <g clip-path="url(#clip-2)">
 <g mask="url(#mask-2)">
-<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, 10.121, 4.84901)"/>
+<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, 10.094, 4.84901)"/>
 </g>
 </g>
 </svg>

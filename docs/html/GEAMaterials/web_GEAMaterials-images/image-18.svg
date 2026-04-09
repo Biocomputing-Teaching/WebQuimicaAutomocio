@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110.898pt" height="60.184pt" viewBox="0 0 110.898 60.184">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110.772" height="60.184" viewBox="0 0 110.772 60.184">
 <defs>
 <g>
 <g id="glyph-0-0">
@@ -16,46 +16,46 @@
 </g>
 </g>
 <clipPath id="clip-0">
-<path clip-rule="nonzero" d="M 73 52 L 81 52 L 81 59.777344 L 73 59.777344 Z M 73 52 "/>
+<path clip-rule="nonzero" d="M 73 52 L 80 52 L 80 59.777344 L 73 59.777344 Z M 73 52 "/>
 </clipPath>
 <clipPath id="clip-1">
 <path clip-rule="nonzero" d="M 103 52 L 109 52 L 109 59.777344 L 103 59.777344 Z M 103 52 "/>
 </clipPath>
 <clipPath id="clip-2">
-<path clip-rule="nonzero" d="M 109 52 L 110.847656 52 L 110.847656 56 L 109 56 Z M 109 52 "/>
+<path clip-rule="nonzero" d="M 108 52 L 110.65625 52 L 110.65625 56 L 108 56 Z M 108 52 "/>
 </clipPath>
 </defs>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-0" x="-0.879" y="33.61"/>
+<use xlink:href="#glyph-0-0" x="-1.068" y="33.61"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-1" x="28.56" y="33.61"/>
+<use xlink:href="#glyph-0-1" x="28.371" y="33.61"/>
 </g>
-<path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 5.208875 3.457656 L 24.228406 3.457656 " transform="matrix(1, 0, 0, -1, 2.338, 33.61)"/>
+<path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 5.210375 3.457656 L 24.229906 3.457656 " transform="matrix(1, 0, 0, -1, 2.149, 33.61)"/>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-2" x="58.932" y="33.61"/>
+<use xlink:href="#glyph-0-2" x="58.743" y="33.61"/>
 </g>
-<path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 35.548719 3.457656 L 54.5995 3.457656 " transform="matrix(1, 0, 0, -1, 2.338, 33.61)"/>
+<path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 35.546312 3.457656 L 54.601 3.457656 " transform="matrix(1, 0, 0, -1, 2.149, 33.61)"/>
 <g clip-path="url(#clip-0)">
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-1" x="73.392" y="59.494"/>
+<use xlink:href="#glyph-0-1" x="73.203" y="59.494"/>
 </g>
 </g>
-<path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 62.771375 -1.725937 L 71.728406 -17.237656 " transform="matrix(1, 0, 0, -1, 2.338, 33.61)"/>
+<path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 62.768969 -1.725937 L 71.726 -17.237656 " transform="matrix(1, 0, 0, -1, 2.149, 33.61)"/>
 <g clip-path="url(#clip-1)">
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-0" x="102.333" y="59.78"/>
+<use xlink:href="#glyph-0-0" x="102.144" y="59.78"/>
 </g>
 </g>
 <g clip-path="url(#clip-2)">
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-1-0" x="108.767" y="56.165"/>
+<use xlink:href="#glyph-1-0" x="108.578" y="56.165"/>
 </g>
 </g>
-<path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 80.38075 -22.425156 L 98.001844 -22.425156 " transform="matrix(1, 0, 0, -1, 2.338, 33.61)"/>
+<path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 80.378344 -22.425156 L 98.003344 -22.425156 " transform="matrix(1, 0, 0, -1, 2.149, 33.61)"/>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-1" x="73.392" y="7.726"/>
+<use xlink:href="#glyph-0-1" x="73.203" y="7.726"/>
 </g>
-<path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 61.908094 9.14125 L 70.865125 24.656875 " transform="matrix(1, 0, 0, -1, 2.338, 33.61)"/>
-<path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 63.634656 8.145156 L 72.591688 23.660781 " transform="matrix(1, 0, 0, -1, 2.338, 33.61)"/>
+<path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 61.905687 9.14125 L 70.862719 24.656875 " transform="matrix(1, 0, 0, -1, 2.149, 33.61)"/>
+<path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 63.63225 8.145156 L 72.589281 23.660781 " transform="matrix(1, 0, 0, -1, 2.149, 33.61)"/>
 </svg>

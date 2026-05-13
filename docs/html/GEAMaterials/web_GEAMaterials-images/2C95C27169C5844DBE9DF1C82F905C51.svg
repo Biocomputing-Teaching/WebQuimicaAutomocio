@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12.446pt" height="7.696pt" viewBox="0 0 12.446 7.696">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<filter id="filter-color-to-alpha" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0.2126 0.7152 0.0722 0 0"/>
+</filter>
+<g>
+<g id="glyph-0-0">
+<path d="M 3.5625 0.09375 C 4.53125 0.09375 5.40625 -0.359375 6.09375 -1.25 C 6.046875 -1.328125 5.96875 -1.390625 5.859375 -1.390625 C 5.15625 -0.625 4.46875 -0.3125 3.546875 -0.3125 C 2.203125 -0.3125 1.28125 -1.828125 1.28125 -3.28125 C 1.28125 -4.140625 1.5 -4.859375 1.859375 -5.296875 C 2.359375 -5.90625 2.9375 -6.1875 3.453125 -6.1875 C 4.828125 -6.1875 5.390625 -5.375 5.640625 -4.515625 C 5.765625 -4.46875 5.859375 -4.5 5.96875 -4.5625 C 5.921875 -5.078125 5.859375 -5.5625 5.75 -6.109375 C 5.25 -6.15625 4.796875 -6.5625 3.5625 -6.5625 C 2.71875 -6.5625 2.015625 -6.25 1.421875 -5.71875 C 0.75 -5.109375 0.375 -4.125 0.375 -3.09375 C 0.375 -1.359375 1.421875 0.09375 3.5625 0.09375 Z M 3.5625 0.09375 "/>
+</g>
+<g id="glyph-0-1">
+<path d="M 2.15625 0.09375 C 2.546875 0.09375 3.015625 -0.09375 3.515625 -0.5 C 3.5625 -0.53125 3.65625 -0.5625 3.65625 -0.484375 C 3.671875 -0.234375 3.765625 0.09375 3.765625 0.09375 C 3.84375 0.125 3.890625 0.125 3.953125 0.09375 C 4.171875 -0.078125 4.53125 -0.234375 5.140625 -0.296875 C 5.1875 -0.359375 5.1875 -0.515625 5.140625 -0.5625 C 4.5 -0.625 4.40625 -0.8125 4.40625 -1.296875 L 4.40625 -3.203125 C 4.40625 -3.515625 4.453125 -4.234375 4.453125 -4.234375 C 4.453125 -4.265625 4.421875 -4.296875 4.359375 -4.296875 C 4.3125 -4.28125 4.171875 -4.28125 4.015625 -4.28125 C 3.703125 -4.28125 3.34375 -4.28125 3 -4.296875 C 2.9375 -4.234375 2.9375 -4.03125 3 -3.96875 C 3.484375 -3.9375 3.625 -3.8125 3.625 -3.15625 L 3.625 -1.234375 C 3.625 -1.046875 3.59375 -0.96875 3.453125 -0.84375 C 3.09375 -0.53125 2.71875 -0.375 2.46875 -0.375 C 2.15625 -0.375 1.671875 -0.515625 1.671875 -1.390625 L 1.671875 -3.203125 C 1.671875 -3.515625 1.703125 -4.234375 1.703125 -4.234375 C 1.703125 -4.265625 1.671875 -4.296875 1.625 -4.296875 C 1.578125 -4.28125 1.421875 -4.28125 1.28125 -4.28125 C 0.953125 -4.28125 0.59375 -4.28125 0.265625 -4.296875 C 0.203125 -4.234375 0.203125 -4.03125 0.265625 -3.96875 C 0.734375 -3.921875 0.875 -3.8125 0.875 -3.171875 L 0.875 -1.25 C 0.875 -0.5625 1.171875 0.09375 2.15625 0.09375 Z M 2.15625 0.09375 "/>
+</g>
+</g>
+<clipPath id="clip-0">
+<path clip-rule="nonzero" d="M 0 7 L 1 7 L 1 7.542969 L 0 7.542969 Z M 0 7 "/>
+</clipPath>
+<image id="source-7" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAAAmJLR0QA/4ePzL8AAAAKSURBVAiZY2ACAAAEAANTOtgzAAAAAElFTkSuQmCC"/>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-7" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, -0.277, 7.16501)"/>
+</g>
+</mask>
+<image id="source-6" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAABmJLR0QA/wD/AP+gvaeTAAAADElEQVQImWNgYGAAAAAEAAGjChXjAAAAAElFTkSuQmCC"/>
+<clipPath id="clip-1">
+<path clip-rule="nonzero" d="M 0 0 L 12 0 L 12 7.542969 L 0 7.542969 Z M 0 0 "/>
+</clipPath>
+<clipPath id="clip-2">
+<path clip-rule="nonzero" d="M 12 7 L 12.167969 7 L 12.167969 7.542969 L 12 7.542969 Z M 12 7 "/>
+</clipPath>
+<image id="source-13" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAAAmJLR0QA/4ePzL8AAAAKSURBVAiZY2ACAAAEAANTOtgzAAAAAElFTkSuQmCC"/>
+<mask id="mask-1">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-13" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, 11.689, 7.29501)"/>
+</g>
+</mask>
+<image id="source-19" x="0" y="0" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAAAmJLR0QA/4ePzL8AAAAKSURBVAiZY2ACAAAEAANTOtgzAAAAAElFTkSuQmCC"/>
+<mask id="mask-2">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-19" filter="url(#filter-color-to-alpha)" transform="matrix(0.23999, 0, 0, 0.23999, 11.929, 7.16501)"/>
+</g>
+</mask>
+</defs>
+<g clip-path="url(#clip-0)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, -0.277, 7.16501)"/>
+</g>
+</g>
+<g clip-path="url(#clip-1)">
+<g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
+<use xlink:href="#glyph-0-0" x="-0.037" y="7.405"/>
+<use xlink:href="#glyph-0-1" x="6.39884" y="7.405"/>
+</g>
+</g>
+<g clip-path="url(#clip-2)">
+<g mask="url(#mask-1)">
+<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, 11.689, 7.29501)"/>
+</g>
+<g mask="url(#mask-2)">
+<use xlink:href="#source-6" transform="matrix(0.23999, 0, 0, 0.23999, 11.929, 7.16501)"/>
+</g>
+</g>
+</svg>
